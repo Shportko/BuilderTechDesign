@@ -1,0 +1,15 @@
+.WithLabel {
+  width: 100%;
+}
+
+.WithLabelLabel {
+  margin: 5px 0 5px 0;
+  color: var(--cat);
+  font-size: 0.8em;
+}
+
+.WithLabelUnderlabel {
+  margin: 5px 0 5px 0;
+  display: flex;
+  font-size: 0.8em;
+}

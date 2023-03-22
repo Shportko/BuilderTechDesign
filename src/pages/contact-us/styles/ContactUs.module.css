@@ -1,0 +1,69 @@
+.Main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px var(--page-sides-padding);
+  min-height: 100vh;
+  background-color: var(--old-paper);
+}
+
+.ContactMainContainer {
+  display: flex;
+  padding: 150px 50px 70px 50px;
+}
+
+.ContactMainContainer img {
+  width: 50%;
+  height: 500px;
+  object-fit: cover;
+  padding-right: 50px;
+}
+
+.ContactReviewContainer {
+  /* padding: 0px 50px; */
+  margin: auto;
+}
+
+.ContactReviewContainer h3 {
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .Main {
+    padding: 50px 0px;
+  }
+  .ContactMainContainer {
+    display: block;
+    padding: 100px 0px;
+  }
+  .ContactMainContainer img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    padding-right: 0px;
+  }
+  .ContactReviewContainer {
+    /* padding: 0px 20px; */
+    margin: 0;
+    width: 100%;
+  }
+}
+
+/* .contact {
+  &--form {
+    width: 100%;
+
+    @media only screen and (max-width: 800px) {
+      width: 100%;
+      box-sizing: border-box;
+    }
+  }
+
+  &--review-form {
+    margin: 40px 200px;
+    @media only screen and (max-width: 800px) {
+      margin: 30px 0px;
+    }
+  }
+} */

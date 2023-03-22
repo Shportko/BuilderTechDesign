@@ -1,0 +1,61 @@
+.Main {
+  /* padding: 100px 20%; */
+  /* background-color: var(--old-paper); */
+}
+
+.TopControlsContainer {
+  display: flex;
+  padding: 10px 0;
+}
+
+.TopControlsContainerRight {
+  margin: 0 0 0 auto;
+  display: flex;
+}
+
+.AdminPageEditorMainImageAndTags {
+}
+
+.AdminPageEditorTagsContainer {
+  margin: 20px;
+}
+
+.AdminPageEditorTagsContainerTags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.AdminPageEditorTagsContainerTagsTag {
+  display: flex;
+  padding: 2px;
+  margin: 3px;
+  border: 1px solid var(--cat);
+  border-radius: 15px;
+  font-size: 0.7em;
+  color: var(--cat);
+  transition: 0.5s;
+  background-color: var(--light-cat);
+}
+
+.AdminPageEditorTagsContainerTagsTag:hover {
+  background-color: var(--light-cat-hovered);
+}
+
+.AdminPageEditorTagsContainerTagsTagText {
+  margin: 1px 0 0 3px;
+}
+
+.AdminPageEditorTagsContainerTagsTagCloseButton {
+  border: 1px solid var(--cat);
+  margin: 1px 1px 1px 4px;
+  padding: 0px 4px 2px 4px;
+  border-radius: 10px;
+  font-size: 0.6em;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.AdminPageEditorTagsContainerTagsTagCloseButton:hover {
+  background-color: var(--cat);
+  color: white;
+}

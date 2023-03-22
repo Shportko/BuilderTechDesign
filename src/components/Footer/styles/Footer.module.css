@@ -1,0 +1,17 @@
+.Footer {
+  border-top: 1px solid white;
+  background-color: rgba(0, 0, 0, 0.407);
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  padding: 5px;
+  color: white;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .Footer {
+    font-size: 0.6em;
+  }
+}

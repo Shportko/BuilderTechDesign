@@ -1,0 +1,103 @@
+.ImageCarousel {
+  width: 100%;
+  color: white;
+  display: flex;
+}
+
+.ServiceContainer {
+  width: 100%;
+}
+
+.ServiceContainer img {
+  width: 200px;
+  height: 170px;
+  object-fit: cover;
+}
+
+.ServiceContainerHead {
+  display: flex;
+}
+
+.ServiceNameContainer {
+  display: block;
+  background-color: rgba(23, 23, 25, 0.762);
+  padding: 20px;
+  width: 125px;
+  position: relative;
+}
+
+.ServiceName {
+  display: flex;
+  align-items: center;
+  margin-top: 55px;
+}
+
+.Dots {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  position: absolute;
+  bottom: 20px;
+}
+
+.Dot {
+  width: 100%;
+  box-sizing: border-box;
+  width: fit-content;
+  height: 5px;
+  border-radius: 2px;
+  color: transparent;
+}
+
+.ArrowLeft {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: black;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.ArrowLeft:hover {
+  opacity: 0.6;
+}
+
+.ArrowRight {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.ArrowRight:hover {
+  opacity: 0.6;
+}
+
+.ServiceContainerTail {
+  padding: 30px;
+  line-height: 25px;
+  background-color: rgba(33, 33, 34, 0.6);
+  width: 100%;
+}
+
+@media only screen and (max-width: 650px) {
+  .ServiceContainerHead {
+    width: 100%;
+  }
+  .ServiceContainerTail {
+    background-color: rgba(16, 16, 16, 0.918);
+    width: auto;
+    padding: 20px;
+    font-size: 0.7em;
+    height: 130px;
+  }
+
+  .Dot {
+    margin: 0 5px;
+  }
+}

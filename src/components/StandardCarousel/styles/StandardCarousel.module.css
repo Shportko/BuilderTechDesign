@@ -1,0 +1,102 @@
+.StandardCarousel {
+  width: fit-content;
+}
+
+.StandardCarouselMainBlock {
+  display: flex;
+  position: relative;
+  width: fit-content;
+}
+
+.StandardCarouselImageExternalContainer {
+  width: 350px;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.StandardCarouselImageExternalContainer:-webkit-scrollbar {
+  background: transparent; /* make scrollbar transparent */
+  -webkit-appearance: none;
+  width: 0;
+  height: 0;
+}
+
+.StandardCarouselImageInternalContainer {
+  white-space: nowrap;
+  transition: transform 0.5s;
+}
+
+.StandardCarouselImage {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 320px;
+}
+
+.StandardCarouselImage img {
+  width: 350px;
+  height: 320px;
+  object-fit: cover;
+}
+
+.StandardCarouselArrow {
+  background-color: rgba(0, 0, 0, 0.172);
+  color: rgba(255, 255, 255, 0.225);
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: 1s;
+  height: 320px;
+  padding: 20px;
+  position: absolute;
+  z-index: 2;
+}
+
+.StandardCarouselArrow:hover {
+  background-color: rgba(0, 0, 0, 0.502);
+  color: white;
+}
+
+.StandardCarouselSetExternalContainer {
+  width: 350px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.StandardCarouselSetExternalContainer:-webkit-scrollbar {
+  background: transparent; /* make scrollbar transparent */
+  -webkit-appearance: none;
+  width: 0;
+  height: 0;
+}
+
+.StandardCarouselSet {
+  margin-top: 10px;
+  display: flex;
+  width: 100%;
+}
+
+.StandardCarouselSetItem {
+  margin: auto;
+  padding: 1px;
+  cursor: pointer;
+  border: 3px solid transparent;
+  transition: 0.7s;
+  height: 60px;
+  width: 60px;
+}
+
+.StandardCarouselSetItem img {
+  height: 52px;
+  width: 52px;
+  object-fit: cover;
+}
+
+.StandardCarouselSetItem:hover {
+  border: 3px solid rgb(213, 208, 208);
+}
+
+.StandardCarouselSetItemSelected {
+  border: 3px solid rgba(58, 59, 61, 0.561);
+}

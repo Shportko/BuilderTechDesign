@@ -1,0 +1,33 @@
+.WithTitle {
+  width: 100%;
+  border: 1px solid rgb(232, 232, 235);
+  padding: 20px;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+
+.WithTitleTitle {
+  margin: 5px 0 5px 0;
+  font-size: 0.9em;
+}
+
+.WithTitleNoPadding {
+  padding: 0px;
+  margin-top: 50px;
+}
+
+.WithTitleTitleNoPadding {
+  width: fit-content;
+  padding: 0 7px;
+  margin-top: -10px;
+  margin-left: 10px;
+  background-color: white;
+}
+
+.WithTitleTopControls {
+  display: flex;
+}
+
+.WithTitleTopControlsRight {
+  margin: 0 0 0 auto;
+}

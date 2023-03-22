@@ -1,0 +1,40 @@
+.ReviewForm {
+  background-color: white;
+  box-shadow: 0 0 7px rgb(222, 222, 222);
+  padding: 20px;
+  width: 1000px;
+  margin: 0;
+}
+
+.ReviewForm h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.ReviewForm h4 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.AvatarPic img {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  border: 2px solid rgb(223, 223, 223);
+  box-shadow: 0 2px 4px rgb(209, 209, 209);
+  transition: 0.5s;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.AvatarPic img:hover {
+  box-shadow: 0 2px 4px rgb(147, 144, 144);
+}
+
+@media only screen and (max-width: 800px) {
+  .ReviewForm {
+    width: 100%;
+    margin: 0;
+  }
+}

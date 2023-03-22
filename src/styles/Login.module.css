@@ -1,0 +1,41 @@
+.Login {
+  padding-top: 200px;
+}
+
+.LoginContainer {
+  width: 500px;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px rgb(189, 187, 187);
+  background-color: white;
+}
+
+.LoginContainerForm {
+  padding: 30px;
+}
+
+.LoginContainerFormElement {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+}
+
+.LoginContainerFormLabel {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+}
+
+.LoginContainerButtonSubmit {
+  padding: 30px;
+  border-bottom: 1px solid rgb(214, 214, 214);
+  display: flex;
+}
+
+@media only screen and (max-width: 850px) {
+  .LoginContainer {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+  }
+}

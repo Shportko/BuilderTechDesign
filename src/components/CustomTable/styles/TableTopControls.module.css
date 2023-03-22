@@ -1,0 +1,16 @@
+.TableTopControls {
+  padding-top: 12px;
+  display: flex;
+}
+
+.TableTopControlsLeftSide {
+  display: flex;
+  bottom: 0;
+  margin-top: auto;
+  width: 340px;
+}
+
+.TableTopControlsRightSide {
+  right: 0;
+  margin-left: auto;
+}

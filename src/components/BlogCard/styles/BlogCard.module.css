@@ -1,0 +1,43 @@
+.BlogCard {
+  width: 250px;
+  margin: 40px auto;
+  box-shadow: 0 2px 3px rgba(128, 128, 128, 0.195);
+  background-color: white;
+}
+
+.BlogCard img {
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+  margin: auto;
+}
+
+.BlogCard h4 {
+  font-size: 1.2em;
+  margin: 0 10px;
+}
+
+.BlogCardDate {
+  margin: 20px 10px;
+  font-size: 0.7em;
+}
+
+.BlogCardDescription {
+  margin: 10px;
+  font-size: 0.8em;
+  line-height: 20px;
+}
+
+.BlogCardBottomButtom {
+  font-weight: bold;
+  color: #128fda;
+  font-size: 0.8em;
+  cursor: pointer;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 650px) {
+  .BlogCard {
+    width: 100%;
+  }
+}

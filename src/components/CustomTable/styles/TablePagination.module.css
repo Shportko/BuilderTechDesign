@@ -1,0 +1,94 @@
+.table-pagination {
+  border-top: 1px solid rgb(220, 220, 222);
+  margin-top: 2px;
+  background-color: white;
+  padding: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+
+  &--count-selector {
+    display: flex;
+
+    &--item {
+      font-size: 11px;
+      padding: 2px;
+      margin-left: 5px;
+      padding-left: 7px;
+      padding-right: 7px;
+      color: gray;
+      border-radius: 5px;
+      cursor: pointer;
+      border: 1px solid transparent;
+      transition: 0.4s;
+
+      &:hover {
+        border: 1px solid lightgray;
+      }
+
+      &--selected {
+        background-color: $light-blue-gray-1;
+      }
+    }
+  }
+
+  &--page-descriptor {
+    margin-left: 30px;
+    padding-top: 3px;
+  }
+
+  &--page-selector {
+    right: 0;
+    margin-left: auto;
+    //border: 1px solid red;
+    display: flex;
+
+    &--button {
+      margin-left: 7px;
+      margin-right: 7px;
+      cursor: pointer;
+      transition: 0.4s;
+
+      color: gray;
+
+      &:hover {
+        color: rgb(72, 72, 72);
+      }
+
+      &:active {
+        color: lightgray;
+      }
+    }
+
+    &--item {
+      font-size: 10px;
+      padding: 2px;
+      margin-left: 3px;
+      padding-left: 7px;
+      padding-right: 7px;
+      color: gray;
+      border-radius: 5px;
+      cursor: pointer;
+      border: 1px solid transparent;
+      transition: 0.4s;
+
+      &:hover {
+        border: 1px solid lightgray;
+      }
+
+      &--selected {
+        background-color: $leaf;
+        color: $leaf;
+      }
+    }
+
+    &--blank {
+      font-size: 11px;
+      padding: 2px;
+      margin-left: 3px;
+      padding-left: 7px;
+      padding-right: 7px;
+      color: gray;
+    }
+  }
+}

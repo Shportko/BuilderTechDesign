@@ -1,0 +1,37 @@
+.HintField {
+  font-size: 0.8em;
+  padding: 6px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.HintFieldTitle {
+  font-family: "librefranklin-semibold";
+  padding: 0 0 6px 0;
+}
+.HintFieldAlarm {
+  border: 1px solid var(--alarm);
+  color: var(--alarm);
+  background-color: var(--light-alarm);
+}
+.HintFieldWarning {
+  border: 1px solid var(--sun);
+  color: var(--sun);
+  background-color: var(--light-sun);
+}
+.HintFieldSuccess {
+  border: 1px solid var(--leaf);
+  color: var(--leaf);
+  background-color: var(--light-leaf);
+}
+.HintFieldInfo {
+  border: 1px solid var(--blue-sky-1);
+  color: var(--blue-sky-1);
+  background-color: var(--light-blue-sky-1);
+}
+
+.HintFieldDefault {
+  border: 1px solid var(--cat);
+  color: var(--cat);
+  background-color: var(--light-cat);
+}

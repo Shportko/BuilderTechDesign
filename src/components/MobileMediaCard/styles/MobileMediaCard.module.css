@@ -1,0 +1,49 @@
+.MobileMediaCard {
+  border-radius: 5px;
+  box-sizing: content-box;
+  box-shadow: 0 1px 3px rgb(189, 186, 186);
+  transition: 0.5s;
+}
+
+.MobileMediaCard:hover {
+  box-shadow: 0 1px 5px rgb(158, 156, 156);
+  background-color: rgb(251, 251, 251);
+}
+
+.MobileMediaCardTop {
+  height: 200px;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.MobileMediaCardTop img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.MobileMediaCardTopTitle {
+  color: white;
+  position: absolute;
+  margin-top: -45px;
+  margin-left: 10px;
+  font-size: 1.4em;
+}
+
+.MobileMediaCardMid {
+  margin: 10px;
+  font-size: 0.9em;
+}
+
+.MobileMediaCardBottom {
+  display: flex;
+  /* background-color: rgba(119, 119, 119, 0.671); */
+  border-top: 1px solid rgba(119, 119, 119, 0.318);
+  color: rgb(110, 110, 175);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 5px;
+}

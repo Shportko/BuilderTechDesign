@@ -1,0 +1,141 @@
+.Main h3 {
+  padding-top: 0;
+}
+
+.Main h2 {
+  padding: 10px 0;
+  margin: 0 auto 0 0;
+}
+
+.Main h4 {
+  margin-bottom: 10px;
+}
+
+.PortfolioTextSubtitle {
+  margin-top: 40px;
+  line-height: 30px;
+}
+
+.PortfolioWorkArea {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 60px;
+}
+
+.PortfolioLeft {
+  width: 100%;
+  /* min-width: 450px; */
+  /* margin-right: 30px; */
+}
+
+.PortfolioSearchInput {
+}
+
+.PortfolioListContainer {
+}
+
+.PortfolioListItem {
+  display: flex;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: rgb(251, 250, 248);
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.PortfolioListItem:hover {
+  background-color: rgb(246, 245, 241);
+  box-shadow: 0 0 7px rgba(128, 128, 128, 0.246);
+}
+
+.PortfolioListItemLeft {
+  margin-right: 20px;
+}
+
+.PortfolioListItemLeft img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.PortfolioListItemRight h4 {
+}
+
+.PortfolioListItemRight p {
+  font-size: 0.9em;
+}
+
+.PortfolioPaginatorContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.PortfolioRight {
+  width: 100%;
+  /* min-width: 450px; */
+}
+
+.PortfolioLatestProjectsContainer {
+}
+
+.PortfolioLatestProjectItem {
+  margin: 30px 0;
+  background-color: rgb(251, 250, 248);
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.PortfolioLatestProjectItem:hover {
+  background-color: rgb(246, 245, 241);
+  box-shadow: 0 0 7px rgba(128, 128, 128, 0.246);
+}
+
+.PortfolioLatestProjectItemTop {
+}
+
+.PortfolioLatestProjectItemTop img {
+  float: left;
+  margin: 0px 10px 10px 0px;
+  height: 160px;
+  width: 160px;
+  object-fit: cover;
+}
+
+.PortfolioLatestProjectItemTop p {
+  font-size: 0.95em;
+  line-height: 20px;
+}
+
+.PortfolioLatestProjectItemBottom {
+  margin-top: 10px;
+}
+
+.PortfolioLatestProjectItemBottomReadMore {
+  margin-top: 30px;
+  color: var(--dark-violet);
+}
+
+.PortfolioTextItem {
+  margin: 10px 20px;
+  line-height: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+  .PortfolioWorkArea {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .PortfolioTextItem {
+    margin: 10px 0px;
+  }
+
+  .PortfolioRight h3 {
+    margin-top: 30px;
+  }
+}

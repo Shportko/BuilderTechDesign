@@ -1,0 +1,9 @@
+.PagePreviewDialog {
+  width: 70%;
+}
+
+.PagePreviewDialogInternal {
+  width: 100%;
+  overflow: scroll;
+  border-top: 1px solid rgb(212, 206, 206);
+}

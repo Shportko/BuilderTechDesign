@@ -1,0 +1,51 @@
+.header {
+  border-bottom: 1px solid rgb(219, 219, 219);
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.headercontainer {
+  display: flex;
+}
+
+.headercontaineradmin {
+  margin-right: 120px;
+  display: flex;
+}
+
+.navbar {
+  width: fit-content;
+}
+
+.mainlogoicon {
+  margin: 0 auto 0 var(--page-sides-padding);
+}
+
+.PhoneButtonContainer {
+  margin: 0 120px 0 35px;
+  width: fit-content;
+}
+
+.phonebutton {
+}
+
+.HeaderMobileMenuItemIcon {
+  color: rgba(61, 61, 74, 0.903);
+}
+
+.HeaderMobileMenuItemService {
+  padding: 15px 15px 15px 0;
+  font-size: 0.9em;
+  margin-left: 15px;
+  color: rgb(81, 80, 80);
+  background-color: rgba(245, 245, 245, 0.268);
+}
+
+@media only screen and (max-width: 800px) {
+}

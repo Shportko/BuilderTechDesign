@@ -1,0 +1,40 @@
+.ContentItemDescriptionBlock {
+}
+
+.ContentItemDescriptionBlockTopControls {
+  /* margin: 15px 0; */
+  display: flex;
+}
+
+.ContentItemDescriptionBlockItemsContainer {
+  padding: 3px;
+}
+
+.ContentItemDescriptionBlockItemsContainerError {
+}
+
+.ContentItemDescriptionBlockItem {
+  display: flex;
+}
+
+.ContentItemDescriptionBlockDeleteIconButton {
+  color: var(--alarm);
+  font-size: 1.4em;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.ContentItemDescriptionBlockDeleteIconButton:hover {
+  box-shadow: 0 0 4px red;
+}
+
+.ContentItemDescriptionBlockAddIconButton {
+  color: var(--dark-violet);
+  font-size: 1.4em;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.ContentItemDescriptionBlockAddIconButton:hover {
+  box-shadow: 0 0 4px blue;
+}

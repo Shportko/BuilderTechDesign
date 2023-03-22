@@ -1,0 +1,53 @@
+.SmallMediaCard {
+  display: flex;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 120px;
+  box-sizing: content-box;
+  box-shadow: 0 1px 3px rgba(189, 186, 186, 0.471);
+  transition: 0.5s;
+}
+
+.SmallMediaCard:hover {
+  box-shadow: 0 1px 5px rgb(211, 211, 211);
+  background-color: rgb(248, 248, 248);
+}
+
+.SmallMediaCardLeft {
+  height: 120px;
+  width: 120px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.SmallMediaCardLeft img {
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.SmallMediaCardRight {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 4px;
+}
+
+.SmallMediaCardRightTop {
+  margin: 5px 10px;
+  font-family: "librefranklin-semibold";
+}
+
+.SmallMediaCardRightMid {
+  margin: 10px;
+  font-size: 0.8em;
+  line-height: 20px;
+}
+
+.SmallMediaCardRightBottom {
+  margin: 0px;
+  display: flex;
+}

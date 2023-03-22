@@ -1,0 +1,59 @@
+.MainImageComponent {
+  margin: 20px 20px 0 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.MainImageComponentTop {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.MainImageComponentTopLeft {
+  margin-right: 30px;
+}
+
+.MainImageComponentTopLeft img {
+  height: 220px;
+  width: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.MainImageComponentTopRight {
+}
+
+.MainImageComponentTopRightImage {
+  height: 220px;
+  width: 220px;
+  border: 1px dotted var(--cat);
+  background-color: var(--light-cat);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 40px;
+}
+
+.MainImageComponentTopRightImage p {
+  color: var(--light-cat-text);
+  font-size: 0.9em;
+  width: fit-content;
+  border: 1px solid var(--light-cat-hovered);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.MainImageComponentTopRightImageImage {
+  margin: 20px 40px;
+}
+
+.MainImageComponentTopRightImageImage img {
+  height: 220px;
+  width: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.MainImageComponentBottom {
+  display: flex;
+}

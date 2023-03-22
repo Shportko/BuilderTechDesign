@@ -1,0 +1,20 @@
+.ImaginatorMedium {
+  display: flex;
+  height: 250px;
+  border-radius: 7px;
+}
+
+.ImaginatorMediumImage {
+  cursor: pointer;
+  object-fit: cover;
+  transition: 0.2s;
+  width: 33.33%;
+}
+
+.ImaginatorMediumImageHovered {
+  width: 60%;
+}
+
+.ImaginatorMediumImageUnhovered {
+  width: 20%;
+}
