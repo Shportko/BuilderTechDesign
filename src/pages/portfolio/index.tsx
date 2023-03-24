@@ -106,39 +106,10 @@ export default function Portfolio({
 }
 
 export async function getStaticProps() {
-  let pageContentResult: AxiosResponse<any, any> | null = null;
-  let pageContent: TContentItem | null = null;
-  let portfolioItemsResult: AxiosResponse<any, any> | null = null;
-  let projects: TContentItem[] | null = null;
-
-  try {
-    pageContentResult = await getContentItemAPI("portfolio");
-    if (pageContentResult?.data) {
-      pageContent = pageContentResult.data?.contentItem;
-    }
-  } catch (error) {
-    console.error(
-      "Services page: getStaticProps - Error getting pageContentResult",
-      error
-    );
-  }
-
-  try {
-    portfolioItemsResult = await getPublishedContentItems("portfolio-item");
-    if (portfolioItemsResult?.data) {
-      projects = portfolioItemsResult.data?.contentItems;
-    }
-  } catch (error) {
-    console.error(
-      "Services page: getStaticProps - Error getting projects",
-      error
-    );
-  }
-
   return {
     props: {
-      pageContent: pageContent || portfolioPageContentMock,
-      projects: projects || projectsMock,
+      projects: projectsMock,
+      pageContent: portfolioPageContentMock,
     },
   };
 }

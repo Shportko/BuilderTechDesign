@@ -1,73 +1,8 @@
-import { mediaStorageBucketUrl } from "@/global-constants/global-constants";
 import { TContentItem } from "@/types/main";
 
-export const servicesPageContent: TContentItem = {
-  title: "To 4em mi zanimaemsya",
-  type: "service-page-details",
-  metaTitle: "To 4em mi zanimaemsya dlya poiska google|zagolovok | Builder Tech Desigm",
-  metaDescription: "To 4em mi zanimaemsya dlya poiska google podrobnoe opisanie",
-  subItems: [
-    {
-      type: "subitem",
-      description: [
-        "Our team specializes in a range of renovation services, from site preparation to design, maintenance, and repair. Whether you're looking for a complete home renovation or a simple update, we've got you covered.",
-        "Our team is committed to delivering exceptional customer service and quality workmanship. We work closely with our clients to ensure that every aspect of the project is completed to their satisfaction, from the initial planning stages to the final touches.",
-        "We understand that undertaking a renovation project can be daunting, but with our team on your side, the process will be stress-free and enjoyable. We handle every aspect of the project, so you don't have to worry about a thing.",
-        "In addition to renovation services, we also offer maintenance and repair services to keep your home in top shape. From small repairs to ongoing maintenance, we're here to help.",
-        "So, what are you waiting for? Renovate your home now with the help of our expert team. Contact us today to learn more about our services and to schedule a consultation.",
-      ],
-    },
-  ],
-};
+export const servicesPageContent: TContentItem = {}; // create your ouwn data, see how I did it
 
-export const services: TContentItem[] = [
-  {
-    id: "0",
-    type: "service-item",
-    slug: "dry-rot-repairs-service",
-    title: "Dry Rot Repair service in Sacramento",
-    shortTitle: "Dry Rot Repair",
-    description: [
-      `Say goodbye to dry rot problems with our expert dry rot repairs! Find top-notch dry rot repair near you in Sacramento. Contact us today to learn more!`,
-    ],
-    image: `${mediaStorageBucketUrl}/icons/small-icon-service-dry-rot.webp`,
-    alt: "",
-    anchorId: "service-dry-rot-repairs",
-    metaTitle:
-      "Best Dry Rot Repair near me in Sacramento | Nico Pro Construction",
-    metaDescription:
-      "Say goodbye to dry rot problems with our expert dry rot repairs! Find top-notch dry rot repair near you in Sacramento. Contact us today to learn more!",
-    subItems: [
-      {
-        type: "subitem",
-        images: [
-          {
-            src: `${mediaStorageBucketUrl}/nico services/service-dry-rot-repair-1.jpeg`,
-            alt: "",
-          },
-          {
-            src: `${mediaStorageBucketUrl}/nico services/service-dry-rot-repair-2.jpeg`,
-            alt: "",
-          },
-          {
-            src: `${mediaStorageBucketUrl}/nico services/service-dry-rot-repair-3.webp`,
-            alt: "",
-          },
-        ],
-      },
-      {
-        type: "subitem",
-        description: [
-          "Looking for reliable dry rot repair contractors near you in Sacramento? Look no further than our trusted company. We are a team of experienced and skilled professionals who specialize in fixing dry rot in homes, roofs, and other structures.",
-          "Dry rot can quickly become a major problem for homeowners, leading to structural damage and expensive repairs. Our dry rot repair services are designed to help you address the issue quickly and effectively, restoring the integrity of your home or property.",
-          "As one of the leading dry rot companies in the Sacramento area, we pride ourselves on delivering high-quality workmanship and exceptional customer service. Our team will work closely with you to assess the extent of the damage, recommend the best course of action, and provide you with a clear, detailed estimate of the cost and timeline for the repair.",
-          "At our company, we understand that dry rot repair can be a major investment. That's why we offer competitive pricing and flexible financing options to help you get the repairs you need without breaking the bank.",
-          "So if you're looking for dry rot repair near you, look no further than our team of skilled and experienced professionals. Contact us today to schedule your consultation and get your home or property back to its original condition.",
-        ],
-      },
-    ],
-  },
-];
+export const services: TContentItem[] = []; // create your ouwn data, see how I did it
 //   {
 //     id: "1",
 //     type: "service-item",

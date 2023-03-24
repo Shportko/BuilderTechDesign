@@ -5,13 +5,9 @@ import DesignServicesIcon from "@mui/icons-material/DesignServices";
 import RssFeedIcon from "@mui/icons-material/RssFeed";
 import ContactPageIcon from "@mui/icons-material/ContactPage";
 
-export const mediaStorageBucketUrl =
-  "https://nicoproconstruction-media-storage.s3.us-east-2.amazonaws.com";
-
-const ec2Url = "https://nicoproconstruction-backend.com/api";
 const localhost = "http://localhost:8080/api";
 
-export const backendUrl = ec2Url;
+export const backendUrl = localhost;
 
 export const homeHref = "/";
 export const servicesHref = "/services";

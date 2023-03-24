@@ -106,36 +106,10 @@ export default function Blog({
 }
 
 export async function getStaticProps() {
-  let pageContentResult: AxiosResponse<any, any> | null = null;
-  let pageContent: TContentItem | null = null;
-  let blogItemsResult: AxiosResponse<any, any> | null = null;
-  let blogItems: TContentItem[] | null = null;
-
-  try {
-    pageContentResult = await getContentItemAPI("blog");
-    if (pageContentResult?.data) {
-      pageContent = pageContentResult.data?.contentItem;
-    }
-  } catch (error) {
-    console.error(
-      "Blog page: getStaticProps - Error getting pageContentResult",
-      error
-    );
-  }
-
-  try {
-    blogItemsResult = await getPublishedContentItems("blog-item");
-    if (blogItemsResult?.data) {
-      blogItems = blogItemsResult.data?.contentItems;
-    }
-  } catch (error) {
-    console.error("Blog page: getStaticProps - Error getting projects", error);
-  }
-
   return {
     props: {
-      pageContent: pageContent || blogPageContentMock,
-      blogPosts: blogItems || blogItemsMock,
+      blogPosts: blogItemsMock,
+      pageContent: blogPageContentMock,
     },
   };
 }

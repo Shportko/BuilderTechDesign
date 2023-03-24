@@ -111,39 +111,10 @@ export default function Services({
 }
 
 export async function getStaticProps() {
-  let pageContentResult: AxiosResponse<any, any> | null = null;
-  let pageContent: TContentItem | null = null;
-  let servicesItemsResult: AxiosResponse<any, any> | null = null;
-  let services: TContentItem[] | null = null;
-
-  try {
-    pageContentResult = await getContentItemAPI("services");
-    if (pageContentResult?.data) {
-      pageContent = pageContentResult.data?.contentItem;
-    }
-  } catch (error) {
-    console.error(
-      "Services page: getStaticProps - Error getting page details",
-      error
-    );
-  }
-
-  try {
-    servicesItemsResult = await getPublishedContentItems("service-item");
-    if (servicesItemsResult?.data) {
-      services = servicesItemsResult.data?.contentItems;
-    }
-  } catch (error) {
-    console.error(
-      "Services page: getStaticProps - Error getting services",
-      error
-    );
-  }
-
   return {
     props: {
-      pageContent: pageContent || servicesPageDetailsMock,
-      services: services || servicesMock,
+      services: servicesMock,
+      pageContent: servicesPageDetailsMock,
     },
   };
 }

@@ -5,7 +5,6 @@ import { Footer } from "@/components/Footer/Footer";
 import Page from "@/components/Page/Page";
 import { projects } from "@/MockData/portfolio";
 import { TContentItem } from "@/types/main";
-import { AxiosResponse } from "axios";
 import Head from "next/head";
 import Link from "next/link";
 import styles from "./styles/PortfolioPage.module.css";
@@ -47,46 +46,19 @@ type Params = {
 export async function getStaticProps({ params }: Params) {
   const slug = params.slug;
 
-  let pageContentResult: AxiosResponse<any, any> | null = null;
-  let pageContent: TContentItem | null = null;
-
-  try {
-    pageContentResult = await getContentItemAPI(slug);
-    if (pageContentResult?.data) {
-      pageContent = pageContentResult.data?.contentItem;
-    }
-  } catch (error) {
-    console.error(
-      "Portfolio page [slug]: getStaticProps - Error getting page details",
-      error
-    );
-  }
+  const project = projects.find((el) => el.slug === slug);
 
   return {
     props: {
-      project: pageContent,
+      project,
     },
   };
 }
 
 export async function getStaticPaths() {
-  let result = null;
-  try {
-    result = await getContentItemSlugs("portfolio-item");
-    return {
-      paths: result?.data?.slugs?.map((el: string) => ({
-        params: { slug: el },
-      })),
-      fallback: true,
-    };
-  } catch (error) {
-    console.error(
-      "NicoPro error getStaticPaths - Portfolio page [slug] ERROR",
-      error
-    );
-    return {
-      paths: [],
-      fallback: false,
-    };
-  }
+  const paths = projects.map((el) => ({
+    params: { slug: el.slug },
+  }));
+
+  return { paths, fallback: false };
 }
