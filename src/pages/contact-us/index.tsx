@@ -2,7 +2,7 @@ import Head from "next/head";
 import styles from "./styles/ContactUs.module.css";
 import { BottomSection } from "@/components/BottomSection/BottomSection";
 import { Footer } from "@/components/Footer/Footer";
-import { mediaStorageBucketUrl } from "@/global-constants/global-constants";
+//import { mediaStorageBucketUrl } from "@/global-constants/global-constants";
 import { ContactForm } from "@/components/ContactForm";
 import { mainSelector } from "@/store/selectors";
 import { useSelector } from "react-redux";
@@ -25,15 +25,15 @@ export default function ContactUs() {
           content="Everything You Need to Know About our Builder Tech Design Company's Services "
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/google.png" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.Main}>
         <div className={styles.ContactMainContainer}>
           {screenWidth < 800 && <ContactForm className="contact--form" />}
           <img
-            src={`${mediaStorageBucketUrl}/nico_map.png`}
+            src="/map_contact.png"
             alt="Tech Design Company in Houston"
-          />
+/>
           {screenWidth > 800 && <ContactForm className="contact--form" />}
         </div>
       </main>
@@ -42,3 +42,4 @@ export default function ContactUs() {
     </>
   );
 }
+

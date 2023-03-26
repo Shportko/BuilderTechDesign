@@ -21,12 +21,7 @@ import { BottomSection } from "@/components/BottomSection/BottomSection";
 import { Footer } from "@/components/Footer/Footer";
 import Link from "next/link";
 import { AxiosResponse } from "axios";
-import {
-  getContentItemAPI,
-  getPublishedContentItems,
-} from "@/API/contentItemAPI";
 import { useRouter } from "next/router";
-import { getCustomerReviews } from "@/API/reviewAPI";
 import MobileMediaCard from "@/components/MobileMediaCard/MobileMediaCard";
 
 
@@ -194,7 +189,7 @@ function Home({
             <h2>Our services</h2>
             <div className={styles.WelcomeSectionDivider}></div>
             <div className={styles.ServicesSectionMotto}>
-              We offer a wide array of services to ensure your dreams come true
+            <h3>Bringing your project to life</h3>
             </div>
             <div className={styles.ServicesSectionContainer}>
               {servicesData?.slice(0, 10).map((el: TContentItem, i: number) => {
@@ -280,7 +275,7 @@ export async function getStaticProps() {
   let customerReviewsResult: AxiosResponse<any, any> | null = null;
   let customerReviews: TCustomerReviewItem[] | null = null;
 
-  try {
+  /*try {
     servicesItemsResult = await getPublishedContentItems("service-item");
     if (servicesItemsResult?.data) {
       services = servicesItemsResult.data?.contentItems;
@@ -349,7 +344,7 @@ export async function getStaticProps() {
       "Blog page: getStaticProps - Error getting customer reviews",
       error
     );
-  }
+  }*/
 
   return {
     props: {

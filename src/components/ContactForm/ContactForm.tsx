@@ -1,4 +1,3 @@
-import clsx from "clsx";
 import React from "react";
 import CustomButton from "../CustomButton/CustomButton";
 import { CustomTextInput } from "../CustomTextInput";

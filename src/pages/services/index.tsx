@@ -8,11 +8,6 @@ import { TContentItem } from "@/types/main";
 import { BottomSection } from "@/components/BottomSection/BottomSection";
 import { Footer } from "@/components/Footer/Footer";
 import Link from "next/link";
-import {
-  getContentItemAPI,
-  getPublishedContentItems,
-} from "../../API/contentItemAPI";
-import { AxiosResponse } from "axios";
 import { useSelector } from "react-redux";
 import { mainSelector } from "@/store/selectors";
 import MobileMediaCard from "@/components/MobileMediaCard/MobileMediaCard";

@@ -7,14 +7,7 @@ import {
   blogPageContent as blogPageContentMock,
 } from "@/MockData/blog";
 import { TContentItem } from "@/types/main";
-import { CustomTextInput } from "@/components/CustomTextInput";
-import { Pagination } from "@mui/material";
 import Link from "next/link";
-import {
-  getContentItemAPI,
-  getPublishedContentItems,
-} from "@/API/contentItemAPI";
-import { AxiosResponse } from "axios";
 import SmallMediaCard from "@/components/SmallMediaCard/SmallMediaCard";
 import MediumMediaCard from "@/components/MediumMediaCard/MediumMediaCard";
 import Page from "@/components/Page/Page";

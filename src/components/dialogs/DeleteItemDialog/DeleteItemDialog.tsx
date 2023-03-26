@@ -1,4 +1,4 @@
-import { deleteContentItems } from "@/API/contentItemAPI";
+
 import { Dialog } from "@/components/Dialog";
 import { addToast } from "@/store/toast/actions";
 import React, { useCallback, useState } from "react";
@@ -22,15 +22,7 @@ export default function DeleteContentItemDialog({
   const dispatch = useDispatch();
 
   const handleDelete = useCallback(() => {
-    props?.ids &&
-      props?.ids.length > 0 &&
-      deleteContentItems(props.ids)
-        .then(() => {
-          props?.getData && props.getData();
-          dispatch(addToast({ message: "Deleted", statusCode: "400" }));
-          selfClose(dialogKey);
-        })
-        .catch(() => setShowErrorTag(true));
+   
   }, [props?.ids]);
 
   return (

@@ -1,4 +1,3 @@
-import { createReview } from "@/API/reviewAPI";
 import { addToast } from "@/store/toast/actions";
 import { TCustomerReviewItem } from "@/types/main";
 import clsx from "clsx";
@@ -76,26 +75,7 @@ export default function ReviewForm({ style, className }: TReviewForm) {
       linkedinLink: state.linkedinLink,
       instagramLink: state.instagramLink,
     };
-    createReview(data)
-      .then((result) => {
-        setState(initialState);
-        dispatch(
-          addToast({
-            message: "Your review has been sent. Thank you!",
-            statusCode: "200",
-          })
-        );
-      })
-      .catch((error) => {
-        dispatch(
-          addToast({
-            message: "Something went wrong, please try later",
-            statusCode: "400",
-          })
-        );
-      });
-  }, [state]);
-
+   
   return (
     <section
       className={clsx(styles.ReviewForm, className)}

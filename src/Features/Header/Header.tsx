@@ -12,8 +12,6 @@ import PhoneIcon from "@mui/icons-material/Phone";
 import { useState, useCallback, useEffect, Component } from "react";
 import { Menu, MenuItem } from "@material-ui/core";
 import { useRouter } from "next/router";
-import { getPublishedContentItems, userLogout } from "@/API/contentItemAPI";
-import { AxiosResponse } from "axios";
 import Image from "next/image";
 import MainLogo from "../../Assets/png/main_logo.png";
 
@@ -28,18 +26,6 @@ export default function Header() {
 
   const isMenuOpen = Boolean(mobileMenuAnchorEl);
 
-  useEffect(() => {
-    getServices()
-      .then((result) => {
-        if (result?.services && result.services.length > 0) {
-          setServices(result.services);
-        }
-      })
-      .catch((error) => {
-        console.error(error);
-      });
-  }, []);
-
   const handleClickMobileMenu = (event: React.MouseEvent<HTMLElement>) => {
     setMobileMenuAnchorEl(event.currentTarget);
   };
@@ -47,22 +33,7 @@ export default function Header() {
   const makePhoenCall = useCallback(() => {
     window.open("tel:9367662448");
   }, []);
-
-  const getServices = async () => {
-    let servicesItemsResult: AxiosResponse<any, any> | null = null;
-    let services: TContentItem[] | null = null;
-    try {
-      servicesItemsResult = await getPublishedContentItems("service-item");
-      if (servicesItemsResult?.data) {
-        services = servicesItemsResult.data?.contentItems;
-      }
-    } catch (error) {
-      console.error("Header: getStaticProps - Error getting services", error);
-    }
-    return {
-      services,
-    };
-  };
+  
 
   return (
     <header className={styles.header}>
@@ -108,7 +79,7 @@ export default function Header() {
                         style={{
                           fontSize: "15px",
                           textTransform: "none",
-                          color: "#2d61d2",
+                          color: "#0b0b75",
                         }}
                       >
                         <div>{el.title}</div>

@@ -1,4 +1,3 @@
-import { getContentItemAPI, getContentItemSlugs } from "@/API/contentItemAPI";
 import { BottomSection } from "@/components/BottomSection/BottomSection";
 import CustomPage from "@/components/CustomPage/CustomPage";
 import { Footer } from "@/components/Footer/Footer";
@@ -29,7 +28,7 @@ export default function ServicePage({ service }: { service: TContentItem }) {
             </div>
           </Link>
         </div>
-        <CustomPage item={service} />
+         <CustomPage item={service} />
       </Page>
       <BottomSection />
       <Footer />

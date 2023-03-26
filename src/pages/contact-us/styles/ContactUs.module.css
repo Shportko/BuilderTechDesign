@@ -15,7 +15,7 @@
 
 .ContactMainContainer img {
   width: 50%;
-  height: 500px;
+  height: 600px;
   object-fit: cover;
   padding-right: 50px;
 }
@@ -39,7 +39,7 @@
   }
   .ContactMainContainer img {
     width: 100%;
-    height: 500px;
+    height: 550px;
     object-fit: cover;
     padding-right: 0px;
   }

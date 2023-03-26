@@ -12,7 +12,6 @@ import { pages } from "@/global-constants/global-constants";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { getPublishedContentItems } from "@/API/contentItemAPI";
 
 const cities = [""
 ];
@@ -53,17 +52,7 @@ const ServicesSection: React.FC<{ style?: React.CSSProperties }> = ({
 }) => {
   const [services, setServices] = useState<TContentItem[]>([]);
 
-  useEffect(() => {
-    getPublishedContentItems("service-item").then((result) => {
-      if (result) {
-        const data = result?.data?.contentItems;
-        if (data && data.length > 0) {
-          setServices(data);
-        }
-      }
-    });
-  }, []);
-
+  
   return (
     <div className={styles.BottomSectionServicesContainer} style={style}>
       {services.map((el: TContentItem, i: number) => {

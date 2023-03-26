@@ -1,4 +1,3 @@
-import { getContentItemAPI, getContentItemSlugs } from "@/API/contentItemAPI";
 import { BottomSection } from "@/components/BottomSection/BottomSection";
 import CustomPage from "@/components/CustomPage/CustomPage";
 import { Footer } from "@/components/Footer/Footer";

@@ -1,5 +1,4 @@
 import Header from "@/Features/Header/Header";
-import { DialogList } from "@/Features/Dialog/DialogList";
 import ToastMessage from "@/Features/ToastMessage/ToastMessage";
 import { getScreenWidth, getYoffset } from "@/store/main/actions";
 import { NextComponentType, NextPageContext } from "next";
@@ -38,7 +37,6 @@ export default function AppWrapper({ Component, pageProps }: TAppWrapper) {
     <>
       <ToastMessage />
       <Header />
-      <DialogList />
 
       <main className="py-14" id={"nico-pro-main-body"}>
         <Component {...pageProps} />

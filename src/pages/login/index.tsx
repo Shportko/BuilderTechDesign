@@ -1,4 +1,3 @@
-import { userLogin } from "@/API/contentItemAPI";
 import CustomButton from "@/components/CustomButton/CustomButton";
 import { CustomTextInput } from "@/components/CustomTextInput";
 import clsx from "clsx";
@@ -41,37 +40,6 @@ export default function Login({ className, style }: TLogin) {
       label: "Required",
       type: "error",
     };
-
-    if (!email) {
-      emailUnderMessage = errorMessage;
-    } else {
-      emailUnderMessage = undefined;
-    }
-
-    if (!password) {
-      passwordUnderMessage = errorMessage;
-    } else {
-      passwordUnderMessage = undefined;
-    }
-
-    const errorsArray = [emailUnderMessage, passwordUnderMessage];
-
-    if (
-      !errorsArray?.some((item: TUnderLabelProps) => item?.type === "error")
-    ) {
-      userLogin({ email, password })
-        .then(() => {
-          const nextUrl = router.query.next as string;
-          router.push(nextUrl || "/admin");
-        })
-        .catch((error) => console.error("auth fails from API method", error));
-    }
-
-    setUnderMessages((prevState: any) => ({
-      ...prevState,
-      email: emailUnderMessage,
-      password: passwordUnderMessage,
-    }));
   };
 
   return (

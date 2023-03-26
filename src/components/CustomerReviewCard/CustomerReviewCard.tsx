@@ -1,5 +1,4 @@
 import React from "react";
-
 import styles from "./styles/CustomerReviewCard.module.css";
 import yelp from "../../Assets/png/Yelp_Logo.png";
 import { TCustomerReviewItem } from "@/types/main";

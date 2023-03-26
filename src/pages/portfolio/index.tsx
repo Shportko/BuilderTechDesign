@@ -9,11 +9,6 @@ import {
 } from "@/MockData/portfolio";
 import { CustomTextInput } from "@/components/CustomTextInput";
 import Link from "next/link";
-import { AxiosResponse } from "axios";
-import {
-  getContentItemAPI,
-  getPublishedContentItems,
-} from "@/API/contentItemAPI";
 import SmallMediaCard from "@/components/SmallMediaCard/SmallMediaCard";
 import MediumMediaCard from "@/components/MediumMediaCard/MediumMediaCard";
 import Page from "@/components/Page/Page";

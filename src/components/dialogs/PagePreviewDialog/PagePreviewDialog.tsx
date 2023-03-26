@@ -1,8 +1,6 @@
-import { getContentItemAPI } from "@/API/contentItemAPI";
 import CustomButton from "@/components/CustomButton/CustomButton";
 import CustomPage from "@/components/CustomPage/CustomPage";
 import { Dialog } from "@/components/Dialog";
-import { deleteContentItem } from "@/store/content-item/actions";
 import { TContentItem } from "@/types/main";
 import React, { useCallback, useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
@@ -26,20 +24,6 @@ export default function PagePreviewDialog({
   const [isSelectedMobileVersion, setIsSelectedMobileVersion] =
     useState<boolean>(false);
 
-  useEffect(() => {
-    if (props?.item?.slug) {
-      getContentItemAPI(props.item.slug)
-        .then((result) => {
-          if (result) {
-            const contentItem = result.data?.contentItem;
-            setItem(contentItem);
-          }
-        })
-        .catch((error) =>
-          console.error("PagePreviewDialog get content item ERROR", error)
-        );
-    }
-  }, [props?.item]);
 
   return (
     <Dialog
