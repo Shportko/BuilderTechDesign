@@ -72,36 +72,6 @@ export default function Login({ className, style }: TLogin) {
               </div>
             }
           />
-          {/* <div
-            className={styles.LoginContainerFormElement}
-            style={{ fontSize: "13px", display: "flex" }}
-          >
-            <div className={styles.LoginContainerFormLabel}>
-              <label>Forgot password? &nbsp;</label>
-            </div>
-            <div
-              className={styles.LoginContainerFormLabel}
-              style={{ color: "red", cursor: "pointer" }}
-              // onClick={() => history.push(forgotPasswordHref)}
-            >
-              Press here
-            </div>
-          </div>
-          <div
-            className={styles.LoginContainerFormElement}
-            style={{ fontSize: "13px", display: "flex" }}
-          >
-            <div className={styles.LoginContainerFormLabel}>
-              <label>Don't have account? &nbsp;</label>
-            </div>
-            <div
-              className={styles.LoginContainerFormLabel}
-              style={{ color: "red", cursor: "pointer" }}
-              // onClick={() => history.push(signupHref)}
-            >
-              Create new
-            </div>
-          </div> */}
         </div>
         <div className={styles.LoginContainerButtonSubmit}>
           <CustomButton
@@ -112,25 +82,6 @@ export default function Login({ className, style }: TLogin) {
             disabled={!email || !password}
           />
         </div>
-        {/* <GoogleLogin
-            clientId="164366545543-2cl1qkev2e1capcckdbefkrmtthr6uhm.apps.googleusercontent.com"
-            render={(renderProps) => (
-              <div className="login--container--button-google">
-                <GoogleButton onClick={renderProps.onClick} />
-              </div>
-            )}
-            buttonText="Login"
-            onSuccess={responseGoogle}
-            onFailure={responseGoogle}
-            cookiePolicy={"single_host_origin"}
-          /> */}
-        {/* <div className="login--container--button-google">
-            <GoogleButton
-              onClick={() => {
-                dispatch(userLoginWithGoogle({ history }));
-              }}
-            />
-          </div> */}
       </div>
     </div>
   );

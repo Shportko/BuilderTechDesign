@@ -2,14 +2,10 @@ import Head from "next/head";
 import styles from "./styles/ContactUs.module.css";
 import { BottomSection } from "@/components/BottomSection/BottomSection";
 import { Footer } from "@/components/Footer/Footer";
-//import { mediaStorageBucketUrl } from "@/global-constants/global-constants";
 import { ContactForm } from "@/components/ContactForm";
 import { mainSelector } from "@/store/selectors";
 import { useSelector } from "react-redux";
 import { useRouter } from "next/router";
-import { smoothScroll } from "@/utils/SmoothScroll";
-import GoogleLogo from ".../Assets/png/google_logo.png";
-import Image from "next/image";
 
 
 export default function ContactUs() {
@@ -31,9 +27,8 @@ export default function ContactUs() {
         <div className={styles.ContactMainContainer}>
           {screenWidth < 800 && <ContactForm className="contact--form" />}
           <img
-            src="/map_contact.png"
-            alt="Tech Design Company in Houston"
-/>
+            src="/map_cont.png"
+            alt="Tech Design Company in Houston"/>
           {screenWidth > 800 && <ContactForm className="contact--form" />}
         </div>
       </main>

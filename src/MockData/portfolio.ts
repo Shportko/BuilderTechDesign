@@ -2,12 +2,12 @@ import { TContentItem } from "@/types/main";
 import { mediaStorageBucketUrl } from "@/global-constants/global-constants";
 
 export const portfolioPageContent: TContentItem = {
-    title: "Builder Tech Design in Texas", // change
-    type: "service-page-details",
+    title: "Builder Tech Design in Texas",
+    type: "portfolio-page-details",
     metaTitle:
-      "Repair and home maintenance in Texas | Builder Tech Design", // change
+      "Texas | Builder Tech Design", // change
     metaDescription:
-      "Trust our Sacramento construction company for all your building needs. We specialize in site preparation, project management, and maintenance services to ensure your project is a success. Contact us today!", // change
+      "Let us help you create the perfect vision for your home or business. We can work with you on all types of projects, including Exterior & Interior Design , Landscape Design, Commercial & Residential Design .",
     subItems: [
       {
         type: "subitem",
@@ -20,21 +20,21 @@ export const portfolioPageContent: TContentItem = {
 
 export const projects: TContentItem[] = [ 
     {
-    id: "0",
-    type: "service-item",
-    slug: "project-drafting",
-    title: "Project Drafting Service in Texas",
-    shortTitle: "Project Drafting",
+    id: "11",
+    type: "portfolio-item",
+    slug: "portfolio-item1",
+    title: "Project Drafting Service in Texas", // change
+    shortTitle: "Portfolio", //change
     description: [
       `opisanie`,
     ],
-    image: "/f.png",
-    alt: "Project Drafting Service in Texas",
-    anchorId: "project-drafting",
+    image: "./portfolio_main_pic/interer.png",
+    alt: "Builder Tech Design in Texas",
+    anchorId: "project-item1",
     metaTitle:
-      "Best Dry Rot Repair near me in Sacramento | Builder Tech Design",
+      "Texas| Builder Tech Design",
     metaDescription:
-      "Say goodbye to dry rot problems with our expert dry rot repairs! Find top-notch dry rot repair near you in Sacramento. Contact us today to learn more!",
+      "Let us help you create the perfect vision for your home or business. We can work with you on all types of projects, including Exterior & Interior Design , Landscape Design, Commercial & Residential Design .",
     subItems: [
       {
         type: "subitem",
@@ -66,15 +66,15 @@ export const projects: TContentItem[] = [
     ],
   },
   {
-    id: "1",
-    type: "service-item",
-    slug: "exterior-interior-design",
+    id: "12",
+    type: "portfolio-item",
+    slug: "portfolio-item2",
     title: "Exterior & Interior Design in Texas",
     shortTitle: "Exterior & Interior Design",
     description: [`Transform your kitchen with our Sacramento remodeling experts! From custom cabinetry to beautiful countertops, we'll make your dream kitchen a reality. Contact us for your renovation needs!`],
-    image: "/f.png",
+    image: "./portfolio_main_pic/project_house.png",
     alt: "XXXX",
-    anchorId: "service-kitchens",
+    anchorId: "project-item2",
     metaTitle: "Kitchen renovation in Sacramento | Nico Pro Construction",
     metaDescription:
       "Transform your kitchen with our Sacramento remodeling experts! From custom cabinetry to beautiful countertops, we'll make your dream kitchen a reality. Contact us for your renovation needs!",
@@ -111,16 +111,16 @@ export const projects: TContentItem[] = [
     ],
   },
   {
-    id: "2",
-    type: "service-item",
-    slug: "landscape-design",
+    id: "13",
+    type: "portfolio-item",
+    slug: "portfolio-item3",
     title: "Landscape Design in Texas",
     shortTitle: "Landscape Design",
     description: [`We offer a wide range of installation and renovation services, including
         tile installation, plumbing, electrical, and more.`],
-    image: "/f.png",
+    image: "./portfolio_main_pic/project_house_big.png",
     alt: "bathroom remodel",
-    anchorId: "service-bathrooms",
+    anchorId: "project-item3",
     metaTitle: "Bathrooms service in the Sacramento | Nico Pro Constructio",
     metaDescription:
       "Looking for bathroom remodel ideas? Our Sacramento team can help! From small updates to complete renovations, we'll bring your dream bathroom to life. Contact us to start your project today!",
@@ -155,16 +155,16 @@ export const projects: TContentItem[] = [
     ],
   },
   {
-    id: "3",
-    type: "service-item",
-    slug: "flooring-construction-service",
+    id: "14",
+    type: "portfolio-item",
+    slug: "portfolio-item4",
     title: "Commercial & Residential Design in Texas",
     shortTitle: "Commercial & Residential Design",
     description: [`We use a variety of materials, including tile, hardwood, laminate, and
         vinyl, to create unique and durable flooring solutions for any budget.`],
-    image: "/f.png",
+    image: "./portfolio_main_pic/interer2.png",
     alt: "",
-    anchorId: "service-floors",
+    anchorId: "project-item4",
     metaTitle:
       "Floors renovation service in Sacramento | Nico Pro Construction",
     metaDescription:
@@ -189,28 +189,88 @@ export const projects: TContentItem[] = [
       },
       {
         type: "subitem",
-        description:
-          "Welcome to our Sacramento company, where we specialize in creating new and luxury floor designs for your home. Our expert team of designers will work with you to create a unique house floor design that meets your specific needs and style preferences.",
+        description:[
+          "Welcome to our Sacramento company, where we specialize in creating new and luxury floor designs for your home. Our expert team of designers will work with you to create a unique house floor design that meets your specific needs and style preferences.",]
+      },
+    ],
+  },
+  {
+    id: "15",
+    type: "portfolio-item",
+    slug: "portfolio-item5",
+    title: "Commercial & Residential Design in Texas",
+    shortTitle: "Commercial & Residential Design",
+    description: [`We use a variety of materials, including tile, hardwood, laminate, and
+        vinyl, to create unique and durable flooring solutions for any budget.`],
+    image: "./portfolio_main_pic/Jumbo.png",
+    alt: "",
+    anchorId: "project-item5",
+    metaTitle:
+      "Floors renovation service in Sacramento | Nico Pro Construction",
+    metaDescription:
+      "Transform your home with our Sacramento floor design and renovation services! Our expert team will revamp your space and create the perfect look. Contact us for a free consultation today!",
+    subItems: [
+      {
+        type: "subitem",
+        images: [
+          {
+            src: `${mediaStorageBucketUrl}/nico services/service-floors-1.jpeg`,
+            alt: "",
+          },
+          {
+            src: `${mediaStorageBucketUrl}/nico services/service-floors-2.jpeg`,
+            alt: "",
+          },
+          {
+            src: `${mediaStorageBucketUrl}/nico services/service-floors-3.jpeg`,
+            alt: "",
+          },
+        ],
       },
       {
         type: "subitem",
-        description:
-          "We understand that your home is your sanctuary, and the right flooring can set the tone for your space. That's why we offer a variety of flooring renovation services to help you achieve the look you're after. From hardwood and tile to carpet and vinyl, we have the experience and expertise to make your vision a reality.",
+        description:[
+          "Welcome to our Sacramento company, where we specialize in creating new and luxury floor designs for your home. Our expert team of designers will work with you to create a unique house floor design that meets your specific needs and style preferences.",]
+      },
+    ],
+  },
+  {
+    id: "16",
+    type: "portfolio-item",
+    slug: "portfolio-item6",
+    title: "Commercial & Residential Design in Texas",
+    shortTitle: "Commercial & Residential Design",
+    description: [`We use a variety of materials, including tile, hardwood, laminate, and
+        vinyl, to create unique and durable flooring solutions for any budget.`],
+    image: "./portfolio_main_pic/landscape.png",
+    alt: "",
+    anchorId: "project-item6",
+    metaTitle:
+      "Floors renovation service in Sacramento | Nico Pro Construction",
+    metaDescription:
+      "Transform your home with our Sacramento floor design and renovation services! Our expert team will revamp your space and create the perfect look. Contact us for a free consultation today!",
+    subItems: [
+      {
+        type: "subitem",
+        images: [
+          {
+            src: `${mediaStorageBucketUrl}/nico services/service-floors-1.jpeg`,
+            alt: "",
+          },
+          {
+            src: `${mediaStorageBucketUrl}/nico services/service-floors-2.jpeg`,
+            alt: "",
+          },
+          {
+            src: `${mediaStorageBucketUrl}/nico services/service-floors-3.jpeg`,
+            alt: "",
+          },
+        ],
       },
       {
         type: "subitem",
-        description:
-          "Our home floor plans are carefully crafted with your lifestyle in mind. We take into account your needs for function, durability, and aesthetic appeal, to create a custom floor design that fits your unique needs. Our team will work closely with you throughout the entire process, from initial consultation to final installation, to ensure that you're completely satisfied with the results.",
-      },
-      {
-        type: "subitem",
-        description:
-          "At our company, we believe that luxury shouldn't come at a premium. That's why we offer our flooring renovation services at affordable prices, without sacrificing quality or style. We take pride in delivering exceptional workmanship and attention to detail, using only the best materials and techniques to create stunning, long-lasting results.",
-      },
-      {
-        type: "subitem",
-        description:
-          "If you're ready to transform your home with a new and luxurious floor design, contact us today to learn more about our flooring renovation services. Our team of experts is here to help you every step of the way, from planning and design to installation and maintenance. Trust us to bring your house floor design dreams to life and create a space that's both beautiful and functional.",
+        description:[
+          "Welcome to our Sacramento company, where we specialize in creating new and luxury floor designs for your home. Our expert team of designers will work with you to create a unique house floor design that meets your specific needs and style preferences.",]
       },
     ],
   },

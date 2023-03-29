@@ -20,9 +20,9 @@ import { ContactForm } from "@/components/ContactForm";
 import { BottomSection } from "@/components/BottomSection/BottomSection";
 import { Footer } from "@/components/Footer/Footer";
 import Link from "next/link";
-import { AxiosResponse } from "axios";
 import { useRouter } from "next/router";
 import MobileMediaCard from "@/components/MobileMediaCard/MobileMediaCard";
+
 
 
 function Home({
@@ -79,16 +79,14 @@ function Home({
           </section>
           {/* review summary section */}
           <section className={styles.ReviewSummarySection}>
-            <Link color="inherit" href="https://goo.gl/maps/w2iw9NExMf2sHGwJA">
-              <div className={styles.ReviewSummarySectionCard}>
+              <div className={styles.ReviewSummarySectionCard} onClick={() => window.open("https://goo.gl/maps/w2iw9NExMf2sHGwJA")}>
                 <div className={styles.ReviewSummarySectionCardImageBox}>
                   <Image
                     src={GoogleLogo}
                     alt="google logo"
                     width={80}
                     height={25}
-                    priority
-                  />
+                    priority />
                 </div>
                 <div className={styles.ReviewSummarySectionCardImageBox}>
                   <StarsRate
@@ -103,12 +101,7 @@ function Home({
                   Read Reviews
                 </div>
               </div>
-            </Link>
-            <Link
-              color="inherit"
-              href="https://www.yelp.com/not_recommended_reviews/nico-pro-construction-citrus-heights"
-            >
-              <div className={styles.ReviewSummarySectionCard}>
+              <div className={styles.ReviewSummarySectionCard} onClick={() => window.open("https://goo.gl/maps/w2iw9NExMf2sHGwJA")}>
                 <div className={styles.ReviewSummarySectionCardImageBox}>
                   <Image
                     src={YelpLogo}
@@ -131,12 +124,7 @@ function Home({
                   Read Reviews
                 </div>
               </div>
-            </Link>
-            <Link
-              color="inherit"
-              href="https://www.facebook.com/profile.php?id=100086621727375&mibextid=LQQJ4d"
-            >
-              <div className={styles.ReviewSummarySectionCard}>
+              <div className={styles.ReviewSummarySectionCard} onClick={() => window.open("https://goo.gl/maps/w2iw9NExMf2sHGwJA")}>
                 <div className={styles.ReviewSummarySectionCardImageBox}>
                   <Image
                     src={FacebookLogo}
@@ -159,7 +147,6 @@ function Home({
                   Read Reviews
                 </div>
               </div>
-            </Link>
           </section>
           {/* welcome section */}
           <section className={styles.WelcomeSection}>
@@ -189,7 +176,7 @@ function Home({
             <h2>Our services</h2>
             <div className={styles.WelcomeSectionDivider}></div>
             <div className={styles.ServicesSectionMotto}>
-            <h3>Bringing your project to life</h3>
+              <h3>Bringing your project to life</h3>
             </div>
             <div className={styles.ServicesSectionContainer}>
               {servicesData?.slice(0, 10).map((el: TContentItem, i: number) => {
@@ -262,89 +249,12 @@ function Home({
 }
 
 export async function getStaticProps() {
-  let servicesItemsResult: AxiosResponse<any, any> | null = null;
   let services: TContentItem[] | null = null;
-  let servicesPageContentResult: AxiosResponse<any, any> | null = null;
   let servicesPageContent: TContentItem | null = null;
-  let portfolioItemsResult: AxiosResponse<any, any> | null = null;
   let projects: TContentItem[] | null = null;
-  let portfolioPageContentResult: AxiosResponse<any, any> | null = null;
   let portfolioPageContent: TContentItem | null = null;
-  let blogItemsResult: AxiosResponse<any, any> | null = null;
   let blogItems: TContentItem[] | null = null;
-  let customerReviewsResult: AxiosResponse<any, any> | null = null;
   let customerReviews: TCustomerReviewItem[] | null = null;
-
-  /*try {
-    servicesItemsResult = await getPublishedContentItems("service-item");
-    if (servicesItemsResult?.data) {
-      services = servicesItemsResult.data?.contentItems;
-    }
-  } catch (error) {
-    console.error(
-      "Services page: getStaticProps - Error getting services",
-      error
-    );
-  }
-
-  try {
-    servicesPageContentResult = await getContentItemAPI("services");
-    if (servicesPageContentResult?.data) {
-      servicesPageContent = servicesPageContentResult.data?.contentItem;
-    }
-  } catch (error) {
-    console.error(
-      "Home page: getStaticProps - Error getting page details: servicesPageContent",
-      error
-    );
-  }
-
-  try {
-    portfolioItemsResult = await getPublishedContentItems("portfolio-item");
-    if (portfolioItemsResult?.data) {
-      projects = portfolioItemsResult.data?.contentItems;
-    }
-  } catch (error) {
-    console.error(
-      "Services page: getStaticProps - Error getting projects",
-      error
-    );
-  }
-
-  try {
-    portfolioPageContentResult = await getContentItemAPI("portfolio");
-    if (portfolioPageContentResult?.data) {
-      portfolioPageContent = portfolioPageContentResult.data?.contentItem;
-    }
-  } catch (error) {
-    console.error(
-      "Home page: getStaticProps - Error getting portfolioPageContentResult",
-      error
-    );
-  }
-
-  try {
-    blogItemsResult = await getPublishedContentItems("blog-item");
-    if (blogItemsResult?.data) {
-      blogItems = blogItemsResult.data?.contentItems;
-    }
-  } catch (error) {
-    console.error("Blog page: getStaticProps - Error getting projects", error);
-  }
-
-  try {
-    customerReviewsResult = await getCustomerReviews();
-    if (customerReviewsResult?.data) {
-      customerReviews = customerReviewsResult.data?.customerReviewItems?.filter(
-        (el: TCustomerReviewItem) => el.is_approved === true
-      );
-    }
-  } catch (error) {
-    console.error(
-      "Blog page: getStaticProps - Error getting customer reviews",
-      error
-    );
-  }*/
 
   return {
     props: {

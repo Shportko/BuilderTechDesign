@@ -11,7 +11,7 @@ export type TContactForm = {
 export const ContactForm: React.FC<TContactForm> = ({ style, className }) => {
   return (
     <section className={styles.ContactForm}>
-      <h2>Contact Us</h2>
+      <h2>How can we help?</h2>
       <div>Call us or fill out the form below and describe your problem</div>
       <CustomTextInput
         placeholder="Name"

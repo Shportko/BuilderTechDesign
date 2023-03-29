@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import GoogleIcon from "@mui/icons-material/Google";
 import yelp from "../../Assets/png/Yelp_Logo.png";
-import instagram from "../../Assets/png/instagram_logo.png";
+import InstagramIcon from '@mui/icons-material/Instagram';
 import { mainSelector } from "@/store/selectors";
 import TwoColumns from "../TwoColumns/TwoColumns";
 import { TContentItem } from "@/types/main";
@@ -51,8 +51,6 @@ const ServicesSection: React.FC<{ style?: React.CSSProperties }> = ({
   style,
 }) => {
   const [services, setServices] = useState<TContentItem[]>([]);
-
-  
   return (
     <div className={styles.BottomSectionServicesContainer} style={style}>
       {services.map((el: TContentItem, i: number) => {
@@ -65,6 +63,7 @@ const ServicesSection: React.FC<{ style?: React.CSSProperties }> = ({
     </div>
   );
 };
+
 
 const ContactSection: React.FC = () => {
   return (
@@ -89,65 +88,27 @@ const ContactSection: React.FC = () => {
       <div>
         <div className={styles.BottomSectionSocialMediaContainer}>
           <div style={{ marginTop: "10px" }}>
-            <Link
-              color="inherit"
-              href="https://www.facebook.com/profile.php?id=100086621727375&mibextid=LQQJ4d"
-            >
-              <FacebookIcon />
-            </Link>
+              <FacebookIcon onClick={() => window.open("https://www.facebook.com/profile.php?id=100086621727375&mibextid=LQQJ4d")} />
           </div>
           <div style={{ marginTop: "10px" }}>
-            <Link color="inherit" href="https://goo.gl/maps/w2iw9NExMf2sHGwJA">
-              <GoogleIcon />
-            </Link>
+              <GoogleIcon onClick={() => window.open("https://goo.gl/maps/w2iw9NExMf2sHGwJA")} />
           </div>
           <div style={{ marginTop: "11px" }}>
-            <Link
-              color="inherit"
-              href="https://www.facebook.com/profile.php?id=100086621727375&mibextid=LQQJ4d"
-            >
-              <Image
-       src={instagram}
-        alt="Builder Tech Design instagram"
-        width={22}
-        height={22}
-        priority
-      />
-            </Link>
+            <InstagramIcon onClick={() => window.open("https://goo.gl/maps/w2iw9NExMf2sHGwJA")} />
           </div>
           <div style={{ marginTop: "8px" }}>
-            <Link
-              color="inherit"
-              href="https://www.yelp.com/not_recommended_reviews/nico-pro-construction-citrus-heights"
-            >
               <Image
                 src={yelp}
                 alt="builder tech design yelp"
                 width={50}
                 height={25}
                 priority
-              />
-            </Link>
+                onClick={() => window.open("https://goo.gl/maps/w2iw9NExMf2sHGwJA")} />           
           </div>
         </div>
         <div>
         </div>
       </div>
-    </div>
-  );
-};
-
-const ServingCities: React.FC = () => {
-  return (
-    <div className={styles.ServingCities}>
-      <div className={styles.ServingCitiesElement}></div>
-      {cities.map((el: string, i: number) => {
-        return (
-          <div className={styles.ServingCitiesElement} key={i}>
-            {el}
-          </div>
-        );
-      })}
     </div>
   );
 };
@@ -173,7 +134,6 @@ export const BottomSection: React.FC = () => {
           <ContactSection />
         </div>
       )}
-      <ServingCities />
     </section>
   );
 };
