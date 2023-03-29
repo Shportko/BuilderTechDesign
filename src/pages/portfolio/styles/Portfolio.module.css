@@ -19,7 +19,7 @@
 .PortfolioWorkArea {
   display: flex;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 0px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 60px;

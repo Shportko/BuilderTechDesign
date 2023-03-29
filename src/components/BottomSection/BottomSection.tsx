@@ -27,7 +27,7 @@ const HeroSection: React.FC = () => {
         priority
       />
       <div className={styles.BottomSectionHeroText}>
-       Korotko o uslugi kompanii.{" "}
+     BRINGING YOUR PROJECT TO LIFE{" "}
       </div>
     </div>
   );

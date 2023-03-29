@@ -10,7 +10,7 @@
 
 .ContactMainContainer {
   display: flex;
-  padding: 150px 50px 70px 50px;
+  padding: 80px 50px 20px 50px;
 }
 
 .ContactMainContainer img {
@@ -35,7 +35,7 @@
   }
   .ContactMainContainer {
     display: block;
-    padding: 100px 0px;
+    padding: 60px 0px;
   }
   .ContactMainContainer img {
     width: 100%;

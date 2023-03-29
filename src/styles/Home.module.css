@@ -54,7 +54,7 @@
 
   .herosectionbanner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)),
-      url("../Assets/png/nico6.png");
+      url("../Assets/png/home_page_main_pic.png");
     background-size: cover;
     width: 100%;
     height: 728px;
@@ -143,6 +143,11 @@
   width: fit-content;
 }
 
+.h2text {
+  color:#416ec6;
+  padding-bottom: 10px;
+}
+
 .WelcomeSectionDivider {
   border: 1px solid var(--blue-sky);
   height: 0px;
@@ -151,11 +156,12 @@
 }
 
 .WelcomeSectionRight {
+  
   flex: 50%;
 }
 
-.WelcomeSectionRight h4 {
-  margin-top: 83px;
+.WelcomeSectionRight {
+  margin-top: 111px;
 }
 
 @media only screen and (max-width: 800px) {

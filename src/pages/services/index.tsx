@@ -54,7 +54,7 @@ export default function Services({
                             alt={el.images[0]?.alt}
                           />
                         ) : (
-                          <img src={el?.image} alt={el?.alt} />
+                          <img src={el?.image} alt={el?.alt} /> 
                         )}
                       </div>
                       <div className={styles.ServiceItemRight}>

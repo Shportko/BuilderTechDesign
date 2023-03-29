@@ -1,9 +1,7 @@
-import { mediaStorageBucketUrl } from "@/global-constants/global-constants";
 import { TContentItem } from "@/types/main";
-import FacebookLogo from "../Assets/png/facebook_logo.png";
 
 export const servicesPageContent: TContentItem = {
-  title: "Bringing your project to life",
+  title: "Our services",
   type: "service-page-details",
   metaTitle:
     "Bringing your project to life with Buildet Tech Design in Texas | Builder Tech Design",
@@ -12,8 +10,7 @@ export const servicesPageContent: TContentItem = {
   subItems: [
     {
       type: "subitem",
-      description: [
-        "At Builder Tech Design, we're committed to helping you create the home of your dreams. Our draftsperson services, interior design services, and exterior design services can help you create a stunning project from start to finish. Contact Builder Tech Design today!"
+      description: [""
       ],
     },
   ],
@@ -26,16 +23,13 @@ export const services: TContentItem[] = [
     slug: "project-drafting",
     title: "Project Drafting Service in Texas",
     shortTitle: "Project Drafting",
-    description: [
-      `Builder Tech Design is your best choice for any type of design need. We're here to help you every step of the way. Builder Tech Design is a full service design firm in Texas. We help clients(small businesses, large corporations, as well as real estate firms) achieve their business goals and create memorable experiences for their customers`,
-    ],
+    description: [`Builder Tech Design is your best choice for any type of design need. We're here to help you every step of the way. Builder Tech Design is a full service design firm in Texas. We help clients(small businesses, large corporations, as well as real estate firms) achieve their business goals and create memorable experiences for their customers`],
     image: "./menu_pic/serv_draft_design.png",
     alt: "Project Drafting Service in Texas",
     anchorId: "service-project-drafting",
-    metaTitle:
-      "Best Project Drafting Service near me in Texas | Builder Tech Design",
-    metaDescription:
-      `Builder Tech Design is your best choice for any type of design need. We're here to help you every step of the way. Builder Tech Design is a full service design firm in Texas. We help clients(small businesses, large corporations, as well as real estate firms) achieve their business goals and create memorable experiences for their customers`,    subItems: [
+    metaTitle: "Best Project Drafting Service near me in Texas | Builder Tech Design",
+    metaDescription:`Builder Tech Design is your best choice for any type of design need. We're here to help you every step of the way. Builder Tech Design is a full service design firm in Texas. We help clients(small businesses, large corporations, as well as real estate firms) achieve their business goals and create memorable experiences for their customers`,   
+      subItems: [
       {
         type: "subitem",
         imageKey: "0",
@@ -80,23 +74,22 @@ export const services: TContentItem[] = [
     alt: "Exterior & Interior Design in Texas",
     anchorId: "service-exterior-interior-design",
     metaTitle: "Exterior & Interior Design in Texas | Builder Tech Design",
-    metaDescription:
-      "Transform your kitchen with our Sacramento remodeling experts! From custom cabinetry to beautiful countertops, we'll make your dream kitchen a reality. Contact us for your renovation needs!",
-    subItems: [
+    metaDescription: `Builder Tech Design is your best choice for any type of design need. We're here to help you every step of the way. Builder Tech Design is a full service design firm in Texas. We help clients(small businesses, large corporations, as well as real estate firms) achieve their business goals and create memorable experiences for their customers`,   
+      subItems: [
       {
         type: "subitem",
         imageKey: "1",
         images: [
           {
-            src: `${mediaStorageBucketUrl}/nico services/service-kitchens-1.jpeg`,
+            src: ``,
             alt: "",
           },
           {
-            src: `${mediaStorageBucketUrl}/nico services/service-kitchens-2.jpeg`,
+            src: "",
             alt: "",
           },
           {
-            src: `${mediaStorageBucketUrl}/nico services/service-kitchens-3.jpeg`,
+            src: ``,
             alt: "",
           },
         ],
@@ -104,13 +97,15 @@ export const services: TContentItem[] = [
       {
         type: "subitem",
         description: [
-          "Looking for the best kitchen renovation company near you in Sacramento? Look no further than our expert team. We are dedicated to providing top-notch kitchen remodeling services to transform your outdated kitchen into a modern and stylish space that meets your needs and budget.",
-        ]
-      },
-      {
-        type: "subitem",
-        description: [
-          "Our team of skilled kitchen remodel contractors offers a range of services to upgrade your kitchen, from simple makeovers to full-scale renovations. We take the time to listen to your needs and preferences, and we work closely with you to design a kitchen that fits your lifestyle and taste.",
+          "One of the aspects in the design of residential buildings is the connection and relationship between the interior and the environment (exterior).  To successfully maintain this connection of space, it is necessary, first of all, to take into account the characteristics of your site.  Your house and the land on which it stands, the view around, the trees, the water, the shore - everything is connected.  And all this can work for you or against you, depending on how you design the house. ",
+
+          "The interior and exterior are so closely related that in a beautifully designed home, you may simply not notice this connection: you just feel very good in it.  How to achieve such unity and connection of spaces, when one flows into another, complementing and improving it?",
+          
+          "This can be achieved with elements such as pergolas, awnings, terraces, low landscaped walls, stone paving, skylights, green spaces and others.  It is important to be able to assess the possibilities of using such funds.",
+          
+          "The designer, after talking with you and knowing your wishes, habits and pastime of the family, will suggest the best option, because each house is tied to its surroundings.",
+          
+          "Another way to make a connection between the interior and the exterior is to use the so-called.  multi-leaf doors, especially at the corners of the house, where, being fully open, they give the impression of a disappeared wall, and then the interior merges with the exterior with great effect.  True, such door systems are much more expensive than traditional ones, and it is up to you to decide what to give preference to.",
         ]
       },
     ],
@@ -126,23 +121,22 @@ export const services: TContentItem[] = [
     alt: "Landscape Design in Texas",
     anchorId: "service-landscape-design",
     metaTitle: "Landscape Design in Texas | Builder Tech Design",
-    metaDescription:
-      "Looking for bathroom remodel ideas? Our Sacramento team can help! From small updates to complete renovations, we'll bring your dream bathroom to life. Contact us to start your project today!",
-    subItems: [
+    metaDescription: `Builder Tech Design is your best choice for any type of design need. We're here to help you every step of the way. Builder Tech Design is a full service design firm in Texas. We help clients(small businesses, large corporations, as well as real estate firms) achieve their business goals and create memorable experiences for their customers`,   
+      subItems: [
       {
         type: "subitem",
         imageKey: "2",
         images: [
           {
-            src: `${mediaStorageBucketUrl}/nico services/service-bathrooms-1.webp`,
+            src: ``,
             alt: "",
           },
           {
-            src: `${mediaStorageBucketUrl}/nico services/service-bathrooms-2.jpeg`,
+            src: ``,
             alt: "",
           },
           {
-            src: `${mediaStorageBucketUrl}/nico services/service-bathrooms-3.jpeg`,
+            src: ``,
             alt: "",
           },
         ],
@@ -150,13 +144,13 @@ export const services: TContentItem[] = [
       {
         type: "subitem",
         description: [
-          "Looking for the best bathroom renovation company in the Sacramento area? Look no further than our local team of expert bathroom renovation contractors! We specialize in turning your outdated or dull bathroom into a modern oasis that you'll love coming home to.",
-        ]
-      },
-      {
-        type: "subitem",
-        description: [
-          "Our bathroom remodeling services are designed to make the process simple and stress-free for you. We'll work with you to come up with the perfect bathroom remodel ideas for your home, taking into account your style preferences and practical needs. And because we're a local company, we're always just a phone call away if you have any questions or concerns along the way.",
+          "Landscape design is represented by complex practical measures aimed at the improvement and landscaping of the territory.  Their goal is to improve its aesthetic characteristics through the use of natural elements.  With the right approach, the results will be stunning: the space will gain its individuality and become harmonious;  his shortcomings will be hidden, and his merits will be unobtrusively emphasized.",
+
+          "Properly carried out work will allow you to create not only a beautiful, but also a functional garden, which has its own style, pleases with original ideas and their impeccable implementation, corresponding to the tastes of the owners.",
+          
+          "Events for the artificial creation of a landscape can be compared with art, since they carry aesthetics that make the heart beat faster from the beauties seen, or, on the contrary, pacify with their harmony and tranquility.  Only the territory on which creation takes place acts as a canvas.",
+          
+          "In order for it to become possible, specialists are needed who know how to manage the brush and paints (that is, tools created by man and nature itself).  These are not only landscape designers, but also engineers and specialized workers who calculate, build and ensure the functioning of lighting systems, automatic irrigation, fountains, waterfalls and lakes.",
         ]
       },
     ],
@@ -171,33 +165,42 @@ export const services: TContentItem[] = [
     image: "./menu_pic/serv_com_res.png",
     alt: "Commercial & Residential Design in Texas",
     anchorId: "service-commercial-residential-design",
-    metaTitle:
-      "Commercial & Residential Design in Texas | Builder Tech Design",
-    metaDescription:
-      "Transform your home with our Sacramento floor design and renovation services! Our expert team will revamp your space and create the perfect look. Contact us for a free consultation today!",
-    subItems: [
+    metaTitle: "Commercial & Residential Design in Texas | Builder Tech Design",
+    metaDescription: `Builder Tech Design is your best choice for any type of design need. We're here to help you every step of the way. Builder Tech Design is a full service design firm in Texas. We help clients(small businesses, large corporations, as well as real estate firms) achieve their business goals and create memorable experiences for their customers`,   
+      subItems: [
       {
         type: "subitem",
         imageKey: "3",
         images: [
           {
-            src: `${mediaStorageBucketUrl}/nico services/service-floors-1.jpeg`,
+            src: ``,
             alt: "",
           },
           {
-            src: `${mediaStorageBucketUrl}/nico services/service-floors-2.jpeg`,
+            src: ``,
             alt: "",
           },
           {
-            src: `${mediaStorageBucketUrl}/nico services/service-floors-3.jpeg`,
+            src: ``,
             alt: "",
           },
         ],
       },
       {
         type: "subitem",
-        description:
-          "Welcome to our Sacramento company, where we specialize in creating new and luxury floor designs for your home. Our expert team of designers will work with you to create a unique house floor design that meets your specific needs and style preferences.",
+        description: [
+        "Designing a residential space is very different from doing a commercial interior.",
+
+        "Residential interiors are for the soul and for life, while commercial interiors are for business.  In residential interiors, you and the customer can realize your creative fantasies, some ideas, author's pieces that suit your customer and you.  In residential interiors, you are more focused on the interests, lifestyle and thoughts of the customer, so a personal approach is important.",
+        
+        "Another thing is commercial interiors: here you will not be allowed to realize your flight of fancy in such a volume.  Let's say you get an order to design a restaurant.  Commercial interior is an element of business, with a huge number of nuances.",
+        
+        "The approach to planning solutions for residential and commercial interiors is again different.  In residential spaces, it is tied to ergonomics, convenience, and the functionality of rooms.",
+        
+        "Often the designer has to work with rooms of medium and even compact size.  Usually the customer has a three-room apartment, and he tries to squeeze a whole plane into it: so that there is a library, and an office, and a nursery, and a bedroom, and some other play area, a zone for watching movies, a wardrobe - not even a closet, but a separate  room.  As a result, you have to sacrifice something and find the right balance between the priority needs of the customer, his Wishlist, dreams and real needs.  Further, each room has its own design nuances: for the kitchen, bathroom, bedroom and, of course, for dressing rooms", 
+        
+        "The approach to planning solutions for residential and commercial interiors is again different.  In residential spaces, it is tied to ergonomics, convenience, and the functionality of rooms.",
+        ]
       },
     ],
   },

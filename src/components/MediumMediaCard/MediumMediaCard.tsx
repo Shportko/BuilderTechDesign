@@ -21,7 +21,7 @@ export default function MediumMediaCard({ item }: { item: TContentItem }) {
         )}
         <h3>{item?.shortTitle || item?.title}</h3>
         <p>
-          {item?.description && `${item?.description[0]?.slice(0, 280)}...`}
+          {item?.description && `${item?.description[0]?.slice(0, 200)}...`}
         </p>
       </div>
       <div className={styles.MediumMediaCardBottom}>

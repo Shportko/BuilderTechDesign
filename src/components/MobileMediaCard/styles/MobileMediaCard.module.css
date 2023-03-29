@@ -26,7 +26,8 @@
 }
 
 .MobileMediaCardTopTitle {
-  color: white;
+  background-color: rgba(255, 255, 255, 0.596);
+  color: rgb(0, 0, 0);
   position: absolute;
   margin-top: -45px;
   margin-left: 10px;
@@ -42,7 +43,7 @@
   display: flex;
   /* background-color: rgba(119, 119, 119, 0.671); */
   border-top: 1px solid rgba(119, 119, 119, 0.318);
-  color: rgb(110, 110, 175);
+  color: #2d61d2;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   padding: 5px;

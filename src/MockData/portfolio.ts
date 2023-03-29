@@ -2,17 +2,17 @@ import { TContentItem } from "@/types/main";
 import { mediaStorageBucketUrl } from "@/global-constants/global-constants";
 
 export const portfolioPageContent: TContentItem = {
-    title: "Builder Tech Design in Texas",
+    title: "",
     type: "portfolio-page-details",
     metaTitle:
-      "Texas | Builder Tech Design", // change
+      "Bringing your project to life with Buildet Tech Design in Texas | Builder Tech Design",
     metaDescription:
       "Let us help you create the perfect vision for your home or business. We can work with you on all types of projects, including Exterior & Interior Design , Landscape Design, Commercial & Residential Design .",
     subItems: [
       {
         type: "subitem",
         description: [
-  "glavnoe opisanie uslug togo 4to predostavlyaem"
+  ""
         ],
       },
     ],

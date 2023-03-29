@@ -1,16 +1,15 @@
 import { TContentItem } from "@/types/main";
-import { mediaStorageBucketUrl } from "@/global-constants/global-constants";
 
 export const blogPageContent: TContentItem = {  type: "service-page-details",
 metaTitle:
-  "Repair and home maintenance in Texas | Builder Tech Design", // change
+"Bringing your project to life with Buildet Tech Design in Texas | Builder Tech Design",
 metaDescription:
-  "Trust our Sacramento construction company for all your building needs. We specialize in site preparation, project management, and maintenance services to ensure your project is a success. Contact us today!", // change
+"Let us help you create the perfect vision for your home or business. We can work with you on all types of projects, including Exterior & Interior Design , Landscape Design, Commercial & Residential Design .",
 subItems: [
   {
     type: "subitem",
     description: [
-      "glavnoe opisanie uslug togo 4to predostavlyaem"
+      ""
     ],
   },
 ],
@@ -26,7 +25,7 @@ export const blogItems: TContentItem[] = [
     description: [
       `opisanie`,
     ],
-    image: "/f.png",
+    image: "./portfolio_main_pic/project_house.png",
     alt: "Project Drafting Service in Texas",
     anchorId: "project-drafting",
     metaTitle:

@@ -29,7 +29,6 @@
 .ServiceItem {
   cursor: pointer;
   display: flex;
-
   padding: 10px 0;
   margin: 10px 0;
   font-size: 0.9em;
@@ -91,5 +90,9 @@
 
   .ServiceItem {
     line-height: 20px;
+  }
+  .ServiceItemRight{
+    color:blue;
+    background-color: blueviolet;
   }
 }

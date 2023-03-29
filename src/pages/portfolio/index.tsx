@@ -32,9 +32,6 @@ export default function Portfolio({
         <h1 style={{ fontSize: "1.6em" }}>{pageContent?.title}</h1>
         <div className={styles.PortfolioWorkArea}>
           <div className={styles.PortfolioLeft}>
-            {/* <div className={styles.PortfolioSearchInput}>
-              <CustomTextInput placeholder="Search" />
-            </div> */}
             <div className={styles.PortfolioListContainer}>
               {projects?.map((proj: TContentItem, i: number) => {
                 return (
@@ -50,9 +47,6 @@ export default function Portfolio({
                 );
               })}
             </div>
-            {/* <div className={styles.PortfolioPaginatorContainer}>
-              <Pagination count={10} page={2} />
-            </div> */}
           </div>
           <div className={styles.PortfolioRight}>
             <h3>Latest projects</h3>

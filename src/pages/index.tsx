@@ -38,10 +38,10 @@ function Home({
         <title>Home | Builder Tech Design</title>
         <meta
           name="description"
-          content="Builder Tech Design – Don't wait to renovate!" // izmenit' slogan
+          content="Builder Tech Design – Bringing your project to life!"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" /> // Zamenit' logo
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
         <div style={{ margin: "0", padding: "0" }}>
@@ -156,18 +156,19 @@ function Home({
                 <h2>Builder Tech Design</h2>
                 <div className={styles.WelcomeSectionDivider}></div>
               </div>
-              <h4>Our team</h4>
+              <h3 className={styles.h2text}>Our team</h3>
               <span>
-                Our team of skilled professionals
+                  Your family is our value.  We at BUILDER TECH DESIGN respect the family, its interests and peculiarities.  Each family is unique, as is each family member.  We consider these differences and know how to find solutions that will appeal to every member of your family.  We design and build a single perfect space for you and your family based on your desires.
+                  Do you want to build a comfortable home for the whole family, but can't find solutions that would suit everyone?  We know how to take into account and combine your wishes.
+                  Ask everyone in your family to take this test separately, and we will create a single harmonious project.
+                  The result will not only reflect your preferences in architecture and design, but also your expectations from a space that is psychologically comfortable for you.{" "}
               </span>
-              <span>
-                Based in Houston Texas, we specialize in.{" "}
-              </span>
+
             </div>
             <div className={styles.WelcomeSectionRight}>
-              <h4>We offer</h4>
+            <h3 className={styles.h2text}>We offer</h3>
               <span>
-                We offer a wide range of
+                We offer a wide range ofWe offer a wide range ofWe offer a wide range ofWe offer a wide range ofWe offer a wide range ofWe offer a wide range ofWe offer a wide range ofWe offer a wide range ofWe offer a wide range ofWe offer a wide range ofWe offer a wide range ofWe offer a wide range ofWe offer a wide range ofWe offer a wide range ofWe offer a wide range ofWe offer a wide range ofWe offer a wide range of{" "}
               </span>
             </div>
           </section>
