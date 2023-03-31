@@ -94,7 +94,7 @@ const ContactSection: React.FC = () => {
               <GoogleIcon onClick={() => window.open("https://goo.gl/maps/w2iw9NExMf2sHGwJA")} />
           </div>
           <div style={{ marginTop: "11px" }}>
-            <InstagramIcon onClick={() => window.open("https://goo.gl/maps/w2iw9NExMf2sHGwJA")} />
+            <InstagramIcon onClick={() => window.open("https://instagram.com/builder_tech_design?igshid=YmMyMTA2M2Y=")} />
           </div>
           <div style={{ marginTop: "8px" }}>
               <Image

@@ -158,17 +158,14 @@ function Home({
               </div>
               <h3 className={styles.h2text}>Our team</h3>
               <span>
-                  Your family is our value.  We at BUILDER TECH DESIGN respect the family, its interests and peculiarities.  Each family is unique, as is each family member.  We consider these differences and know how to find solutions that will appeal to every member of your family.  We design and build a single perfect space for you and your family based on your desires.
-                  Do you want to build a comfortable home for the whole family, but can't find solutions that would suit everyone?  We know how to take into account and combine your wishes.
-                  Ask everyone in your family to take this test separately, and we will create a single harmonious project.
-                  The result will not only reflect your preferences in architecture and design, but also your expectations from a space that is psychologically comfortable for you.{" "}
+              With over four years of experience in the Interior Design industry, we are more than capable of bringing your ideas to life. The skilled team at Builder Tech Design is specialized in providing cost effective designs for all types of houses, villas, resorts and commercial properties. Our goal is to provide you with a valuable return on investment (RoI) as well as satisfied clients.{" "}
               </span>
 
             </div>
             <div className={styles.WelcomeSectionRight}>
             <h3 className={styles.h2text}>We offer</h3>
               <span>
-                We offer a wide range ofWe offer a wide range ofWe offer a wide range ofWe offer a wide range ofWe offer a wide range ofWe offer a wide range ofWe offer a wide range ofWe offer a wide range ofWe offer a wide range ofWe offer a wide range ofWe offer a wide range ofWe offer a wide range ofWe offer a wide range ofWe offer a wide range ofWe offer a wide range ofWe offer a wide range ofWe offer a wide range of{" "}
+              Builder Tech Design is a professional firm providing custom design services to residential builders, community planners and commercial developers. We offer drafting, planning and landscape design services to help you create the perfect space for your clients with minimal cost investment.{" "}
               </span>
             </div>
           </section>

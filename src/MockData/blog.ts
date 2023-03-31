@@ -1,6 +1,7 @@
 import { TContentItem } from "@/types/main";
 
-export const blogPageContent: TContentItem = {  type: "service-page-details",
+export const blogPageContent: TContentItem = { 
+type: "service-page-details",
 metaTitle:
 "Bringing your project to life with Buildet Tech Design in Texas | Builder Tech Design",
 metaDescription:

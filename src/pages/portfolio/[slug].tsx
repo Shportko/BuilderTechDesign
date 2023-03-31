@@ -28,7 +28,7 @@ export default function PortfolioPage({ project }: { project: TContentItem }) {
             </div>
           </Link>
         </div>
-        <CustomPage item={project} />
+       <CustomPage item={project}/>
       </Page>
       <BottomSection />
       <Footer />

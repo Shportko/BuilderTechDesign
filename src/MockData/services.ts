@@ -23,7 +23,7 @@ export const services: TContentItem[] = [
     slug: "project-drafting",
     title: "Project Drafting Service in Texas",
     shortTitle: "Project Drafting",
-    description: [`Builder Tech Design is your best choice for any type of design need. We're here to help you every step of the way. Builder Tech Design is a full service design firm in Texas. We help clients(small businesses, large corporations, as well as real estate firms) achieve their business goals and create memorable experiences for their customers`],
+    description: [`Project drafting service is an essential service for architects, engineers, contractors, and developers involved in construction projects. The service helps to create accurate and detailed drawings, plans, and models that are essential for the success of construction projects.`],
     image: "./menu_pic/serv_draft_design.png",
     alt: "Project Drafting Service in Texas",
     anchorId: "service-project-drafting",
@@ -69,12 +69,12 @@ export const services: TContentItem[] = [
     slug: "exterior-interior-design",
     title: "Exterior & Interior Design in Texas",
     shortTitle: "Exterior & Interior Design",
-    description: [`Building a new custom home enables you to design everything according to your preferences. However, besides the appearance and comfort, you also need to pay attention to loads, codes and regulations, and safety measures. The house will need electricity, water and sewage systems, HVAC, and air conditioning among other things.`],
+    description: [`Exterior and interior design are crucial aspects when it comes to building or renovating a home. They are responsible for creating a comfortable and aesthetically pleasing living space. By following these tips and ideas, you can make the most out of your space and create a home that is both beautiful and functional.`],
     image: "./menu_pic/serv_int_ext.png",
     alt: "Exterior & Interior Design in Texas",
     anchorId: "service-exterior-interior-design",
     metaTitle: "Exterior & Interior Design in Texas | Builder Tech Design",
-    metaDescription: `Builder Tech Design is your best choice for any type of design need. We're here to help you every step of the way. Builder Tech Design is a full service design firm in Texas. We help clients(small businesses, large corporations, as well as real estate firms) achieve their business goals and create memorable experiences for their customers`,   
+    metaDescription: `Exterior and interior design are crucial aspects when it comes to building or renovating a home. They are responsible for creating a comfortable and aesthetically pleasing living space. In this article, we will discuss the importance of exterior and interior design, as well as some tips and ideas to help you make the most out of your space.`,   
       subItems: [
       {
         type: "subitem",
@@ -116,12 +116,12 @@ export const services: TContentItem[] = [
     slug: "landscape-design",
     title: "Landscape Design in Texas",
     shortTitle: "Landscape Design",
-    description: [`Building a new custom home enables you to design everything according to your preferences. However, besides the appearance and comfort, you also need to pay attention to loads, codes and regulations, and safety measures. The house will need electricity, water and sewage systems, HVAC, and air conditioning among other things.`],
+    description: [`Landscape design is an important aspect of creating a beautiful and functional outdoor space. By following a structured process, landscape designers can create cohesive and visually appealing designs that meet the needs and preferences of their clients.`],
     image: "./menu_pic/ser_lan_des.png",
     alt: "Landscape Design in Texas",
     anchorId: "service-landscape-design",
     metaTitle: "Landscape Design in Texas | Builder Tech Design",
-    metaDescription: `Builder Tech Design is your best choice for any type of design need. We're here to help you every step of the way. Builder Tech Design is a full service design firm in Texas. We help clients(small businesses, large corporations, as well as real estate firms) achieve their business goals and create memorable experiences for their customers`,   
+    metaDescription: `Landscape design is the art and science of arranging and modifying the features of a particular outdoor space to improve its aesthetic appeal and functionality. It involves a wide range of activities, from site analysis and assessment to the selection of plants, construction materials, and other design elements.`,   
       subItems: [
       {
         type: "subitem",
@@ -161,12 +161,12 @@ export const services: TContentItem[] = [
     slug: "commercial-residential-design",
     title: "Commercial & Residential Design in Texas",
     shortTitle: "Commercial & Residential Design",
-    description: [`Building a new custom home enables you to design everything according to your preferences. However, besides the appearance and comfort, you also need to pay attention to loads, codes and regulations, and safety measures. The house will need electricity, water and sewage systems, HVAC, and air conditioning among other things..`],
+    description: [`Commercial and residential design present unique challenges and opportunities that must be carefully considered throughout the design process. By understanding the key differences between these two types of design, designers can create successful and effective spaces that meet the needs of their clients.`],
     image: "./menu_pic/serv_com_res.png",
     alt: "Commercial & Residential Design in Texas",
     anchorId: "service-commercial-residential-design",
     metaTitle: "Commercial & Residential Design in Texas | Builder Tech Design",
-    metaDescription: `Builder Tech Design is your best choice for any type of design need. We're here to help you every step of the way. Builder Tech Design is a full service design firm in Texas. We help clients(small businesses, large corporations, as well as real estate firms) achieve their business goals and create memorable experiences for their customers`,   
+    metaDescription: `Commercial design refers to the design of spaces that are intended for business or commercial use, such as offices, retail stores, restaurants, and hotels. Unlike residential design, which is focused primarily on the needs and preferences of the individual or family living in the space, commercial design must take into account the needs and preferences of a much larger group of people.`,   
       subItems: [
       {
         type: "subitem",

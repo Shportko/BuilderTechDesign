@@ -42,7 +42,8 @@ export default function CustomPage({
         ...mobileStyle,
       }}
     >
-      <h1>{item?.title}</h1>
+      
+     <h1>{item?.title}</h1>
       {item?.subtitle && (
         <div className={styles.CustomPageDescription}>{item?.subtitle}</div>
       )}

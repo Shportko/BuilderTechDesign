@@ -41,7 +41,7 @@ export default function Portfolio({
                     href="/portfolio/[slug]"
                   >
                     <div style={{ margin: "15px 0" }}>
-                      <SmallMediaCard item={proj} />
+                      <SmallMediaCard item={proj} key={i}/>
                     </div>
                   </Link>
                 );
@@ -66,7 +66,7 @@ export default function Portfolio({
             pageContent.description.length > 0 &&
             pageContent.description?.map((elem: string, ind: number) => {
               return (
-                <div className={styles.PortfolioTextItem} key={ind}>
+                <div className={styles.PortfolioTextItem}>
                   {elem}
                 </div>
               );
