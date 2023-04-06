@@ -19,21 +19,6 @@ export type TImageItem = {
   isIcon?: boolean;
 };
 
-export type TCustomerReviewItem = {
-  _id?: string;
-  name?: string;
-  yelpLink?: string;
-  facebookLink?: string;
-  instagramLink?: string;
-  linkedinLink?: string;
-  title?: string;
-  text?: string;
-  photoUrl?: string;
-  rate?: number;
-  created_at?: string;
-  is_approved?: boolean;
-  email?: string;
-};
 
 export type TContentItemType =
   | "service-item"

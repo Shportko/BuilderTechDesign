@@ -1,7 +1,5 @@
 import { mainSelector } from "@/store/selectors";
 import { TContentItem, TImageItem } from "@/types/main";
-import { smoothScroll } from "@/utils/SmoothScroll";
-import { useMemo } from "react";
 import { useSelector } from "react-redux";
 import { Breakdown } from "../Breakdown";
 import { StandardCarousel } from "../StandardCarousel";
@@ -42,7 +40,6 @@ export default function CustomPage({
         ...mobileStyle,
       }}
     >
-      
      <h1>{item?.title}</h1>
       {item?.subtitle && (
         <div className={styles.CustomPageDescription}>{item?.subtitle}</div>
@@ -52,13 +49,6 @@ export default function CustomPage({
         typeof item.description !== "string" &&
         item.description?.length > 0 && (
           <div>
-            {item.description?.map((el: string, i: number) => {
-              return (
-                <p className={styles.CustomPageTextItem} key={i}>
-                  {el}
-                </p>
-              );
-            })}
           </div>
         )}
       <div
@@ -134,7 +124,7 @@ export default function CustomPage({
                                 marginLeft: imgI === 0 ? "0" : "20px",
                               }}
                             >
-                              <img src={image.src} alt={image.alt} />
+                              <img src={image.src} alt={image.alt}/>
                             </div>
                           );
                         })}

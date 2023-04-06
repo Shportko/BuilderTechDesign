@@ -21,35 +21,46 @@ export const services: TContentItem[] = [
     id: "0",
     type: "service-item",
     slug: "project-drafting",
-    title: "Project Drafting Service in Texas",
+    title: "Project Drafting Service",
     shortTitle: "Project Drafting",
     description: [`Project drafting service is an essential service for architects, engineers, contractors, and developers involved in construction projects. The service helps to create accurate and detailed drawings, plans, and models that are essential for the success of construction projects.`],
     image: "./menu_pic/serv_draft_design.png",
     alt: "Project Drafting Service in Texas",
     anchorId: "service-project-drafting",
+    subtitle: "Project drafting service is an essential service for architects, engineers, contractors, and developers involved in construction projects. The service helps to create accurate and detailed drawings, plans, and models that are essential for the success of construction projects.",
     metaTitle: "Best Project Drafting Service near me in Texas | Builder Tech Design",
     metaDescription:`Builder Tech Design is your best choice for any type of design need. We're here to help you every step of the way. Builder Tech Design is a full service design firm in Texas. We help clients(small businesses, large corporations, as well as real estate firms) achieve their business goals and create memorable experiences for their customers`,   
       subItems: [
       {
         type: "subitem",
         imageKey: "0",
+        subtype: "images",
         images: [
           {
-            src: "/f.png",
+            src: "/serv_draft_1.png",
             alt: "ccc",
           },
           {
-            src: "/f.png",
-            alt: "cc",
+            src: "/serv_draft_2.png",
+            alt: "ccc",
           },
           {
-            src: "/f.png",
+            src: "/serv_draft_3.png",
+            alt: "ccc",
+          },
+          {
+            src: "/serv_draft_4.png",
+            alt: "ccc",
+          },
+          {
+            src: "/serv_draft_5.png",
             alt: "ccc",
           },
         ],
       },
       {
         type: "subitem",
+        subtype: "description",
         description: [
           "The term plan for building a house has two of the most common meanings." ,
            "On the one hand, this is part of the overall business plan, which discusses the main financial and organizational aspects of the nearest buildings.",
@@ -67,9 +78,10 @@ export const services: TContentItem[] = [
     id: "1",
     type: "service-item",
     slug: "exterior-interior-design",
-    title: "Exterior & Interior Design in Texas",
+    title: "Exterior & Interior Design",
     shortTitle: "Exterior & Interior Design",
     description: [`Exterior and interior design are crucial aspects when it comes to building or renovating a home. They are responsible for creating a comfortable and aesthetically pleasing living space. By following these tips and ideas, you can make the most out of your space and create a home that is both beautiful and functional.`],
+    subtitle: "Exterior and interior design are crucial aspects when it comes to building or renovating a home. They are responsible for creating a comfortable and aesthetically pleasing living space. By following these tips and ideas, you can make the most out of your space and create a home that is both beautiful and functional.",
     image: "./menu_pic/serv_int_ext.png",
     alt: "Exterior & Interior Design in Texas",
     anchorId: "service-exterior-interior-design",
@@ -79,23 +91,33 @@ export const services: TContentItem[] = [
       {
         type: "subitem",
         imageKey: "1",
+        subtype: "images",
         images: [
           {
-            src: ``,
+            src: "/serv_ext_1.png",
             alt: "",
           },
           {
-            src: "",
+            src: "/serv_ext_2.png",
             alt: "",
           },
           {
-            src: ``,
+            src: "/serv_ext_3.png",
+            alt: "",
+          },
+          {
+            src: "/serv_ext_4.png",
+            alt: "",
+          },
+          {
+            src: "/serv_ext_5.png",
             alt: "",
           },
         ],
       },
       {
         type: "subitem",
+        subtype: "description",
         description: [
           "One of the aspects in the design of residential buildings is the connection and relationship between the interior and the environment (exterior).  To successfully maintain this connection of space, it is necessary, first of all, to take into account the characteristics of your site.  Your house and the land on which it stands, the view around, the trees, the water, the shore - everything is connected.  And all this can work for you or against you, depending on how you design the house. ",
 
@@ -114,8 +136,9 @@ export const services: TContentItem[] = [
     id: "2",
     type: "service-item",
     slug: "landscape-design",
-    title: "Landscape Design in Texas",
+    title: "Landscape Design",
     shortTitle: "Landscape Design",
+    subtitle: `Landscape design is an important aspect of creating a beautiful and functional outdoor space. By following a structured process, landscape designers can create cohesive and visually appealing designs that meet the needs and preferences of their clients.`,
     description: [`Landscape design is an important aspect of creating a beautiful and functional outdoor space. By following a structured process, landscape designers can create cohesive and visually appealing designs that meet the needs and preferences of their clients.`],
     image: "./menu_pic/ser_lan_des.png",
     alt: "Landscape Design in Texas",
@@ -126,23 +149,33 @@ export const services: TContentItem[] = [
       {
         type: "subitem",
         imageKey: "2",
+        subtype: "images",
         images: [
           {
-            src: ``,
-            alt: "",
+            src: "/serv_land_1.png",
+            alt: "ccc",
           },
           {
-            src: ``,
-            alt: "",
+            src: "/serv_land_2.png",
+            alt: "ccc",
           },
           {
-            src: ``,
-            alt: "",
+            src: "/serv_land_3.png",
+            alt: "ccc",
+          },
+          {
+            src: "/serv_land_4.png",
+            alt: "ccc",
+          },
+          {
+            src: "/serv_land_5.png",
+            alt: "ccc",
           },
         ],
       },
       {
         type: "subitem",
+        subtype: "description",
         description: [
           "Landscape design is represented by complex practical measures aimed at the improvement and landscaping of the territory.  Their goal is to improve its aesthetic characteristics through the use of natural elements.  With the right approach, the results will be stunning: the space will gain its individuality and become harmonious;  his shortcomings will be hidden, and his merits will be unobtrusively emphasized.",
 
@@ -159,8 +192,9 @@ export const services: TContentItem[] = [
     id: "3",
     type: "service-item",
     slug: "commercial-residential-design",
-    title: "Commercial & Residential Design in Texas",
-    shortTitle: "Commercial & Residential Design",
+    title: "Commercial & Residential",
+    shortTitle: "Commercial & Residential",
+    subtitle: "Commercial and residential design present unique challenges and opportunities that must be carefully considered throughout the design process. By understanding the key differences between these two types of design, designers can create successful and effective spaces that meet the needs of their clients.",
     description: [`Commercial and residential design present unique challenges and opportunities that must be carefully considered throughout the design process. By understanding the key differences between these two types of design, designers can create successful and effective spaces that meet the needs of their clients.`],
     image: "./menu_pic/serv_com_res.png",
     alt: "Commercial & Residential Design in Texas",
@@ -171,23 +205,33 @@ export const services: TContentItem[] = [
       {
         type: "subitem",
         imageKey: "3",
+        subtype: "images",
         images: [
           {
-            src: ``,
-            alt: "",
+            src: "/serv_com_1.png",
+            alt: "ccc",
           },
           {
-            src: ``,
-            alt: "",
+            src: "/serv_com_2.png",
+            alt: "ccc",
           },
           {
-            src: ``,
-            alt: "",
+            src: "/serv_com_3.png",
+            alt: "ccc",
+          },
+          {
+            src: "/serv_com_4.png",
+            alt: "ccc",
+          },
+          {
+            src: "/serv_com_5.png",
+            alt: "ccc",
           },
         ],
       },
       {
         type: "subitem",
+        subtype: "description",
         description: [
         "Designing a residential space is very different from doing a commercial interior.",
 

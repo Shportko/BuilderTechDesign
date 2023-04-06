@@ -31,21 +31,21 @@
 .CustomPageImagesContainerInt {
   display: flex;
   overflow-x: auto;
-  height: 260px;
+  height: 400px;
   flex-flow: column wrap;
   align-content: space-between;
   width: 100%;
 }
 
 .CustomPageImage {
-  height: 250px;
-  width: 250px;
+  height: 350px;
+  width: 500px;
   box-sizing: content-box;
 }
 
 .CustomPageImage img {
-  height: 250px;
-  width: 250px;
+  height: 350px;
+  width: 500px;
   object-fit: cover;
 }
 

@@ -51,7 +51,7 @@ export default function Portfolio({
           <div className={styles.PortfolioRight}>
             <h3>Latest projects</h3>
             <div className={styles.PortfolioLatestProjectsContainer}>
-              {projects?.map((proj: TContentItem, i: number) => {
+              {projects?.slice(0,3).map((proj: TContentItem, i: number) => {
                 return (
                   <div key={i} style={{ margin: "20px 0" }}>
                     <MediumMediaCard item={proj} />

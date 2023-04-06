@@ -10,7 +10,7 @@ import { Footer } from "@/components/Footer/Footer";
 import Link from "next/link";
 import { useSelector } from "react-redux";
 import { mainSelector } from "@/store/selectors";
-import MobileMediaCard from "@/components/MobileMediaCard/MobileMediaCard";
+import MediumMediaCard from "@/components/MediumMediaCard/MediumMediaCard";
 import Page from "@/components/Page/Page";
 
 export default function Services({
@@ -54,7 +54,7 @@ export default function Services({
                             alt={el.images[0]?.alt}
                           />
                         ) : (
-                          <img src={el?.image} alt={el?.alt} /> 
+                          <img src={el?.image} alt={el?.alt} />
                         )}
                       </div>
                       <div className={styles.ServiceItemRight}>
@@ -66,7 +66,7 @@ export default function Services({
                     </div>
                   ) : (
                     <div style={{ margin: "20px 0" }}>
-                      <MobileMediaCard item={el} />
+                      <MediumMediaCard item={el} />
                     </div>
                   )}
                 </Link>

@@ -21,15 +21,14 @@ export default function MediumMediaCard({ item }: { item: TContentItem }) {
         )}
         <h3>{item?.shortTitle || item?.title}</h3>
         <p>
-          {item?.description && `${item?.description[0]?.slice(0, 200)}...`}
+          {item?.description && `${item?.description[0]?.slice(0, 350)}`}
         </p>
       </div>
       <div className={styles.MediumMediaCardBottom}>
-        <div>
-          <Button>More</Button>
+        <div style={{ margin: "0px 55px" }}>
+          <Button>Read More</Button>
         </div>
         <div>
-          <Button>Share</Button>
         </div>
       </div>
     </div>

@@ -22,10 +22,10 @@ export default function Blog({
   return (
     <>
       <Head>
-        <title>Blog | Nico Pro Construction</title>
+        <title>Blog | Builder Tech Design</title>
         <meta
           name="description"
-          content="Everything You Need to Know About our Construction Company's Services "
+          content="Everything You Need to Know About our Company's Services "
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -34,9 +34,6 @@ export default function Blog({
         <h1 style={{ fontSize: "1.6em" }}>{pageContent?.title}</h1>
         <div className={styles.BlogWorkArea}>
           <div className={styles.BlogLeft}>
-            {/* <div className={styles.BlogSearchInput}>
-              <CustomTextInput placeholder="Search" />
-            </div> */}
             <div className={styles.BlogListContainer}>
               {blogPosts?.map((proj: TContentItem, i: number) => {
                 return (
@@ -48,14 +45,12 @@ export default function Blog({
                 );
               })}
             </div>
-            {/* <div className={styles.BlogPaginatorContainer}>
-              <Pagination count={10} page={2} />
-            </div> */}
+            {}
           </div>
           <div className={styles.BlogRight}>
             <h3>Favorite posts</h3>
             <div className={styles.BlogFavoritesContainer}>
-              {blogPosts?.map((proj: TContentItem, i: number) => {
+              {blogPosts?.slice(0,1).map((proj: TContentItem, i: number) => {
                 return (
                   <div key={i} style={{ margin: "20px 0" }}>
                     <MediumMediaCard item={proj} />

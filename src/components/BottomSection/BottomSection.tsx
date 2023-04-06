@@ -94,7 +94,7 @@ const ContactSection: React.FC = () => {
               <GoogleIcon onClick={() => window.open("https://goo.gl/maps/w2iw9NExMf2sHGwJA")} />
           </div>
           <div style={{ marginTop: "11px" }}>
-            <InstagramIcon onClick={() => window.open("https://instagram.com/builder_tech_design?igshid=YmMyMTA2M2Y=")} />
+            <InstagramIcon onClick={() => window.open("https://instagram.com/buildertechdesign?igshid=YmMyMTA2M2Y=")} />
           </div>
           <div style={{ marginTop: "8px" }}>
               <Image
@@ -120,20 +120,21 @@ export const BottomSection: React.FC = () => {
       {screenWidth > 800 ? (
         <TwoColumns
           left={
-            <TwoColumns left={<HeroSection />} right={<NavigationSection />} />
+            <TwoColumns left={<HeroSection />} right={<NavigationSection />
+          } />
           }
           right={
-            <TwoColumns left={<ServicesSection />} right={<ContactSection />} />
+            <TwoColumns left={<ServicesSection /> } right={<ContactSection />} />
           }
         />
       ) : (
         <div>
           <HeroSection />
           <NavigationSection />
-          <ServicesSection style={{ margin: "10px 0 30px 0" }} />
           <ContactSection />
         </div>
       )}
     </section>
   );
 };
+

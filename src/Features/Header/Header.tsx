@@ -59,9 +59,6 @@ export default function Header() {
               </Link>
               <Link href={"/login"}>
                 <div style={{ marginLeft: "20px" }}>
-                  <CustomButton type="back" onClick={userLogout}>
-                    Logout
-                  </CustomButton>
                 </div>
               </Link>
             </div>

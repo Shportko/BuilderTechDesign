@@ -11,7 +11,7 @@ import FacebookLogo from "../Assets/png/facebook_logo.png";
 import YelpLogo from "../Assets/png/Yelp_Logo.png";
 import { StarsRate } from "@/components/StartsRate/StartsRate";
 import { services as servicesMock } from "@/MockData/services";
-import { TContentItem, TCustomerReviewItem } from "@/types/main";
+import { TContentItem } from "@/types/main";
 import { InferGetStaticPropsType } from "next";
 import { projects as projectsMock } from "@/MockData/portfolio";
 import { customerReviews as customerReviewsMock } from "@/MockData/reviews";
@@ -21,7 +21,7 @@ import { BottomSection } from "@/components/BottomSection/BottomSection";
 import { Footer } from "@/components/Footer/Footer";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import MobileMediaCard from "@/components/MobileMediaCard/MobileMediaCard";
+
 
 
 
@@ -160,7 +160,6 @@ function Home({
               <span>
               With over four years of experience in the Interior Design industry, we are more than capable of bringing your ideas to life. The skilled team at Builder Tech Design is specialized in providing cost effective designs for all types of houses, villas, resorts and commercial properties. Our goal is to provide you with a valuable return on investment (RoI) as well as satisfied clients.{" "}
               </span>
-
             </div>
             <div className={styles.WelcomeSectionRight}>
             <h3 className={styles.h2text}>We offer</h3>
@@ -199,8 +198,12 @@ function Home({
                         </div>
                       </div>
                     ) : (
-                      <div style={{ margin: "20px 0" }}>
-                        <MobileMediaCard item={el} />
+                      <div style={{ margin: "10px 10px"}}>
+                         <Link as={`/services/${el.slug}`} href="/services/[slug]" key={i}>
+                            <div className={styles.BottomSectionMenuItemMobile}>            
+                              {el.shortTitle}
+                            </div>
+                        </Link>
                       </div>
                     )}
                   </Link>
@@ -209,9 +212,9 @@ function Home({
             </div>
             <div className={styles.ServicesSectionBottomButton}>
               <Link as={`/services`} href="/services">
-                <CustomButton style={{ margin: "auto" }} type="main-stroke">
-                  Read more
-                </CustomButton>
+                <CustomButton style={{ padding: "10px 20px" }} type="white-stroke" >
+                    Read More
+                 </CustomButton>
               </Link>
             </div>
             {servicesPageContent?.description &&
@@ -252,7 +255,7 @@ export async function getStaticProps() {
   let projects: TContentItem[] | null = null;
   let portfolioPageContent: TContentItem | null = null;
   let blogItems: TContentItem[] | null = null;
-  let customerReviews: TCustomerReviewItem[] | null = null;
+
 
   return {
     props: {
@@ -260,7 +263,6 @@ export async function getStaticProps() {
       servicesPageContent,
       projectsData: projects || projectsMock,
       portfolioPageContent,
-      customerReviewsData: customerReviews || customerReviewsMock,
       blogData: blogItems || blogItemsMock,
     },
   };
