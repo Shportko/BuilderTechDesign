@@ -13,8 +13,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-const cities = [""
-];
 
 const HeroSection: React.FC = () => {
   return (
@@ -27,7 +25,7 @@ const HeroSection: React.FC = () => {
         priority
       />
       <div className={styles.BottomSectionHeroText}>
-     BRINGING YOUR PROJECT TO LIFE{" "}
+        BRINGING YOUR PROJECT TO LIFE{" "}
       </div>
     </div>
   );
@@ -81,32 +79,30 @@ const ContactSection: React.FC = () => {
         </div>
       </Link>
       <div style={{ marginTop: "20px", fontSize: "0.8em" }}>
-          Our office : Magnolia
-        </div>
+        Our office : Magnolia
+      </div>
 
       <h3 style={{ marginTop: "30px" }}>Visit Us</h3>
       <div>
         <div className={styles.BottomSectionSocialMediaContainer}>
           <div style={{ marginTop: "10px" }}>
-              <FacebookIcon onClick={() => window.open("https://www.facebook.com/profile.php?id=100086621727375&mibextid=LQQJ4d")} />
+            <FacebookIcon onClick={() => window.open("https://www.facebook.com/profile.php?id=100086621727375&mibextid=LQQJ4d")} />
           </div>
           <div style={{ marginTop: "10px" }}>
-              <GoogleIcon onClick={() => window.open("https://goo.gl/maps/w2iw9NExMf2sHGwJA")} />
+            <GoogleIcon onClick={() => window.open("https://goo.gl/maps/w2iw9NExMf2sHGwJA")} />
           </div>
           <div style={{ marginTop: "11px" }}>
             <InstagramIcon onClick={() => window.open("https://instagram.com/buildertechdesign?igshid=YmMyMTA2M2Y=")} />
           </div>
           <div style={{ marginTop: "8px" }}>
-              <Image
-                src={yelp}
-                alt="builder tech design yelp"
-                width={50}
-                height={25}
-                priority
-                onClick={() => window.open("https://goo.gl/maps/w2iw9NExMf2sHGwJA")} />           
+            <Image
+              src={yelp}
+              alt="builder tech design yelp"
+              width={50}
+              height={25}
+              priority
+              onClick={() => window.open("https://goo.gl/maps/w2iw9NExMf2sHGwJA")} />
           </div>
-        </div>
-        <div>
         </div>
       </div>
     </div>
@@ -120,11 +116,10 @@ export const BottomSection: React.FC = () => {
       {screenWidth > 800 ? (
         <TwoColumns
           left={
-            <TwoColumns left={<HeroSection />} right={<NavigationSection />
-          } />
+            <TwoColumns left={<HeroSection />} right={<NavigationSection />} />
           }
           right={
-            <TwoColumns left={<ServicesSection /> } right={<ContactSection />} />
+            <TwoColumns left={<ServicesSection />} right={<ContactSection />} />
           }
         />
       ) : (

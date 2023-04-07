@@ -21,7 +21,7 @@ export const services: TContentItem[] = [
     id: "0",
     type: "service-item",
     slug: "project-drafting",
-    title: "Project Drafting Service",
+    title: "PROJECT DRAFTING SERVICE",
     shortTitle: "Project Drafting",
     description: [`Project drafting service is an essential service for architects, engineers, contractors, and developers involved in construction projects. The service helps to create accurate and detailed drawings, plans, and models that are essential for the success of construction projects.`],
     image: "./menu_pic/serv_draft_design.png",
@@ -38,23 +38,23 @@ export const services: TContentItem[] = [
         images: [
           {
             src: "/serv_draft_1.png",
-            alt: "ccc",
+            alt: "BTD in TX",
           },
           {
             src: "/serv_draft_2.png",
-            alt: "ccc",
+            alt: "BTD in TX",
           },
           {
             src: "/serv_draft_3.png",
-            alt: "ccc",
+            alt: "BTD in TX",
           },
           {
             src: "/serv_draft_4.png",
-            alt: "ccc",
+            alt: "BTD in TX",
           },
           {
             src: "/serv_draft_5.png",
-            alt: "ccc",
+            alt: "BTD in TX",
           },
         ],
       },
@@ -78,7 +78,7 @@ export const services: TContentItem[] = [
     id: "1",
     type: "service-item",
     slug: "exterior-interior-design",
-    title: "Exterior & Interior Design",
+    title: "EXTERIOR & INTERIOR DESIGN",
     shortTitle: "Exterior & Interior Design",
     description: [`Exterior and interior design are crucial aspects when it comes to building or renovating a home. They are responsible for creating a comfortable and aesthetically pleasing living space. By following these tips and ideas, you can make the most out of your space and create a home that is both beautiful and functional.`],
     subtitle: "Exterior and interior design are crucial aspects when it comes to building or renovating a home. They are responsible for creating a comfortable and aesthetically pleasing living space. By following these tips and ideas, you can make the most out of your space and create a home that is both beautiful and functional.",
@@ -95,23 +95,23 @@ export const services: TContentItem[] = [
         images: [
           {
             src: "/serv_ext_1.png",
-            alt: "",
+            alt: "BTD in TX",
           },
           {
             src: "/serv_ext_2.png",
-            alt: "",
+            alt: "BTD in TX",
           },
           {
             src: "/serv_ext_3.png",
-            alt: "",
+            alt: "BTD in TX",
           },
           {
             src: "/serv_ext_4.png",
-            alt: "",
+            alt: "BTD in TX",
           },
           {
             src: "/serv_ext_5.png",
-            alt: "",
+            alt: "BTD in TX",
           },
         ],
       },
@@ -136,7 +136,7 @@ export const services: TContentItem[] = [
     id: "2",
     type: "service-item",
     slug: "landscape-design",
-    title: "Landscape Design",
+    title: "LANDSCAPE DESIGN",
     shortTitle: "Landscape Design",
     subtitle: `Landscape design is an important aspect of creating a beautiful and functional outdoor space. By following a structured process, landscape designers can create cohesive and visually appealing designs that meet the needs and preferences of their clients.`,
     description: [`Landscape design is an important aspect of creating a beautiful and functional outdoor space. By following a structured process, landscape designers can create cohesive and visually appealing designs that meet the needs and preferences of their clients.`],
@@ -153,23 +153,23 @@ export const services: TContentItem[] = [
         images: [
           {
             src: "/serv_land_1.png",
-            alt: "ccc",
+            alt: "BTD in TX",
           },
           {
             src: "/serv_land_2.png",
-            alt: "ccc",
+            alt: "BTD in TX",
           },
           {
             src: "/serv_land_3.png",
-            alt: "ccc",
+            alt: "BTD in TX",
           },
           {
             src: "/serv_land_4.png",
-            alt: "ccc",
+            alt: "BTD in TX",
           },
           {
             src: "/serv_land_5.png",
-            alt: "ccc",
+            alt: "BTD in TX",
           },
         ],
       },
@@ -192,7 +192,7 @@ export const services: TContentItem[] = [
     id: "3",
     type: "service-item",
     slug: "commercial-residential-design",
-    title: "Commercial & Residential",
+    title: "COMMERCIAL & RESIDENTAL",
     shortTitle: "Commercial & Residential",
     subtitle: "Commercial and residential design present unique challenges and opportunities that must be carefully considered throughout the design process. By understanding the key differences between these two types of design, designers can create successful and effective spaces that meet the needs of their clients.",
     description: [`Commercial and residential design present unique challenges and opportunities that must be carefully considered throughout the design process. By understanding the key differences between these two types of design, designers can create successful and effective spaces that meet the needs of their clients.`],
@@ -209,23 +209,23 @@ export const services: TContentItem[] = [
         images: [
           {
             src: "/serv_com_1.png",
-            alt: "ccc",
+            alt: "BTD in TX",
           },
           {
             src: "/serv_com_2.png",
-            alt: "ccc",
+            alt: "BTD in TX",
           },
           {
             src: "/serv_com_3.png",
-            alt: "ccc",
+            alt: "BTD in TX",
           },
           {
             src: "/serv_com_4.png",
-            alt: "ccc",
+            alt: "BTD in TX",
           },
           {
             src: "/serv_com_5.png",
-            alt: "ccc",
+            alt: "BTD in TX",
           },
         ],
       },

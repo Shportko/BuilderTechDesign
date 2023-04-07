@@ -270,7 +270,7 @@
 
   .ServicesSection {
     padding: 40px 20px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)),
       url("../Assets/png/video_bg_mini.png");
     background-size: cover;
     width: 100%;

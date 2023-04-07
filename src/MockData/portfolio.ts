@@ -23,7 +23,7 @@ export const projects: TContentItem[] = [
     id: "10",
     type: "portfolio-item",
     slug: "portfolio-item0",
-    title: "Church reconstruction",
+    title: "CHURCH RECONSTRUCTION",
     shortTitle: "Church reconstruction",
     subtitle: "Total area - 2175 ft. Lot area 4.95 Acres",
     description: [
@@ -43,35 +43,35 @@ export const projects: TContentItem[] = [
         images: [
           {
             src: "/church_portf_1.png",
-            alt: "cccKKKKK",
+            alt: "BTD in TX",
           },
           {
             src: "/church_portf_5.png",
-            alt: "cc",
+            alt: "BTD in TX",
           },
           {
             src: "/church_portf_3.png",
-            alt: "ccc",
+            alt: "BTD in TX",
           },
           {
             src: "/church_portf_6.png",
-            alt: "ccc",
+            alt: "BTD in TX",
           },
           {
             src: "/church_portf_7.png",
-            alt: "cccKKKKK",
+            alt: "BTD in TX",
           },
           {
             src: "/church_portf_8.png",
-            alt: "cc",
+            alt: "BTD in TX",
           },
           {
             src: "/church_portf_9.png",
-            alt: "ccc",
+            alt: "BTD in TX",
           },
           {
             src: "/church_portf_2.png",
-            alt: "cc",
+            alt: "BTD in TX",
           },
         ],
       },
@@ -86,7 +86,7 @@ export const projects: TContentItem[] = [
     id: "11",
     type: "portfolio-item",
     slug: "portfolio-item1",
-    title: "Apartment design project",
+    title: "APARTMENT DESIGN PROJECT",
     shortTitle: "Apartment design project",
     subtitle: `Total area - 200 ft. Residential 2-room apartment. Style - neoclassical. Light shades that harmonize perfectly with the emerald wall and terracotta furniture. Also metal and glass, which are an integral part of neoclassicism.`,
     description: [
@@ -106,27 +106,27 @@ export const projects: TContentItem[] = [
         images: [
           {
             src: "/apart_portf_1.png",
-            alt: "ccc",
+            alt: "BTD in TX",
           },
           {
             src: "/apart_portf_2.png",
-            alt: "cc",
+            alt: "BTD in TX",
           },
           {
             src: "/apart_portf_3.png",
-            alt: "ccc",
+            alt: "BTD in TX",
           },
           {
             src: "/apart_portf_4.png",
-            alt: "ccc",
+            alt: "BTD in TX",
           },
           {
             src: "/apart_portf_5.png",
-            alt: "cc",
+            alt: "BTD in TX",
           },
           {
             src: "/apart_portf_6.png",
-            alt: "ccc",
+            alt: "BTD in TX",
           },
         ],
       },
@@ -146,7 +146,7 @@ export const projects: TContentItem[] = [
     id: "12",
     type: "portfolio-item",
     slug: "portfolio-item2",
-    title: "Barnhouse T3",
+    title: "BARNHOUSE T3",
     shortTitle: "Barnhouse T3",
     subtitle: "Total area - 300 ft. The object of construction is a 1-storey half-timbered residential building. It has 2 living rooms, a bathroom, a boiler room, a terrace and kitchen-living room. The owner's vehicles will be parked on the site. The property has a swimming pool and grill area.",
     description: [`Total area - 300 ft. It has 2 living rooms, a bathroom, a boiler room, a terrace and
@@ -165,23 +165,23 @@ export const projects: TContentItem[] = [
           {
 
             src: "/barn_t3_portf_1.png",
-            alt: "",
+            alt: "BTD in TX",
           },
           {
             src: "/barn_t3_portf_2.png",
-            alt: "",
+            alt: "BTD in TX",
           },
           {
             src: "/barn_t3_portf_3.png",
-            alt: "",
+            alt: "BTD in TX",
           },
           {
             src: "/barn_t3_portf_4.png",
-            alt: "",
+            alt: "BTD in TX",
           },
           {
             src: "/barn_t3_portf_5.png",
-            alt: "",
+            alt: "BTD in TX",
           },
         ],
       },
@@ -202,7 +202,7 @@ export const projects: TContentItem[] = [
     id: "13",
     type: "portfolio-item",
     slug: "portfolio-item3",
-    title: "Vacation home",
+    title: "VACATION HOME",
     shortTitle: "Vacation home",
     subtitle: "Total area - 5155 ft. Residential three-storey house for a large family with all amenities: indoor pool, outdoor swimming pool, two saunas, billiard room, tennis, five bedrooms, bathroom in each bedroom, dressing room in each bedroom, guest bathroom, spacious kitchen, large dining room, living room for a large family, terrace for relaxation.",
     description: [`Total area - 5155 ft. Residential three-storey house for a large family with all amenities`],
@@ -219,34 +219,34 @@ export const projects: TContentItem[] = [
         images: [
           {
             src: "/vac_portf_1.png",
-            alt: "",
+            alt: "BTD in TX",
           },
           {
             src: "/vac_portf_5.png",
-            alt: "",
+            alt: "BTD in TX",
           },
           {
             src: "/vac_portf_3.png",
-            alt: "",
+            alt: "BTD in TX",
           },
           {
             src: "/vac_portf_4.png",
-            alt: "",
+            alt: "BTD in TX",
           },
           {
             src: "/vac_portf_2.png",
-            alt: "",
+            alt: "BTD in TX",
           },
           {
             src: "/vac_portf_6.png",
-            alt: "",
+            alt: "BTD in TX",
           },
         ],
       },
       {
         type: "subitem",
         description:[
-          "Vacation home",
+          "VACATION HOME",
           "Total area - 5155 ft.",
           "Residential three-storey house for a large family with all amenities:",
           "- indoor pool;",
@@ -269,7 +269,7 @@ export const projects: TContentItem[] = [
     id: "14",
     type: "portfolio-item",
     slug: "portfolio-item4",
-    title: "Apartment design project",
+    title: "APARTMENT DESIGN PROJECT",
     shortTitle: "Apartment design project",
     subtitle: "Total area - 148ft. Residential 1-room apartment. Style - minimalism. Light shades, black inserts and a lot of light. All this makes the room visually more spacious.",
     description: ["Total area - 148ft. Residential 1-room apartment. Style - minimalism."],
@@ -287,27 +287,27 @@ export const projects: TContentItem[] = [
         images: [
           {
             src: "/apart_2_portf_1.png",
-            alt: "",
+            alt: "BTD in TX",
           },
           {
             src: "/apart_2_portf_2.png",
-            alt: "",
+            alt: "BTD in TX",
           },
           {
             src: "/apart_2_portf_3.png",
-            alt: "",
+            alt: "BTD in TX",
           },
           {
             src: "/apart_2_portf_4.png",
-            alt: "",
+            alt: "BTD in TX",
           },
           {
             src: "/apart_2_portf_5.png",
-            alt: "",
+            alt: "BTD in TX",
           },
           {
             src: "/apart_2_portf_6.png",
-            alt: "",
+            alt: "BTD in TX",
           },
         ],
       },
@@ -326,7 +326,7 @@ export const projects: TContentItem[] = [
     id: "15",
     type: "portfolio-item",
     slug: "portfolio-item5",
-    title: "Children's shopping center",
+    title: "CHILDREN'S SHOPPING CENTER",
     shortTitle: "Children's shopping center",
     subtitle:  "Children's shopping center. Total area - 12385 ft. The object of construction is a 3-storey children's shopping center. The territory of the site around the shopping center is being improved. Vehicles will be parked in the designed car park located on the site.",
     description: ["Total area - 12385 ft. The object of construction is a 3-storey children's shopping center"],
@@ -344,19 +344,19 @@ export const projects: TContentItem[] = [
         images: [
           {
             src: "/shop_portf_1.png",
-            alt: "",
+            alt: "BTD in TX",
           },
           {
             src: "/shop_portf_2.png",
-            alt: "",
+            alt: "BTD in TX",
           },
           {
             src: "/shop_portf_3.png",
-            alt: "",
+            alt: "BTD in TX",
           },
           {
             src: "/shop_portf_4.png",
-            alt: "",
+            alt: "BTD in TX",
           },
         ],
       },
@@ -374,7 +374,7 @@ export const projects: TContentItem[] = [
     id: "16",
     type: "portfolio-item",
     slug: "portfolio-item6",
-    title: "Design of Architectural Environment",
+    title: "DESIGN OF ARCHITECTURAL ENVIRONMENT",
     shortTitle: "Design of Architectural Environment",
     subtitle: "Study of the landscape of the territory adjacent to the cafe. On the territory there is a playground, as well as tables for parents and cafe visitors. Landscaping (rock garden) has been worked out for comfort and creating a visual atmosphere.",
     description: [`Study of the landscape of the territory adjacent to the cafe.`],
@@ -392,27 +392,27 @@ export const projects: TContentItem[] = [
         images: [
           {
             src: "/land_portf_1.png",
-            alt: "",
+            alt: "BTD in TX",
           },
           {
             src: "/land_portf_2.png",
-            alt: "",
+            alt: "BTD in TX",
           },
           {
             src: "/land_portf_3.png",
-            alt: "",
+            alt: "BTD in TX",
           },
           {
             src: "/land_portf_4.png",
-            alt: "",
+            alt: "BTD in TX",
           },
           {
             src: "/land_portf_5.png",
-            alt: "",
+            alt: "BTD in TX",
           },
           {
             src: "/land_portf_6.png",
-            alt: "",
+            alt: "BTD in TX",
           },
         ],
       },
@@ -429,7 +429,7 @@ export const projects: TContentItem[] = [
     id: "17",
     type: "portfolio-item",
     slug: "portfolio-item7",
-    title: "Barnhouse T4",
+    title: "BARNHOUSE T4",
     shortTitle: "Barnhouse T4",
     subtitle: "Total area - 361 ft. Half-timbered. 1-storey half-timbered residential building. It has 2 living rooms, 2 bathrooms, an entrance hall and a kitchen-living room. The property has a swimming pool and grill area.",
     description: [`Total area - 361 ft. Half-timbered.
@@ -448,27 +448,27 @@ export const projects: TContentItem[] = [
         images: [
           {
             src: "/barn_t4_portf_1.png",
-            alt: "",
+            alt: "BTD in TX",
           },
           {
             src: "/barn_t4_portf_2.png",
-            alt: "",
+            alt: "BTD in TX",
           },
           {
             src: "/barn_t4_portf_3.png",
-            alt: "",
+            alt: "BTD in TX",
           },
           {
             src: "/barn_t4_portf_4.png",
-            alt: "",
+            alt: "BTD in TX",
           },
           {
             src: "/barn_t4_portf_5.png",
-            alt: "",
+            alt: "BTD in TX",
           },
           {
             src: "/barn_t4_portf_6.png",
-            alt: "",
+            alt: "BTD in TX",
           },
         ],
       },

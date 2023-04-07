@@ -1,8 +1,9 @@
 import { TContentItem } from "@/types/main";
 import { Button } from "@mui/material";
 import styles from "./styles/MediumMediaCard.module.css";
+import Link from "next/link";
 
-export default function MediumMediaCard({ item }: { item: TContentItem }) {
+export default function MediumMediaCard({ item }: { item: TContentItem}) {
   return (
     <div className={styles.MediumMediaCard}>
       {/* <div
@@ -28,10 +29,7 @@ export default function MediumMediaCard({ item }: { item: TContentItem }) {
         <div style={{ margin: "0px 55px" }}>
           <Button>Read More</Button>
         </div>
-        <div>
-        </div>
       </div>
     </div>
-    // </div>
   );
 }

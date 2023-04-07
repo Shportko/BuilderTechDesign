@@ -1,5 +1,4 @@
 import { TContentItem } from "@/types/main";
-import { getDateTimeShort } from "@/utils/DateTimeHelper";
 import Link from "next/link";
 import React from "react";
 
@@ -14,10 +13,6 @@ export const BlogCard: React.FC<TBlogCard> = ({ item }) => {
     <section className={styles.BlogCard}>
       <div style={{ display: "flex" }}>
         <img src={item.image} alt={item.alt} />
-      </div>
-
-      <div className={styles.BlogCardDate}>
-        {getDateTimeShort(item?.created_at || "")}
       </div>
       <h4>{item.title}</h4>
       <div className={styles.BlogCardDescription}>{`${

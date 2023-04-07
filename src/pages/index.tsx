@@ -256,7 +256,6 @@ export async function getStaticProps() {
   let portfolioPageContent: TContentItem | null = null;
   let blogItems: TContentItem[] | null = null;
 
-
   return {
     props: {
       servicesData: services || servicesMock,

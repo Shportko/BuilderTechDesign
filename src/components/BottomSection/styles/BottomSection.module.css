@@ -31,12 +31,6 @@
   margin-top: 15px;
 }
 
-.BottomSectionMenuItemAdmin {
-  cursor: pointer;
-  margin-top: 15px;
-  font-size: 0.7em;
-}
-
 .BottomSectionSocialMediaContainer {
   display: flex;
 }
@@ -46,19 +40,6 @@
   cursor: pointer;
 }
 
-.ServingCities {
-  display: flex;
-  margin: 30px 0;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.ServingCitiesElement {
-  font-size: 0.6em;
-  color: rgba(211, 211, 211, 0.34);
-  margin: 2px;
-  white-space: nowrap;
-}
 
 @media only screen and (max-width: 800px) {
   .BottomSection {
@@ -67,7 +48,6 @@
   .BottomSection h3 {
     margin-top: 30px;
   }
-
   .BottomSectionNavigation {
     margin: 30px 0;
   }

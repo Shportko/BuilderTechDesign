@@ -7,7 +7,6 @@ import {
   portfolioPageContent as portfolioPageContentMock,
   projects as projectsMock,
 } from "@/MockData/portfolio";
-import { CustomTextInput } from "@/components/CustomTextInput";
 import Link from "next/link";
 import SmallMediaCard from "@/components/SmallMediaCard/SmallMediaCard";
 import MediumMediaCard from "@/components/MediumMediaCard/MediumMediaCard";
@@ -54,7 +53,7 @@ export default function Portfolio({
               {projects?.slice(0,3).map((proj: TContentItem, i: number) => {
                 return (
                   <div key={i} style={{ margin: "20px 0" }}>
-                    <MediumMediaCard item={proj} />
+                    <MediumMediaCard item={proj} key={i}/>
                   </div>
                 );
               })}

@@ -38,7 +38,7 @@ export default function AppWrapper({ Component, pageProps }: TAppWrapper) {
       <ToastMessage />
       <Header />
 
-      <main className="py-14" id={"nico-pro-main-body"}>
+      <main className="py-14" id={"builder-tech-design-main-body"}>
         <Component {...pageProps} />
       </main>
     </>
