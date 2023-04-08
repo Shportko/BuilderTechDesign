@@ -15,7 +15,8 @@
 }
 
 .StandardCarouselImageExternalContainer:-webkit-scrollbar {
-  background: transparent; /* make scrollbar transparent */
+  background: transparent;
+   /* make scrollbar transparent */
   -webkit-appearance: none;
   width: 0;
   height: 0;
@@ -50,7 +51,7 @@
   height: 320px;
   padding: 20px;
   position: absolute;
-  z-index: 2;
+  z-index: 1;
 }
 
 .StandardCarouselArrow:hover {

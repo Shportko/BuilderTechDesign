@@ -62,14 +62,13 @@ export const services: TContentItem[] = [
         type: "subitem",
         subtype: "description",
         description: [
-          "The term plan for building a house has two of the most common meanings." ,
-           "On the one hand, this is part of the overall business plan, which discusses the main financial and organizational aspects of the nearest buildings.",
-           "Secondly, a plan for building a house as part of the design documentation developed before the start of any construction.",
-           "The composition of the plan includes a mandatory stage of preparation for the upcoming object.",
-          "Floor plans are an important part of the house construction plan.",
-          "They are developed at the first stage of design, which is explained by the importance of the information generated with their help.",
-          "To correctly draw up a house plan, professional skills of an architect and designer, knowledge of existing norms and rules, as well as a clear understanding of the needs of the customer of the object are required.",
-          "The combination of these factors will make it possible to obtain a high-quality project at the end, guaranteeing the owner comfortable housing with minimal costs for its construction."
+          "Are you in need of professional drafting services for your project? Look no further than our Project Drafting Service. Our team of experienced drafters can help you turn your ideas into detailed plans and 3D models, ensuring that your project is accurately represented and ready for construction.",
+
+          "We use the latest drafting software and techniques to create high-quality designs for a variety of projects, including residential homes, commercial buildings, and industrial facilities. Our team works closely with you to understand your vision and provide personalized solutions that meet your unique needs.",
+
+          "With our Project Drafting Service, you can rest assured that your project will be completed on time and within budget. We take pride in our attention to detail and commitment to excellence, and we are dedicated to delivering results that exceed your expectations.",
+
+          "Don't let a lack of drafting expertise hold back your project. Contact us today to learn more about our Project Drafting Service and how we can help bring your ideas to life.",
         ],
       },
     ],
@@ -119,15 +118,13 @@ export const services: TContentItem[] = [
         type: "subitem",
         subtype: "description",
         description: [
-          "One of the aspects in the design of residential buildings is the connection and relationship between the interior and the environment (exterior).  To successfully maintain this connection of space, it is necessary, first of all, to take into account the characteristics of your site.  Your house and the land on which it stands, the view around, the trees, the water, the shore - everything is connected.  And all this can work for you or against you, depending on how you design the house. ",
+          "Are you looking for professional interior and exterior design services for your home or commercial space? Look no further than our Interior and Exterior Design Service. Our team of experienced designers can help you create the perfect space that reflects your personal style and meets your functional needs.",
 
-          "The interior and exterior are so closely related that in a beautifully designed home, you may simply not notice this connection: you just feel very good in it.  How to achieve such unity and connection of spaces, when one flows into another, complementing and improving it?",
-          
-          "This can be achieved with elements such as pergolas, awnings, terraces, low landscaped walls, stone paving, skylights, green spaces and others.  It is important to be able to assess the possibilities of using such funds.",
-          
-          "The designer, after talking with you and knowing your wishes, habits and pastime of the family, will suggest the best option, because each house is tied to its surroundings.",
-          
-          "Another way to make a connection between the interior and the exterior is to use the so-called.  multi-leaf doors, especially at the corners of the house, where, being fully open, they give the impression of a disappeared wall, and then the interior merges with the exterior with great effect.  True, such door systems are much more expensive than traditional ones, and it is up to you to decide what to give preference to.",
+          "We offer a wide range of design services, from space planning and color selection to furniture and accessory procurement. Our team works closely with you to understand your vision and provide personalized solutions that transform your space into a beautiful and functional environment.",
+
+          "With our Interior and Exterior Design Service, you can expect the highest level of quality and attention to detail. We use the latest design software and techniques to create detailed plans and 3D models, ensuring that every aspect of your space is carefully considered.",
+
+          "Whether you are looking to update a single room or redesign an entire property, our team has the expertise and creativity to bring your vision to life. Contact us today to learn more about our Interior and Exterior Design Service and how we can help you create the perfect space for your needs.",
         ]
       },
     ],
@@ -177,13 +174,14 @@ export const services: TContentItem[] = [
         type: "subitem",
         subtype: "description",
         description: [
-          "Landscape design is represented by complex practical measures aimed at the improvement and landscaping of the territory.  Their goal is to improve its aesthetic characteristics through the use of natural elements.  With the right approach, the results will be stunning: the space will gain its individuality and become harmonious;  his shortcomings will be hidden, and his merits will be unobtrusively emphasized.",
+          "Are you looking to transform your outdoor space into a beautiful and functional landscape? Look no further than our Landscape Design Service. Our team of experienced designers can help you create the perfect outdoor environment that meets your needs and enhances the beauty of your property.",
 
-          "Properly carried out work will allow you to create not only a beautiful, but also a functional garden, which has its own style, pleases with original ideas and their impeccable implementation, corresponding to the tastes of the owners.",
-          
-          "Events for the artificial creation of a landscape can be compared with art, since they carry aesthetics that make the heart beat faster from the beauties seen, or, on the contrary, pacify with their harmony and tranquility.  Only the territory on which creation takes place acts as a canvas.",
-          
-          "In order for it to become possible, specialists are needed who know how to manage the brush and paints (that is, tools created by man and nature itself).  These are not only landscape designers, but also engineers and specialized workers who calculate, build and ensure the functioning of lighting systems, automatic irrigation, fountains, waterfalls and lakes.",
+          "We offer a wide range of design services, from site analysis and conceptual design to planting plans and hardscape design. Our team works closely with you to understand your vision and provide personalized solutions that reflect your personal style and complement the architectural style of your home or business.",
+
+          "With our Landscape Design Service, you can expect the highest level of quality and attention to detail. We use the latest design software and techniques to create detailed plans and 3D models, ensuring that every aspect of your landscape is carefully considered.",
+
+          "Whether you are looking to create a peaceful retreat or an impressive entertainment space, our team has the expertise and creativity to bring your vision to life. Contact us today to learn more about our Landscape Design Service and how we can help you create the perfect outdoor environment for your needs.",
+
         ]
       },
     ],
@@ -192,7 +190,7 @@ export const services: TContentItem[] = [
     id: "3",
     type: "service-item",
     slug: "commercial-residential-design",
-    title: "COMMERCIAL & RESIDENTAL",
+    title: "COMMERCIAL & RESIDENTAL DESIGN",
     shortTitle: "Commercial & Residential",
     subtitle: "Commercial and residential design present unique challenges and opportunities that must be carefully considered throughout the design process. By understanding the key differences between these two types of design, designers can create successful and effective spaces that meet the needs of their clients.",
     description: [`Commercial and residential design present unique challenges and opportunities that must be carefully considered throughout the design process. By understanding the key differences between these two types of design, designers can create successful and effective spaces that meet the needs of their clients.`],
@@ -212,15 +210,15 @@ export const services: TContentItem[] = [
             alt: "BTD in TX",
           },
           {
+            src: "/serv_com_4.png",
+            alt: "BTD in TX",
+          },
+          {
             src: "/serv_com_2.png",
             alt: "BTD in TX",
           },
           {
             src: "/serv_com_3.png",
-            alt: "BTD in TX",
-          },
-          {
-            src: "/serv_com_4.png",
             alt: "BTD in TX",
           },
           {
@@ -233,17 +231,13 @@ export const services: TContentItem[] = [
         type: "subitem",
         subtype: "description",
         description: [
-        "Designing a residential space is very different from doing a commercial interior.",
+          "At our design service, we provide the best of both worlds: commercial and residential design. Our team of experts understands that every space is unique and requires a personalized touch. We work closely with our clients to create designs that not only meet their needs but exceed their expectations.",
 
-        "Residential interiors are for the soul and for life, while commercial interiors are for business.  In residential interiors, you and the customer can realize your creative fantasies, some ideas, author's pieces that suit your customer and you.  In residential interiors, you are more focused on the interests, lifestyle and thoughts of the customer, so a personal approach is important.",
-        
-        "Another thing is commercial interiors: here you will not be allowed to realize your flight of fancy in such a volume.  Let's say you get an order to design a restaurant.  Commercial interior is an element of business, with a huge number of nuances.",
-        
-        "The approach to planning solutions for residential and commercial interiors is again different.  In residential spaces, it is tied to ergonomics, convenience, and the functionality of rooms.",
-        
-        "Often the designer has to work with rooms of medium and even compact size.  Usually the customer has a three-room apartment, and he tries to squeeze a whole plane into it: so that there is a library, and an office, and a nursery, and a bedroom, and some other play area, a zone for watching movies, a wardrobe - not even a closet, but a separate  room.  As a result, you have to sacrifice something and find the right balance between the priority needs of the customer, his Wishlist, dreams and real needs.  Further, each room has its own design nuances: for the kitchen, bathroom, bedroom and, of course, for dressing rooms", 
-        
-        "The approach to planning solutions for residential and commercial interiors is again different.  In residential spaces, it is tied to ergonomics, convenience, and the functionality of rooms.",
+          "In commercial design, we specialize in creating functional spaces that promote productivity and creativity. We understand the importance of balancing aesthetics with functionality to maximize the potential of each space. From offices to retail spaces, we have the expertise to create a design that will enhance your business.",
+
+          "For residential design, we know that your home is your sanctuary. Our team works to create a space that reflects your personal style and meets the needs of your lifestyle. We take into account the flow of the space, natural lighting, and overall ambiance to create a design that is both functional and beautiful.",
+
+          "Whether it's commercial or residential design, we strive to create a space that is not only visually appealing but also enhances the quality of life for our clients. Trust us to bring your vision to life.",
         ]
       },
     ],

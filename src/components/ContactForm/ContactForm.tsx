@@ -12,7 +12,7 @@ export const ContactForm: React.FC<TContactForm> = ({ style, className }) => {
   return (
     <section className={styles.ContactForm}>
       <h2>How can we help?</h2>
-      <div>Call us or fill out the form below and describe your problem</div>
+      <div>Please fill out the form below and we will contact you shortly</div>
       <CustomTextInput
         placeholder="Name"
         style={{ backgroundColor: "#EFF4F8", marginTop: "30px" }}

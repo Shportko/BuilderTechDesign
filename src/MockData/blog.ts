@@ -17,75 +17,10 @@ subItems: [
 };
 
 export const blogItems: TContentItem[] = [ 
-    {
+  {
     id: "50",
     type: "blog-item",
     slug: "blog-item1",
-    title: "PROJECT PLANNING & DESIGN",
-    shortTitle: "Project Planning & Design ",
-    description: [
-      `Project Planning & Design focuses on the schematic design phase of a project.`,
-    ],
-    image: "./blog_main_pic/blog1.png",
-    alt: "Builder Tech Design Blog",
-    subtitle: "Project Planning & Design focuses on the schematic design phase of a project. In this experience area, you’ll learn to lay out building designs, review building codes and regulations, coordinate schematics with consultants and communicate design concepts with your client. Some of the tasks in this area may be tough to tackle early in your career—such as preparing Cost of Work estimates. That’s why it’s important to meet with your supervisor regularly and create a plan for getting exposure to a variety of opportunities.",
-    anchorId: "project-drafting-planing-design",
-    metaTitle:
-      "Project Planning & Design | Builder Tech Design",
-    metaDescription:
-      "Project Planning & Design focuses on the schematic design phase of a project. In this experience area, you’ll learn to lay out building designs, review building codes and regulations, coordinate schematics with consultants, and communicate design concepts with your client. Contact us today to learn more!",
-    subItems: [
-      {
-        type: "subitem",
-        subtype: "images",
-        images: [
-          {
-            src: "/blog_1_1.png",
-            alt: "BTD in TX",
-          },
-          {
-            src: "/blog_1_2.png",
-            alt: "BTD in TX",
-          },
-          {
-            src: "/blog_1_3.png",
-            alt: "BTD in TX",
-          },
-          {
-            src: "/blog_1_4.png",
-            alt: "BTD in TX",
-          },
-        ],
-      },
-      {
-        type: "subitem",
-        subtype: "description",
-        description: [
-          "As you gain Project Planning & Design experience, work with your supervisor to ensure you’re able to:",
-          "* Perform building code analysis",
-          "* Develop sustainability goals based on existing environmental conditions",
-          "* Prepare code analysis documentation",
-          "* Define requirements for site survey based on established project scope",
-          "* Select materials, finishes, and systems based on technical properties and aesthetic requirements",
-          "* Determine design parameters for building engineering systems",
-          "* Prepare design alternatives for client review",
-          "* Present design ideas to client orally",
-          "* Oversee design integration of building components and systems",
-          "* Evaluate results of feasibility studies to determine project's technical viability",
-          "* Review local, state, and federal codes for changes that may impact design and construction",
-          "* Prepare Cost of Work estimates",
-          "* Determine impact of existing utilities infrastructure on site",
-          "* Apply principles of historic preservation for projects involving building restoration or renovation",
-          "* Understand implications of evolving sustainable design strategies and technologies",
-          "* Design landscape elements for site",
-          "* Develop mitigation options to address adverse site conditions",],
-      },
-    ],
-  },
-  {
-    id: "51",
-    type: "blog-item",
-    slug: "blog-item2",
     title: "THE 7 BEST MATERIAL COMBINATIONS FOR 2023",
     shortTitle: "Best Material Combination |2023|",
     description: [
@@ -153,6 +88,71 @@ export const blogItems: TContentItem[] = [
           "07. Stone + Wood",
           "Verging between the modern, Wabi Sabi and Scandinavian, the stone and wood look is a classic for a reason. It is a mature look with a masculine edge, which can work well in colder climates. There is something timeless and retro about it too, as it combines the wood of midcentury homes and the minimalist use of stone. Gorgeous!",
         ],
+      },
+    ],
+  },
+    {
+    id: "51",
+    type: "blog-item",
+    slug: "blog-item2",
+    title: "PROJECT PLANNING & DESIGN",
+    shortTitle: "Project Planning & Design ",
+    description: [
+      `Project Planning & Design focuses on the schematic design phase of a project.`,
+    ],
+    image: "./blog_main_pic/blog1.png",
+    alt: "Builder Tech Design Blog",
+    subtitle: "Project Planning & Design focuses on the schematic design phase of a project. In this experience area, you’ll learn to lay out building designs, review building codes and regulations, coordinate schematics with consultants and communicate design concepts with your client. Some of the tasks in this area may be tough to tackle early in your career—such as preparing Cost of Work estimates. That’s why it’s important to meet with your supervisor regularly and create a plan for getting exposure to a variety of opportunities.",
+    anchorId: "project-drafting-planing-design",
+    metaTitle:
+      "Project Planning & Design | Builder Tech Design",
+    metaDescription:
+      "Project Planning & Design focuses on the schematic design phase of a project. In this experience area, you’ll learn to lay out building designs, review building codes and regulations, coordinate schematics with consultants, and communicate design concepts with your client. Contact us today to learn more!",
+    subItems: [
+      {
+        type: "subitem",
+        subtype: "images",
+        images: [
+          {
+            src: "/blog_1_1.png",
+            alt: "BTD in TX",
+          },
+          {
+            src: "/blog_1_2.png",
+            alt: "BTD in TX",
+          },
+          {
+            src: "/blog_1_3.png",
+            alt: "BTD in TX",
+          },
+          {
+            src: "/blog_1_4.png",
+            alt: "BTD in TX",
+          },
+        ],
+      },
+      {
+        type: "subitem",
+        subtype: "description",
+        description: [
+          "As you gain Project Planning & Design experience, work with your supervisor to ensure you’re able to:",
+          "* Perform building code analysis",
+          "* Develop sustainability goals based on existing environmental conditions",
+          "* Prepare code analysis documentation",
+          "* Define requirements for site survey based on established project scope",
+          "* Select materials, finishes, and systems based on technical properties and aesthetic requirements",
+          "* Determine design parameters for building engineering systems",
+          "* Prepare design alternatives for client review",
+          "* Present design ideas to client orally",
+          "* Oversee design integration of building components and systems",
+          "* Evaluate results of feasibility studies to determine project's technical viability",
+          "* Review local, state, and federal codes for changes that may impact design and construction",
+          "* Prepare Cost of Work estimates",
+          "* Determine impact of existing utilities infrastructure on site",
+          "* Apply principles of historic preservation for projects involving building restoration or renovation",
+          "* Understand implications of evolving sustainable design strategies and technologies",
+          "* Design landscape elements for site",
+          "* Develop mitigation options to address adverse site conditions",],
       },
     ],
   },

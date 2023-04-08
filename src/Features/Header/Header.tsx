@@ -132,7 +132,7 @@ export default function Header() {
                   >
                     <div className={styles.HeaderMobileMenuItemIcon}>
                       {/* <img
-                        alt="nico pro construction menu icon"
+                        alt="menu icon"
                         src={el?.icon}
                       /> */}
                       <Icon

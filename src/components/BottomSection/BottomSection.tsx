@@ -29,30 +29,6 @@ const HeroSection: React.FC = () => {
     </div>
   );
 };
-/*<div className={styles.BottomSectionServicesContainer}>
-< div style={{ marginTop: "10px" }}>
-<Link as={`/services/project-drafting`} href="/services/project-drafting">
-   <div className={styles.BottomSectionMenuItem}>PROJECT DRAFTING SERVICE</div>
-</Link> 
- </div>
- < div style={{ marginTop: "10px" }}>
-<Link as={`/services/exterior-interior-design`} href="/exterior-interior-design">
-   <div className={styles.BottomSectionMenuItem}>EXTERIOR & INTERIOR DESIGN</div>
-</Link> 
- </div>
- < div style={{ marginTop: "10px" }}>
-<Link as={`/services/landscape-design`} href="/services/landscape-design">
-   <div className={styles.BottomSectionMenuItem}>LANDSCAPE DESIGN</div>
-</Link> 
- </div>
- < div style={{ marginTop: "10px" }}>
-<Link as={`/services/commercial-residential-design`} href="/commercial-residential-design">
-   <div className={styles.BottomSectionMenuItem}>COMMERCIAL & RESIDENTAL</div>
-</Link> 
- </div>
-
-</div>*/
-
 const NavigationSection: React.FC = () => {
   return (
     <div className={styles.BottomSectionNavigation}>
@@ -74,6 +50,7 @@ const ServicesSection: React.FC<{ style?: React.CSSProperties }> = ({
   return (
     <div className={styles.BottomSectionServicesContainer} style={style}>
       {services.map((el: TContentItem, i: number) => {
+        console.log(services);
         return (
           <Link as={`/services/${el.slug}`} href="/services/[slug]" key={i}>
             <div className={styles.BottomSectionMenuItem}>{el.shortTitle}</div>
@@ -114,7 +91,7 @@ const ContactSection: React.FC = () => {
             <GoogleIcon onClick={() => window.open("https://goo.gl/maps/w2iw9NExMf2sHGwJA")} />
           </div>
           <div style={{ marginTop: "11px" }}>
-            <InstagramIcon onClick={() => window.open("https://instagram.com/buildertechdesign?igshid=YmMyMTA2M2Y=")} />
+            <InstagramIcon onClick={() => window.open("https://instagram.com/builder_tech_design?igshid=YmMyMTA2M2Y=")} />
           </div>
           <div style={{ marginTop: "8px" }}>
             <Image

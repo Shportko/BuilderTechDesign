@@ -157,15 +157,29 @@ function Home({
                 <div className={styles.WelcomeSectionDivider}></div>
               </div>
               <h3 className={styles.h2text}>Our team</h3>
-              <span>
-              With over four years of experience in the Interior Design industry, we are more than capable of bringing your ideas to life. The skilled team at Builder Tech Design is specialized in providing cost effective designs for all types of houses, villas, resorts and commercial properties. Our goal is to provide you with a valuable return on investment (RoI) as well as satisfied clients.{" "}
-              </span>
+              <span className={styles.spantextmaindescription}>
+                  <p className={styles.spantextmaindescription}>At Builder Tech Design, we have 3 years of experience in bringing your project to life. Our team of experts is dedicated to providing the best service possible to ensure that your project is a success. We understand that every project is unique, and we work closely with our clients to create designs that meet their needs and exceed their expectations.</p>
+
+                  <p>Based in Texas, we have extensive experience in the local design industry. We know the ins and outs of the area and have built relationships with local contractors to ensure that your project is completed on time and within budget. From residential to commercial projects, we have the expertise to bring your vision to life.</p>
+
+                  <p>Our team takes a collaborative approach to design. We work closely with our clients to understand their needs and vision. We then use our expertise to create a design that is both functional and visually appealing. We use the latest design software and technology to ensure that our designs are accurate and comprehensive.</p>
+
+                  <p>At Builder Tech Design, we pride ourselves on our commitment to quality and customer satisfaction. We understand that your project is important to you, and we are dedicated to making sure that it is a success. Trust us to bring your project to life.</p>             
+               </span>
             </div>
             <div className={styles.WelcomeSectionRight}>
             <h3 className={styles.h2text}>We offer</h3>
-              <span>
-              Builder Tech Design is a professional firm providing custom design services to residential builders, community planners and commercial developers. We offer drafting, planning and landscape design services to help you create the perfect space for your clients with minimal cost investment.{" "}
-              </span>
+              <span className={styles.spantextmaindescription}>
+                  <p>At our drafting and 3D rendering firm, we are dedicated to bringing your project to life. We specialize in creating detailed drawings and 3D renderings that give you a clear picture of your project before construction even begins.</p>
+
+                  <p>Our team of expert draftsmen uses the latest technology and software to create accurate and detailed drawings. We work closely with our clients to ensure that every detail is captured and that the final product is comprehensive and easy to understand.</p>
+
+                  <p>We also offer a 3D rendering service that allows you to see your project in a realistic and detailed way. Our team uses advanced software to create realistic 3D models that give you a clear picture of what your project will look like once it's complete. This service is especially helpful for clients who need to make design decisions or want to see how different materials and finishes will look in their space.</p>
+
+                  <p>Whether it's a commercial or residential project, our drafting and 3D rendering services can help bring your vision to life. We understand that every project is unique, and we work closely with our clients to ensure that every detail is captured and that the final product meets their needs and exceeds their expectations.</p>
+
+                  <p>At our firm, we are committed to providing the best service possible. We understand that your project is important to you, and we are dedicated to making sure that it is a success. Trust us to bring your project to life with our expert drafting and 3D rendering services.</p>           
+ </span>
             </div>
           </section>
           {/* services section */}

@@ -152,6 +152,12 @@
   width: 100%;
 }
 
+.spantextmaindescription p {
+  text-indent: 20px;
+}
+
+
+
 .WelcomeSectionRight {
   
   flex: 50%;
