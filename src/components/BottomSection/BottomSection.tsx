@@ -5,13 +5,15 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import GoogleIcon from "@mui/icons-material/Google";
 import yelp from "../../Assets/png/Yelp_Logo.png";
 import InstagramIcon from '@mui/icons-material/Instagram';
+import ForwardToInboxIcon from '@mui/icons-material/ForwardToInbox';
+import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
+import BusinessIcon from '@mui/icons-material/Business';
 import { mainSelector } from "@/store/selectors";
 import TwoColumns from "../TwoColumns/TwoColumns";
-import { TContentItem } from "@/types/main";
 import { pages } from "@/global-constants/global-constants";
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+
 
 
 const HeroSection: React.FC = () => {
@@ -25,10 +27,13 @@ const HeroSection: React.FC = () => {
         priority
       />
       <div className={styles.BottomSectionHeroText}>
-        BRINGING YOUR PROJECT TO LIFE{" "} </div>
+        BRINGING YOUR PROJECT TO LIFE
+        Draftsman and 3D Rendering Firm{" "} </div>
     </div>
   );
 };
+
+
 const NavigationSection: React.FC = () => {
   return (
     <div className={styles.BottomSectionNavigation}>
@@ -43,45 +48,33 @@ const NavigationSection: React.FC = () => {
   );
 };
 
-const ServicesSection: React.FC<{ style?: React.CSSProperties }> = ({
-  style,
-}) => {
-  const [services, setServices] = useState<TContentItem[]>([]);
-  return (
-    <div className={styles.BottomSectionServicesContainer} style={style}>
-      {services.map((el: TContentItem, i: number) => {
-        console.log(services);
-        return (
-          <Link as={`/services/${el.slug}`} href="/services/[slug]" key={i}>
-            <div className={styles.BottomSectionMenuItem}>{el.shortTitle}</div>
-          </Link> 
-        ); 
-      })} 
-    </div>
-  );
-};
-
 
 const ContactSection: React.FC = () => {
   return (
     <div>
-      <h3 style={{ marginTop: "0" }}>Contact Us</h3>
+      <h3>Contact Us</h3>
       <div
-        style={{ marginTop: "20px", fontSize: "0.8em", cursor: "pointer" }}
+        style={{ marginTop: "10px", fontSize: "1.0em", cursor: "pointer" }}
         onClick={() => window.open("tel:9367662448")}
       >
-        (936)-766-2448
+        <PhoneIphoneIcon /> (936)-766-2448
       </div>
       <Link color="inherit" href="">
-        <div style={{ marginTop: "20px", fontSize: "0.8em" }}>
-          buildertechdesign@gmail.com
+        <div style={{ marginTop: "10px", fontSize: "0.9em" }}>
+          <ForwardToInboxIcon /> buildertechdesign@gmail.com
         </div>
       </Link>
-      <div style={{ marginTop: "20px", fontSize: "0.8em" }}>
-        Our office : Magnolia
+      <div style={{ marginTop: "10px", fontSize: "0.8em" }}>
+       <BusinessIcon /> Our office : 120012 Callahan Ave, Conroe, TX
       </div>
+    </div>
+  );
+};
 
-      <h3 style={{ marginTop: "30px" }}>Visit Us</h3>
+const VisitSection: React.FC = () => {
+  return (
+    <div>
+      <h3>Visit Us</h3>
       <div>
         <div className={styles.BottomSectionSocialMediaContainer}>
           <div style={{ marginTop: "10px" }}>
@@ -119,14 +112,14 @@ export const BottomSection: React.FC = () => {
             } />
           }
           right={
-            <TwoColumns left={<ServicesSection />} right={<ContactSection />} />
+            <TwoColumns left={< ContactSection/>} right={<  VisitSection/>} />
           }
         />
       ) : (
         <div>
           <HeroSection />
-          <NavigationSection />
           <ContactSection />
+          <VisitSection/>
         </div>
       )}
     </section>

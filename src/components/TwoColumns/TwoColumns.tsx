@@ -16,7 +16,7 @@ export default function TwoColumns({ left, right }: TTwoColumns): JSX.Element {
         style={{
           flex: "1 1 100%",
           overflowX: "hidden",
-          marginRight: "20px",
+          marginRight: "10px",
         }}
       >
         {left}
@@ -25,7 +25,7 @@ export default function TwoColumns({ left, right }: TTwoColumns): JSX.Element {
         style={{
           flex: "1 1 100%",
           overflowX: "hidden",
-          marginLeft: "20px",
+          marginLeft: "10px",
         }}
       >
         {right}
