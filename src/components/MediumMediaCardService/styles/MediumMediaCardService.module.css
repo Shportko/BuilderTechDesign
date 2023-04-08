@@ -1,0 +1,48 @@
+.MediumMediaCardService {
+  border-radius: 5px;
+  box-sizing: content-box;
+  box-shadow: 0 1px 3px rgba(178, 178, 178, 0.47);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.MediumMediaCardService:hover {
+  box-shadow: 0 1px 5px rgb(158, 156, 156);
+  background-color: rgb(251, 251, 251);
+}
+
+.MediumMediaCardTopService {
+  
+  min-height: 225px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 1px solid transparent;
+}
+
+.MediumMediaCardTopService img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  float: left;
+  margin: 0 15px 15px 0;
+  border-top-left-radius: 5px;
+}
+
+.MediumMediaCardTopService h3 {
+  font-size: 1.1em;
+  padding: 10px;
+}
+
+.MediumMediaCardTopService p {
+  padding: 10px;
+  line-height: 25px;
+}
+
+.MediumMediaCardBottomService {
+  display: flex;
+  border-top: 1px solid rgb(201, 200, 200);
+  color: #2d61d2;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 5px;
+}

@@ -1,7 +1,7 @@
 import { TContentItem } from "@/types/main";
 
 export const servicesPageContent: TContentItem = {
-  title: "Our services",
+  title: "OUR SERVICES",
   type: "service-page-details",
   metaTitle:
     "Bringing your project to life with Buildet Tech Design in Texas | Builder Tech Design",

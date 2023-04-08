@@ -25,11 +25,33 @@ const HeroSection: React.FC = () => {
         priority
       />
       <div className={styles.BottomSectionHeroText}>
-        BRINGING YOUR PROJECT TO LIFE{" "}
-      </div>
+        BRINGING YOUR PROJECT TO LIFE{" "} </div>
     </div>
   );
 };
+/*<div className={styles.BottomSectionServicesContainer}>
+< div style={{ marginTop: "10px" }}>
+<Link as={`/services/project-drafting`} href="/services/project-drafting">
+   <div className={styles.BottomSectionMenuItem}>PROJECT DRAFTING SERVICE</div>
+</Link> 
+ </div>
+ < div style={{ marginTop: "10px" }}>
+<Link as={`/services/exterior-interior-design`} href="/exterior-interior-design">
+   <div className={styles.BottomSectionMenuItem}>EXTERIOR & INTERIOR DESIGN</div>
+</Link> 
+ </div>
+ < div style={{ marginTop: "10px" }}>
+<Link as={`/services/landscape-design`} href="/services/landscape-design">
+   <div className={styles.BottomSectionMenuItem}>LANDSCAPE DESIGN</div>
+</Link> 
+ </div>
+ < div style={{ marginTop: "10px" }}>
+<Link as={`/services/commercial-residential-design`} href="/commercial-residential-design">
+   <div className={styles.BottomSectionMenuItem}>COMMERCIAL & RESIDENTAL</div>
+</Link> 
+ </div>
+
+</div>*/
 
 const NavigationSection: React.FC = () => {
   return (
@@ -55,9 +77,9 @@ const ServicesSection: React.FC<{ style?: React.CSSProperties }> = ({
         return (
           <Link as={`/services/${el.slug}`} href="/services/[slug]" key={i}>
             <div className={styles.BottomSectionMenuItem}>{el.shortTitle}</div>
-          </Link>
-        );
-      })}
+          </Link> 
+        ); 
+      })} 
     </div>
   );
 };
@@ -116,7 +138,8 @@ export const BottomSection: React.FC = () => {
       {screenWidth > 800 ? (
         <TwoColumns
           left={
-            <TwoColumns left={<HeroSection />} right={<NavigationSection />} />
+            <TwoColumns left={<HeroSection />} right={<NavigationSection />
+            } />
           }
           right={
             <TwoColumns left={<ServicesSection />} right={<ContactSection />} />

@@ -52,9 +52,15 @@ export default function Portfolio({
             <div className={styles.PortfolioLatestProjectsContainer}>
               {projects?.slice(0,3).map((proj: TContentItem, i: number) => {
                 return (
-                  <div key={i} style={{ margin: "20px 0" }}>
-                    <MediumMediaCard item={proj} key={i}/>
-                  </div>
+                  <Link
+                    key={i}
+                    as={`/portfolio/${proj.slug}`}
+                    href="/portfolio/[slug]"
+                  >
+                      <div key={i} style={{ margin: "20px 0" }}>
+                        <MediumMediaCard item={proj} key={i}/>
+                      </div>
+                  </Link>
                 );
               })}
             </div>

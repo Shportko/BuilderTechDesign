@@ -10,7 +10,7 @@ import { Footer } from "@/components/Footer/Footer";
 import Link from "next/link";
 import { useSelector } from "react-redux";
 import { mainSelector } from "@/store/selectors";
-import MediumMediaCard from "@/components/MediumMediaCard/MediumMediaCard";
+import MediumMediaCardService from "@/components/MediumMediaCardService/MediumMediaCardService";
 import Page from "@/components/Page/Page";
 
 export default function Services({
@@ -30,7 +30,7 @@ export default function Services({
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Page>
-        <h1 style={{ fontSize: "1.6em" }}>{pageContent?.title}</h1>
+        <h1 style={{ fontSize: "1.5em" }}>{pageContent?.title}</h1>
         {services && services.length > 0 && (
           <div className={styles.ServicesContainer}>
             {services?.map((el: TContentItem, i: number) => {
@@ -47,26 +47,13 @@ export default function Services({
                         e.stopPropagation();
                       }}
                     >
-                      <div className={styles.ServiceItemLeft}>
-                        {el?.images && el.images.length > 0 ? (
-                          <img
-                            src={el.images[0]?.src}
-                            alt={el.images[0]?.alt}
-                          />
-                        ) : (
-                          <img src={el?.image} alt={el?.alt} />
-                        )}
-                      </div>
-                      <div className={styles.ServiceItemRight}>
-                        <h3>{el.shortTitle}</h3>
-                        <div className={styles.ServiceItemRightDescription}>
-                          {el.description}
-                        </div>
-                      </div>
+                      <div style={{ margin: "0" }}>
+                      <MediumMediaCardService item={el} />
+                    </div>
                     </div>
                   ) : (
                     <div style={{ margin: "20px 0" }}>
-                      <MediumMediaCard item={el} />
+                      <MediumMediaCardService item={el} />
                     </div>
                   )}
                 </Link>

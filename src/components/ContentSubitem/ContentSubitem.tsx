@@ -1,7 +1,6 @@
 import { mainSelector } from "@/store/selectors";
 import { TContentItem, TImageItem } from "@/types/main";
 import { smoothScroll } from "@/utils/SmoothScroll";
-import { useMemo } from "react";
 import { useSelector } from "react-redux";
 import { Breakdown } from "../Breakdown";
 import { StandardCarousel } from "../StandardCarousel";

@@ -172,9 +172,10 @@
     width: 75%;
   }
 
-  .WelcomeSectionRight h4 {
-    margin-top: 23px;
+  .WelcomeSectionRight {
+    margin-top: 40px;
   }
+  
 }
 
 /* -------------------- services section ------------------- */

@@ -52,9 +52,15 @@ export default function Blog({
             <div className={styles.BlogFavoritesContainer}>
               {blogPosts?.slice(0,1).map((proj: TContentItem, i: number) => {
                 return (
-                  <div key={i} style={{ margin: "20px 0" }}>
-                    <MediumMediaCard item={proj} />
-                  </div>
+                  <Link
+                  key={i}
+                  as={`/blog/${proj.slug}`}
+                  href="/blog/[slug]"
+                >
+                    <div key={i} style={{ margin: "20px 0" }}>
+                      <MediumMediaCard item={proj} key={i}/>
+                    </div>
+                </Link>
                 );
               })}
             </div>

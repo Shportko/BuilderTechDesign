@@ -20,10 +20,10 @@
 }
 
 .BottomSectionServicesContainer {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  font-size: 0.7em;
-  column-gap: 30px;
+ margin-left: 0px;
+ margin-top: 0px;
+  font-size: 0.6em;
+
 }
 
 .BottomSectionMenuItem {
