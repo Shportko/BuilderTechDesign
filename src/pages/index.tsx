@@ -38,7 +38,7 @@ function Home({
         <title>Home | Builder Tech Design</title>
         <meta
           name="description"
-          content="Builder Tech Design – Bringing your project to life!"
+          content="Builder Tech Design – Draftsman and 3D Rendering Firm - Bringing your project to life!"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -101,7 +101,7 @@ function Home({
                   Read Reviews
                 </div>
               </div>
-              <div className={styles.ReviewSummarySectionCard} onClick={() => window.open("https://goo.gl/maps/w2iw9NExMf2sHGwJA")}>
+              <div className={styles.ReviewSummarySectionCard} onClick={() => window.open("https://www.yelp.com/biz/builder-tech-design-magnolia?utm_campaign=www_business_share_popup&utm_medium=copy_link&utm_source=(direct)")}>
                 <div className={styles.ReviewSummarySectionCardImageBox}>
                   <Image
                     src={YelpLogo}
@@ -124,7 +124,7 @@ function Home({
                   Read Reviews
                 </div>
               </div>
-              <div className={styles.ReviewSummarySectionCard} onClick={() => window.open("https://goo.gl/maps/w2iw9NExMf2sHGwJA")}>
+              <div className={styles.ReviewSummarySectionCard} onClick={() => window.open("https://www.facebook.com/BuilderTechDesignTX")}>
                 <div className={styles.ReviewSummarySectionCardImageBox}>
                   <Image
                     src={FacebookLogo}
@@ -158,7 +158,7 @@ function Home({
               </div>
               <h3 className={styles.h2text}>Our team</h3>
               <span className={styles.spantextmaindescription}>
-                  <p className={styles.spantextmaindescription}>At Builder Tech Design, we have 3 years of experience in bringing your project to life. Our team of experts is dedicated to providing the best service possible to ensure that your project is a success. We understand that every project is unique, and we work closely with our clients to create designs that meet their needs and exceed their expectations.</p>
+                  <p className={styles.spantextmaindescription}>At Builder Tech Design, we have experience in bringing your project to life. Our team of experts is dedicated to providing the best service possible to ensure that your project is a success. We understand that every project is unique, and we work closely with our clients to create designs that meet their needs and exceed their expectations.</p>
 
                   <p>Based in Texas, we have extensive experience in the local design industry. We know the ins and outs of the area and have built relationships with local contractors to ensure that your project is completed on time and within budget. From residential to commercial projects, we have the expertise to bring your vision to life.</p>
 

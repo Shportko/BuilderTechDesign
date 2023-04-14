@@ -65,7 +65,7 @@ const ContactSection: React.FC = () => {
         </div>
       </Link>
       <div style={{ marginTop: "10px", fontSize: "0.8em" }}>
-       <BusinessIcon /> Our office : 120012 Callahan Ave, Conroe, TX
+       <BusinessIcon /> Our office : 33219 Forest West St. Magnolia TX 77354
       </div>
     </div>
   );
@@ -78,7 +78,7 @@ const VisitSection: React.FC = () => {
       <div>
         <div className={styles.BottomSectionSocialMediaContainer}>
           <div style={{ marginTop: "10px" }}>
-            <FacebookIcon onClick={() => window.open("https://www.facebook.com/profile.php?id=100086621727375&mibextid=LQQJ4d")} />
+            <FacebookIcon onClick={() => window.open("https://www.facebook.com/BuilderTechDesignTX")} />
           </div>
           <div style={{ marginTop: "10px" }}>
             <GoogleIcon onClick={() => window.open("https://goo.gl/maps/w2iw9NExMf2sHGwJA")} />
@@ -93,7 +93,7 @@ const VisitSection: React.FC = () => {
               width={50}
               height={25}
               priority
-              onClick={() => window.open("https://goo.gl/maps/w2iw9NExMf2sHGwJA")} />
+              onClick={() => window.open("https://www.yelp.com/biz/builder-tech-design-magnolia?utm_campaign=www_business_share_popup&utm_medium=copy_link&utm_source=(direct)")} />
           </div>
         </div>
       </div>

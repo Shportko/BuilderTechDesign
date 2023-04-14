@@ -4,7 +4,7 @@ export const servicesPageContent: TContentItem = {
   title: "OUR SERVICES",
   type: "service-page-details",
   metaTitle:
-    "Bringing your project to life with Buildet Tech Design in Texas | Builder Tech Design",
+    "Services | Builder Tech Design",
   metaDescription:
     "At Builder Tech Design, we're committed to helping you create the home of your dreams. Our draftsperson services, interior design services, and exterior design services can help you create a stunning project from start to finish. Contact Builder Tech Design today!",
   subItems: [

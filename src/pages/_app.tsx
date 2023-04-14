@@ -14,7 +14,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="description"
-          content="Builder Tech Design – Don't wait to renovate!"
+          content="Builder Tech Design – Draftsman and 3D Rendering Firm"
         />
         <title>Builder Tech Design</title>
       </Head>

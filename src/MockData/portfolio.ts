@@ -5,7 +5,7 @@ export const portfolioPageContent: TContentItem = {
     title: "",
     type: "portfolio-page-details",
     metaTitle:
-      "Bringing your project to life with Buildet Tech Design in Texas | Builder Tech Design",
+      "Portfolio | Builder Tech Design",
     metaDescription:
       "Let us help you create the perfect vision for your home or business. We can work with you on all types of projects, including Exterior & Interior Design , Landscape Design, Commercial & Residential Design .",
     subItems: [
@@ -20,65 +20,110 @@ export const portfolioPageContent: TContentItem = {
 
 export const projects: TContentItem[] = [ 
   {
-    id: "10",
+    id: "18",
     type: "portfolio-item",
-    slug: "portfolio-item0",
-    title: "CHURCH RECONSTRUCTION",
-    shortTitle: "Church reconstruction",
-    subtitle: "Total area - 2175 ft. Lot area 4.95 Acres",
-    description: [
-      "Total area - 2175 ft. Lot area 4.95 Acres",
-    ],
-    image: "./portfolio_main_pic/church_project.png",
-    alt: "Church reconstruction",
-    anchorId: "project-item0 ",
+    slug: "portfolio-item8",
+    title: "APARTMENT DESIGN PROJECT",
+    shortTitle: "Apartment design project",
+    // subtitle: "Total area - 361 ft. Half-timbered. 1-storey half-timbered residential building. It has 2 living rooms, 2 bathrooms, an entrance hall and a kitchen-living room. The property has a swimming pool and grill area.",
+   // description: [`Total area - 361 ft. Half-timbered.
+    //It has 2 living rooms, 2 bathrooms, an entrance hall and a kitchen-living room.`],
+    image: "./portfolio_main_pic/apart_3.png",
+    alt: "Apartment design project",
+    anchorId: "project-item8",
     metaTitle:
-      "Church reconstruction project in Texas| Builder Tech Design",
+      "Apartment design project in Texas | Builder Tech Design",
     metaDescription:
-      "Let us help you create the perfect vision for your home or business. We can work with you on all types of projects, including Exterior & Interior Design , Landscape Design, Commercial & Residential Design .",
+    "In fact, our expertise allows us to complete your project on time and on budget at less than the competition. We bring peace of mind knowing that we've taken care of all the finer details of your project — whether it's interior or exterior design services. Contact us today!",
     subItems: [
       {
         type: "subitem",
         subtype: "images",
         images: [
           {
-            src: "/church_portf_1.png",
+            src: "/apart_3_3.png",
             alt: "BTD in TX",
           },
           {
-            src: "/church_portf_5.png",
+            src: "/apart_3_2.png",
             alt: "BTD in TX",
           },
           {
-            src: "/church_portf_3.png",
+            src: "/apart_3_4.png",
             alt: "BTD in TX",
           },
           {
-            src: "/church_portf_6.png",
+            src: "/apart_3_5.png",
             alt: "BTD in TX",
           },
           {
-            src: "/church_portf_7.png",
-            alt: "BTD in TX",
-          },
-          {
-            src: "/church_portf_8.png",
-            alt: "BTD in TX",
-          },
-          {
-            src: "/church_portf_9.png",
-            alt: "BTD in TX",
-          },
-          {
-            src: "/church_portf_2.png",
+            src: "/apart_3_1.png",
             alt: "BTD in TX",
           },
         ],
       },
       {
         type: "subitem",
-        description: [
-          "Total area - 2175 ft. Lot area 4.95 Acres"],
+        description:[
+          "Total area - 361 ft. Half-timbered.",
+          "1-storey half-timbered residential building. It has 2 living rooms, 2 bathrooms, an entrance hall and a kitchen-living room. The property has a swimming pool and grill area."
+        ]
+      },
+    ],
+  },
+  {
+    id: "17",
+    type: "portfolio-item",
+    slug: "portfolio-item7",
+    title: "BARNHOUSE T4",
+    shortTitle: "Barnhouse T4",
+    subtitle: "Total area - 361 ft. Half-timbered. 1-storey half-timbered residential building. It has 2 living rooms, 2 bathrooms, an entrance hall and a kitchen-living room. The property has a swimming pool and grill area.",
+    description: [`Total area - 361 ft. Half-timbered.
+    It has 2 living rooms, 2 bathrooms, an entrance hall and a kitchen-living room.`],
+    image: "./portfolio_main_pic/BarnhouseT4.png",
+    alt: "Barnhouse T4",
+    anchorId: "project-item7",
+    metaTitle:
+      "Barnhouse T4 project in Texas | Builder Tech Design",
+    metaDescription:
+    "In fact, our expertise allows us to complete your project on time and on budget at less than the competition. We bring peace of mind knowing that we've taken care of all the finer details of your project — whether it's interior or exterior design services. Contact us today!",
+    subItems: [
+      {
+        type: "subitem",
+        subtype: "images",
+        images: [
+          {
+            src: "/barn_t4_portf_1.png",
+            alt: "BTD in TX",
+          },
+          {
+            src: "/barn_t4_portf_2.png",
+            alt: "BTD in TX",
+          },
+          {
+            src: "/barn_t4_portf_3.png",
+            alt: "BTD in TX",
+          },
+          {
+            src: "/barn_t4_portf_4.png",
+            alt: "BTD in TX",
+          },
+          {
+            src: "/barn_t4_portf_5.png",
+            alt: "BTD in TX",
+          },
+          {
+            src: "/barn_t4_portf_6.png",
+            alt: "BTD in TX",
+          },
+        ],
+      },
+      {
+        type: "subitem",
+        description:[
+          "Total area - 361 ft. Half-timbered.",
+          "1-storey half-timbered residential building. It has 2 living rooms, 2 bathrooms, an entrance hall and a kitchen-living room. The property has a swimming pool and grill area."
+        ]
       },
     ],
   },
@@ -426,59 +471,67 @@ export const projects: TContentItem[] = [
     ],
   },
   {
-    id: "17",
+    id: "10",
     type: "portfolio-item",
-    slug: "portfolio-item7",
-    title: "BARNHOUSE T4",
-    shortTitle: "Barnhouse T4",
-    subtitle: "Total area - 361 ft. Half-timbered. 1-storey half-timbered residential building. It has 2 living rooms, 2 bathrooms, an entrance hall and a kitchen-living room. The property has a swimming pool and grill area.",
-    description: [`Total area - 361 ft. Half-timbered.
-    It has 2 living rooms, 2 bathrooms, an entrance hall and a kitchen-living room.`],
-    image: "./portfolio_main_pic/BarnhouseT4.png",
-    alt: "Barnhouse T4",
-    anchorId: "project-item7",
+    slug: "portfolio-item0",
+    title: "CHURCH RECONSTRUCTION",
+    shortTitle: "Church reconstruction",
+    subtitle: "Total area - 2175 ft. Lot area 4.95 Acres",
+    description: [
+      "Total area - 2175 ft. Lot area 4.95 Acres",
+    ],
+    image: "./portfolio_main_pic/church_project.png",
+    alt: "Church reconstruction",
+    anchorId: "project-item0 ",
     metaTitle:
-      "Barnhouse T4 project in Texas | Builder Tech Design",
+      "Church reconstruction project in Texas| Builder Tech Design",
     metaDescription:
-    "In fact, our expertise allows us to complete your project on time and on budget at less than the competition. We bring peace of mind knowing that we've taken care of all the finer details of your project — whether it's interior or exterior design services. Contact us today!",
+      "Let us help you create the perfect vision for your home or business. We can work with you on all types of projects, including Exterior & Interior Design , Landscape Design, Commercial & Residential Design .",
     subItems: [
       {
         type: "subitem",
         subtype: "images",
         images: [
           {
-            src: "/barn_t4_portf_1.png",
+            src: "/church_portf_1.png",
             alt: "BTD in TX",
           },
           {
-            src: "/barn_t4_portf_2.png",
+            src: "/church_portf_5.png",
             alt: "BTD in TX",
           },
           {
-            src: "/barn_t4_portf_3.png",
+            src: "/church_portf_3.png",
             alt: "BTD in TX",
           },
           {
-            src: "/barn_t4_portf_4.png",
+            src: "/church_portf_6.png",
             alt: "BTD in TX",
           },
           {
-            src: "/barn_t4_portf_5.png",
+            src: "/church_portf_7.png",
             alt: "BTD in TX",
           },
           {
-            src: "/barn_t4_portf_6.png",
+            src: "/church_portf_8.png",
+            alt: "BTD in TX",
+          },
+          {
+            src: "/church_portf_9.png",
+            alt: "BTD in TX",
+          },
+          {
+            src: "/church_portf_2.png",
             alt: "BTD in TX",
           },
         ],
       },
       {
         type: "subitem",
-        description:[
-          "Total area - 361 ft. Half-timbered.",
-          "1-storey half-timbered residential building. It has 2 living rooms, 2 bathrooms, an entrance hall and a kitchen-living room. The property has a swimming pool and grill area."
-        ]
+        description: [
+          "Total area - 2175 ft. Lot area 4.95 Acres"],
       },
     ],
   },
+  
 ];
