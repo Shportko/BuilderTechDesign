@@ -14,7 +14,6 @@ export const StandardCarousel: React.FC<TStandardCarousel> = ({
 }) => {
   const scrl = useRef(null) as any;
   const [scrollX, setscrollX] = useState(0);
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [_, setscrolEnd] = useState(false);
   const [selectedImageId, setSelectedImageId] = useState(0);
 

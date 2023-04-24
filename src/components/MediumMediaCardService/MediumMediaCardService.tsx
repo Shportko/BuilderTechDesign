@@ -2,6 +2,7 @@ import { TContentItem } from "@/types/main";
 import { Button } from "@mui/material";
 import styles from "./styles/MediumMediaCardService.module.css";
 
+
 export default function MediumMediaCardService({ item }: { item: TContentItem}) {
   return (
     <div className={styles.MediumMediaCardService}>

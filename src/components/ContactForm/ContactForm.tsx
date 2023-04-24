@@ -41,7 +41,7 @@ export const ContactForm: React.FC<TContactForm> = ({ style, className }) => {
         <CustomButton 
           style={{ padding: "10px 0", marginTop: "30px", width: "100%" }}
         >
-          Sendx
+          Send
         </CustomButton>
       </div>
     </section>

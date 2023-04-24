@@ -5,6 +5,7 @@ import { useState } from "react";
 import { useSelector } from "react-redux";
 import CustomButton from "../CustomButton/CustomButton";
 import styles from "./styles/ImageCarousel.module.css";
+import Image from "next/image";
 
 export type TImageCarousel = {
   showLeftArrow?: boolean;

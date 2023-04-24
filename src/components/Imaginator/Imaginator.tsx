@@ -1,5 +1,6 @@
 import { useState, useMemo } from "react";
 import styles from "./Imaginator.module.css";
+import Image from "next/image";
 
 export type TImaginator = {
   images?: { src: string; alt: string }[];
@@ -49,7 +50,7 @@ export default function Imaginator({
             customStyle.borderTopRightRadius = "7px";
           }
           return (
-            <img
+            <Image
               key={i}
               src={image.src}
               alt={image.alt}

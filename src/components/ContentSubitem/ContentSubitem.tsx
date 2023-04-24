@@ -5,6 +5,7 @@ import { useSelector } from "react-redux";
 import { Breakdown } from "../Breakdown";
 import { StandardCarousel } from "../StandardCarousel";
 import styles from "./styles/CustomPage.module.css";
+import Image from "next/image";
 
 export default function CustomPage({
   item,
@@ -132,7 +133,7 @@ export default function CustomPage({
                                 marginLeft: imgI === 0 ? "0" : "20px",
                               }}
                             >
-                              <img src={image.src} alt={image.alt} />
+                               <Image src={image.src} alt={image.alt} />
                             </div>
                           );
                         })}

@@ -1,7 +1,6 @@
 import { TContentItem } from "@/types/main";
 import Link from "next/link";
 import React from "react";
-
 import styles from "./styles/BlogCard.module.css";
 
 export type TBlogCard = {

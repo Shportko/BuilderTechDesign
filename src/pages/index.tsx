@@ -14,7 +14,6 @@ import { services as servicesMock } from "@/MockData/services";
 import { TContentItem } from "@/types/main";
 import { InferGetStaticPropsType } from "next";
 import { projects as projectsMock } from "@/MockData/portfolio";
-import { customerReviews as customerReviewsMock } from "@/MockData/reviews";
 import { blogItems as blogItemsMock } from "@/MockData/blog";
 import { ContactForm } from "@/components/ContactForm";
 import { BottomSection } from "@/components/BottomSection/BottomSection";
@@ -231,17 +230,6 @@ function Home({
                  </CustomButton>
               </Link>
             </div>
-            {servicesPageContent?.description &&
-              servicesPageContent.description.length > 0 &&
-              servicesPageContent.description?.map(
-                (elem: string, ind: number) => {
-                  return (
-                    <div className={styles.HomePageTextItem} key={ind}>
-                      {elem}
-                    </div>
-                  );
-                }
-              )}
           </section>
           {/* contact section */}
           <section className={styles.ContactSection}>
