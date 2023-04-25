@@ -1,3 +1,2 @@
-import { TCustomerReviewItem } from "@/types/main";
 
-export const customerReviews: TCustomerReviewItem[] = []; // create your ouwn data
+export const customerReviews = []; // create your ouwn data

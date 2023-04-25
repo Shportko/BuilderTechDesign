@@ -173,9 +173,9 @@ function Home({
 
                   <p>Our team of expert draftsmen uses the latest technology and software to create accurate and detailed drawings. We work closely with our clients to ensure that every detail is captured and that the final product is comprehensive and easy to understand.</p>
 
-                  <p>We also offer a 3D rendering service that allows you to see your project in a realistic and detailed way. Our team uses advanced software to create realistic 3D models that give you a clear picture of what your project will look like once it's complete. This service is especially helpful for clients who need to make design decisions or want to see how different materials and finishes will look in their space.</p>
+                  <p>We also offer a 3D rendering service that allows you to see your project in a realistic and detailed way. Our team uses advanced software to create realistic 3D models that give you a clear picture of what your project will look like once it`&apos;`s complete. This service is especially helpful for clients who need to make design decisions or want to see how different materials and finishes will look in their space.</p>
 
-                  <p>Whether it's a commercial or residential project, our drafting and 3D rendering services can help bring your vision to life. We understand that every project is unique, and we work closely with our clients to ensure that every detail is captured and that the final product meets their needs and exceeds their expectations.</p>
+                  <p>Whether it`&apos;`s a commercial or residential project, our drafting and 3D rendering services can help bring your vision to life. We understand that every project is unique, and we work closely with our clients to ensure that every detail is captured and that the final product meets their needs and exceeds their expectations.</p>
 
                   <p>At our firm, we are committed to providing the best service possible. We understand that your project is important to you, and we are dedicated to making sure that it is a success. Trust us to bring your project to life with our expert drafting and 3D rendering services.</p>           
  </span>

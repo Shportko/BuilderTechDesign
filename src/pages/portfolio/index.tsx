@@ -71,7 +71,7 @@ export default function Portfolio({
             pageContent.description.length > 0 &&
             pageContent.description?.map((elem: string, ind: number) => {
               return (
-                <div className={styles.PortfolioTextItem}>
+                <div className={styles.PortfolioTextItem} key={ind}>
                   {elem}
                 </div>
               );
