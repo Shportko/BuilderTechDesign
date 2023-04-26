@@ -161,7 +161,7 @@ export const blogItems: TContentItem[] = [
     type: "blog-item",
     slug: "blog-item3",
     title: "HERE ARE THE TOP LANDSCAPING TRENDS OF 2023",
-    shortTitle: "Here Are The Top Landscaping Trends Of 2023",
+    shortTitle: "Top Landscaping Trends Of 2023",
     description: [
       `While experimental gardening is incredibly popular right now, some of the biggest landscaping styles to emerge in 2023`,
     ],

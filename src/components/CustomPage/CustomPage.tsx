@@ -125,7 +125,7 @@ export default function CustomPage({
                                 marginLeft: imgI === 0 ? "0" : "20px",
                               }}
                             >
-                              <Image src={image.src} alt={image.alt} width={500} height={500}/>
+                              <Image src={image.src} alt={image.alt} width={550} height={350}/>
                             </div>
                           );
                         })}

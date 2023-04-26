@@ -19,7 +19,7 @@ export default function SmallMediaCard({ item }: { item: TContentItem }) {
               {item?.shortTitle || item?.title}
             </div>
             <div className={styles.SmallMediaCardRightMid}>
-              {item?.description && `${item.description[0]?.slice(0, 120)}...`}
+              {item?.description && `${item.description[0]?.slice(0, 90)}...`}
             </div>
             {}
           </div>

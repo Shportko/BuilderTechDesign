@@ -16,7 +16,7 @@ export default function MediumMediaCardService({ item }: { item: TContentItem}) 
         <p>
           {item?.description && `${item?.description[0]?.slice(0, 440)}`}
         </p>
-        <div style={{ margin: "0px 55px", color:"#0837ab"}}>
+        <div className={styles.MediumMediaCardServiceButton}>
           <Button>Read More</Button>
         </div>
       </div>
