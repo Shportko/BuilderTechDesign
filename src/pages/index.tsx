@@ -196,7 +196,7 @@ function Home({
                     href="/services/[slug]"
                     key={i}
                   >
-                    {screenWidth > 800 ? (
+                    {screenWidth > 1300 ? (
                       <div className={styles.ServicesSectionItem}>
                         {el?.images && el.images.length > 0 ? (
                           <img

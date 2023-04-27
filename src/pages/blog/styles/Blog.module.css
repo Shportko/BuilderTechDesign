@@ -126,7 +126,7 @@
   line-height: 30px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1300px) {
   .BlogWorkArea {
     grid-template-columns: repeat(1, 1fr);
   }

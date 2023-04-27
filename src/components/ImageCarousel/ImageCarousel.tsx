@@ -31,7 +31,7 @@ TImageCarousel): JSX.Element {
               display:
                 i !== serviceIndex
                   ? "none"
-                  : screenWidth > 800
+                  : screenWidth > 1300
                   ? "flex"
                   : "block",
             }}

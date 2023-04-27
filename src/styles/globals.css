@@ -100,7 +100,7 @@
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: px) {
   :root {
     --page-sides-padding: 20px;
     --page-sides-padding-2: 20px;

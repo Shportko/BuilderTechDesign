@@ -9,7 +9,7 @@
 }
 
 .ServiceContainer img {
-  width: 200px;
+  width: 250px;
   height: 170px;
   object-fit: cover;
 }
@@ -79,22 +79,23 @@
 }
 
 .ServiceContainerTail {
-  padding: 30px;
+  padding: 20px;
   line-height: 25px;
-  background-color: rgba(33, 33, 34, 0.6);
+  background-color: rgba(16, 16, 16, 0.5);
+  font-size: 0.7em;
   width: 100%;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 800px) {
   .ServiceContainerHead {
     width: 100%;
   }
   .ServiceContainerTail {
-    background-color: rgba(16, 16, 16, 0.918);
+    background-color: rgba(16, 16, 16, 0.5);
     width: auto;
     padding: 20px;
     font-size: 0.7em;
-    height: 130px;
+    height: 200px;
   }
 
   .Dot {

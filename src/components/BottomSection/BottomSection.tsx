@@ -105,7 +105,7 @@ export const BottomSection: React.FC = () => {
   const { screenWidth } = useSelector(mainSelector).MainReducer;
   return (
     <section className={styles.BottomSection}>
-      {screenWidth > 800 ? (
+      {screenWidth > 1300 ? (
         <TwoColumns
           left={
             <TwoColumns left={<HeroSection />} right={<NavigationSection />

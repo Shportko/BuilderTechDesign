@@ -82,9 +82,9 @@ export default function CustomPage({
           const styleFromProps = el?.style && JSON.parse(el.style);
           const styleDescr = {
             ...styleFromProps,
-            padding: narrowItem && screenWidth > 800 ? "0 20px" : "0px",
+            padding: narrowItem && screenWidth > 1300 ? "0 20px" : "0px",
             width:
-              narrowItem && screenWidth > 800 ? styleFromProps?.width : "100%",
+              narrowItem && screenWidth > 1300 ? styleFromProps?.width : "100%",
           };
 
           const pageSubitemItem = () => {
@@ -118,7 +118,7 @@ export default function CustomPage({
               case "images":
                 return (
                   <div key={i} className={styles.CustomPageImagesContainer}>
-                    {screenWidth > 800 && !shouldBeCarousel ? (
+                    {screenWidth > 1300 && !shouldBeCarousel ? (
                       <div
                         className={styles.CustomPageImagesContainerInt}
                         style={el?.style && JSON.parse(el.style)}

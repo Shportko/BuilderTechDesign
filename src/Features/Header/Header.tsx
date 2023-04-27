@@ -48,7 +48,7 @@ export default function Header() {
                   />
         </Link>
       </div>
-      {screenWidth > 800 ? (
+      {screenWidth > 1300 ? (
         <>
           {router.pathname.includes("admin") ? (
             <div className={styles.headercontaineradmin}>
