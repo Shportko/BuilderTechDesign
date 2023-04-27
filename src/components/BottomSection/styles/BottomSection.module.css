@@ -3,6 +3,7 @@
   background-color: #000000;
   color: white;
   height: 300px;
+  font-size: 0.9em;
 }
 
 .BottomSectionHeroText {
@@ -30,10 +31,12 @@
 .BottomSectionMenuItem {
   cursor: pointer;
   margin-top: 10px;
+  
 }
 
 .BottomSectionSocialMediaContainer {
   display: flex;
+  
 }
 
 .BottomSectionSocialMediaContainer div {

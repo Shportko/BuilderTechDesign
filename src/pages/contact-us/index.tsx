@@ -25,11 +25,11 @@ export default function ContactUs() {
       </Head>
       <main className={styles.Main}>
         <div className={styles.ContactMainContainer}>
-          {screenWidth < 1300 && <ContactForm className="contact--form" />}
+          {screenWidth < 600 && <ContactForm className="contact--form" />}
           <img
             src="/map_cont.png"
             alt="Tech Design Company in Houston"/>
-          {screenWidth > 1300 && <ContactForm className="contact--form" />}
+          {screenWidth > 600 && <ContactForm className="contact--form" />}
         </div>
       </main>
       <BottomSection />

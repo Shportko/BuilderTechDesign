@@ -74,7 +74,7 @@
   color:black;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 600px) {
   .ServicesContainer {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -87,13 +87,13 @@
   .ServicesTextItem {
     margin: 10px 0px;
     line-height: 30px;
+    
   }
 
   .ServiceItem {
     line-height: 20px;
   }
   .ServiceItemRight{
-    color:blue;
-    background-color: blueviolet;
+ 
   }
 }

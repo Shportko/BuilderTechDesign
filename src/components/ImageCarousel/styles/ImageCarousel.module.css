@@ -82,11 +82,11 @@
   padding: 20px;
   line-height: 25px;
   background-color: rgba(16, 16, 16, 0.5);
-  font-size: 0.7em;
+  font-size: 1.0em;
   width: 100%;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1300px) {
   .ServiceContainerHead {
     width: 100%;
   }
@@ -95,7 +95,7 @@
     width: auto;
     padding: 20px;
     font-size: 0.7em;
-    height: 200px;
+    height: 180px;
   }
 
   .Dot {

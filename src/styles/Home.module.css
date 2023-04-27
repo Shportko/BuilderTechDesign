@@ -44,6 +44,11 @@
 }
 
 @media only screen and (max-width: 1300px) {
+  .topbuttonscontainer {
+    display: flex;
+    margin-left: 20px;
+  }
+
   .midcontainer {
     margin-left: 0px;
     margin-top: 90px;
@@ -55,7 +60,7 @@
       url("../Assets/png/home_page_main_pic.png");
     background-size: cover;
     width: 100%;
-    height: 780px;
+    height: 786px;
   }
   
   .herosectionbanner h2 {
@@ -65,11 +70,13 @@
   }
   .herosectionmotto {
     margin: 20px;
+    padding: 10px;
     -webkit-text-stroke: 0.4px black;
     background-color:rgba(255, 255, 255, 0.9);
     color: rgb(0, 0, 0);
-    font-size: 1.0em;
-    width: 380px;
+    font-size: 0.9em;
+    width: 330px;
+    border-radius: 8px;
   }
 }
 
@@ -85,7 +92,7 @@
 }
 
 .ReviewSummarySectionCard {
-  padding: 25px 70px;
+  padding: 25px 100px;
   border-radius: 7px;
   background-color: white;
   box-shadow: 0 0 7px rgb(232, 232, 239);
@@ -118,11 +125,20 @@
   font-size: 0.7em;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   .ReviewSummarySection {
+    padding: 40px ;
     align-items: left;
     justify-content: left;
-    margin-top: 0px;
+  }
+  .ReviewSummarySectionCard {
+    padding: 25px 100px;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 0 0 7px rgb(232, 232, 239);
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.5s;
   }
 }
 
@@ -135,7 +151,7 @@
     rgb(246, 244, 238),
     rgba(250, 249, 248, 0.5)
   );
-  padding: 60px var(--page-sides-padding-3);
+  padding: 40px var(--page-sides-padding-3);
   display: flex;
   column-count: 2;
   column-gap: 50px;
@@ -144,9 +160,14 @@
 
 .WelcomeSection h2 {
   margin-top: 0;
-  font-size: 2.1em;
   margin-bottom: 10px;
   width: fit-content;
+}
+.WelcomeSection h1 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  width: fit-content;
+  font-size: 1.5em;
 }
 
 .WelcomeSectionLeft {
@@ -173,8 +194,6 @@
   text-indent: 20px;
 }
 
-
-
 .WelcomeSectionRight {
   
   flex: 50%;
@@ -184,7 +203,14 @@
   margin-top: 111px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 500px) {
+  .WelcomeSection h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    width: fit-content;
+  }
+
   .WelcomeSection {
     padding: 60px 20px;
     display: block;
@@ -204,6 +230,7 @@
   }
   
 }
+
 
 /* -------------------- services section ------------------- */
 
@@ -238,20 +265,22 @@
   width: fit-content;
   -webkit-text-stroke: 1px black;
   color: white;
-  font-size: 2.5em;
+  font-size: 2.0em;
 }
 
 .ServicesSectionContainer {
   margin: auto;
   display: flex;
+  background-color: rgba(255, 255, 255, 1);
+  color:#416ec6;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
 .ServicesSectionItem {
-  height: 200px;
-  width: 200px;
+  height: 180px;
+  width: 180px;
   margin: 15px;
   border-radius: 5px;
   cursor: pointer;
@@ -294,25 +323,31 @@
   line-height: 30px;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 500px) {
+  .ServicesSection h2 {
+    font-size: 2.0em;
+  }
 
   .ServicesSection {
     padding: 35px 20px;
     background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.7)),
       url("../Assets/png/video_bg_mini.png");
     background-size: cover;
-    width: 400px;
+    width: 420px;
     height: 470px;
     border: 1px solid transparent;
   }
 
   .BottomSectionMenuItemMobile {
+
     color:white;
     -webkit-text-stroke: 0.2px black;
+    font-size: 1.1em;
   }
 
   .ServicesSectionContainer {
     margin: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
   }
 
   .ServicesSectionItem {
@@ -329,12 +364,12 @@
     width: 300px;
   }
   .ServicesSectionMotto {
-    margin: 30px auto;
+    margin: 0px;
     width: fit-content;
     -webkit-text-stroke: 1px black;
     color: white;
     text-transform: uppercase;
-    font-size: 0.9em;
+    font-size: 1.1em;
   }
 }
 
@@ -536,7 +571,7 @@
   width: 400px;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 600px) {
   .ContactSection {
   }
 

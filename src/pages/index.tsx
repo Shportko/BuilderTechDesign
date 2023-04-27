@@ -152,7 +152,7 @@ function Home({
             <div className={styles.WelcomeSectionLeft}>
               <div className={styles.WelcomeSectionTitleBox}>
                 <h2>Welcome to </h2>
-                <h2>Builder Tech Design</h2>
+                <h1>Builder Tech Design</h1>
                 <div className={styles.WelcomeSectionDivider}></div>
               </div>
               <h3 className={styles.h2text}>Our team</h3>
