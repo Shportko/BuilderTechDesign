@@ -20,6 +20,8 @@ import { BottomSection } from "@/components/BottomSection/BottomSection";
 import { Footer } from "@/components/Footer/Footer";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import DoneIcon from '@mui/icons-material/Done';
+
 
 
 
@@ -214,7 +216,10 @@ function Home({
                       <div style={{ margin: "10px 10px"}}>
                          <Link as={`/services/${el.slug}`} href="/services/[slug]" key={i}>
                             <div className={styles.BottomSectionMenuItemMobile}>            
-                              {el.shortTitle}
+                              <img src={el?.image} alt={el?.alt} style={{ height: "150px", width: "150px" }}/>
+                              <div className={styles.ServicesSectionItemBottomMobile}>
+                          {el?.shortTitle}
+                        </div>
                             </div>
                         </Link>
                       </div>

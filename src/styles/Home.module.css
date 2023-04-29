@@ -322,19 +322,31 @@
   margin: 10px 0px;
   line-height: 30px;
 }
+.ServicesSectionItemBottomMobile {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.68);
+  position: absolute;
+  margin-top: -39px;
+  width: 150px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 0.5em;
+}
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1300px) {
+ 
   .ServicesSection h2 {
     font-size: 2.0em;
   }
 
   .ServicesSection {
     padding: 35px 20px;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.7)),
+    background-image: linear-gradient(rgba(135, 133, 133, 0.1), rgba(0, 0, 0, 0.7)),
       url("../Assets/png/video_bg_mini.png");
     background-size: cover;
     width: 420px;
-    height: 470px;
+    height: auto;
     border: 1px solid transparent;
   }
 
@@ -342,7 +354,7 @@
 
     color:white;
     -webkit-text-stroke: 0.2px black;
-    font-size: 1.1em;
+    font-size: 1.2em;
   }
 
   .ServicesSectionContainer {
@@ -369,6 +381,7 @@
     -webkit-text-stroke: 1px black;
     color: white;
     text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.1);
     font-size: 1.1em;
   }
 }

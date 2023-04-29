@@ -12,6 +12,7 @@ import { useSelector } from "react-redux";
 import { mainSelector } from "@/store/selectors";
 import MediumMediaCardService from "@/components/MediumMediaCardService/MediumMediaCardService";
 import Page from "@/components/Page/Page";
+import DoneIcon from '@mui/icons-material/Done';
 
 export default function Services({
   pageContent,
@@ -66,7 +67,7 @@ export default function Services({
           pageContent.description?.map((elem: string, ind: number) => {
             return (
               <div className={styles.ServicesTextItem} key={ind}>
-                {elem}
+                <DoneIcon /> {elem}
               </div>
             );
           })}
